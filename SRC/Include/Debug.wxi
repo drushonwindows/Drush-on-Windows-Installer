@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <CustomAction Id="ShowProperty" Script="vbscript" >
+    <![CDATA[
+      MsgBox Session.Property("WINRMPORT")
+      ]]>
+  </CustomAction>
+  <CustomAction Id="ShowError" Error="Property value: [WINRMPORT]" />
+
+  <CustomAction Id="CheckPHPRuntime" Script="vbscript" Impersonate="yes">
+    <![CDATA[
+      Dim WshShell, oExec
+      Set oExec = Nothing
+      Set WshShell = CreateObject("WScript.Shell")
+
+      On Error Resume Next
+
+      Set oExec = WshShell.Exec("where php")
+
+      On Error GoTo 0
+
+      Do While oExec.Status = 0
+      Loop
+
+      If (oExec.ExitCode = 1) Then
+        MsgBox "PHP not found!"
+      Else
+        MsgBox "PHP FOUND!"
+      End If
+      ]]>
+  </CustomAction>
+
+  <InstallUISequence>
+    <!--<Custom Action='ShowProperty' After="CostFinalize" />-->
+    <!--<Custom Action='ShowError' Before='CostInitialize'/>-->
+    <!--<Custom Action='CheckPHPRuntime' After="CostFinalize" />-->
+  </InstallUISequence>
+  
+  <InstallExecuteSequence>
+    <!--<Custom Action='ShowError' After="InstallFinalize" />-->
+    <!--<Custom Action='ShowProperty' After="CostFinalize" />-->
+  </InstallExecuteSequence>
+</Include>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <CustomAction Id='CA_SetEchoInfo' Property='CA_EchoInfo' Value='"cmd" /c "@ECHO ^@ECHO Command Prompt shell optimized for Drush > "[INSTALLLOCATION]DrushEnv.bat""' />
+  <CustomAction Id="CA_EchoInfo"
+                Execute="deferred"
+                Impersonate="no"
+                BinaryKey="WixCA" DllEntry="CAQuietExec"
+                Return='ignore' />
+
+  <CustomAction Id='CA_SetEchoDrushPath' Property='CA_EchoDrushPath' Value='"cmd" /c "echo @SET PATH=^%PATH^%;[DrushFolder]>> "[INSTALLLOCATION]DrushEnv.bat""' />
+  <CustomAction Id="CA_EchoDrushPath"
+                Execute="deferred"
+                Impersonate="no"
+                BinaryKey="WixCA" DllEntry="CAQuietExec"
+                Return='ignore' />
+
+  <CustomAction Id='CA_SetEchoGnuWin32Path' Property='CA_EchoGnuWin32Path' Value='"cmd" /c "echo @SET PATH=^%PATH^%;[INSTALLLOCATION]GnuWin32\bin>> "[INSTALLLOCATION]DrushEnv.bat""' />
+  <CustomAction Id="CA_EchoGnuWin32Path"
+                Execute="deferred"
+                Impersonate="no"
+                BinaryKey="WixCA" DllEntry="CAQuietExec"
+                Return='ignore' />
+
+  <CustomAction Id='CA_SetEchoPhpPath' Property='CA_EchoPhpPath' Value='"cmd" /c "echo @SET PATH=^%PATH^%;[INSTALLLOCATION]Php>> "[INSTALLLOCATION]DrushEnv.bat""' />
+  <CustomAction Id="CA_EchoPhpPath"
+                Execute="deferred"
+                Impersonate="no"
+                BinaryKey="WixCA" DllEntry="CAQuietExec"
+                Return='ignore' />
+
+  <CustomAction Id='CA_SetEchoCwRsyncPath' Property='CA_EchoCwRsyncPath' Value='"cmd" /c "echo @SET PATH=^%PATH^%;[INSTALLLOCATION]cwRsync\bin>> "[INSTALLLOCATION]DrushEnv.bat""' />
+  <CustomAction Id="CA_EchoCwRsyncPath"
+                Execute="deferred"
+                Impersonate="no"
+                BinaryKey="WixCA" DllEntry="CAQuietExec"
+                Return='ignore' />
+
+  <InstallExecuteSequence>
+    <Custom Action="CA_SetEchoInfo" Before="InstallFinalize" />
+    <Custom Action="CA_EchoInfo" After="CA_SetEchoInfo" />
+    
+    <Custom Action="CA_SetEchoDrushPath" After="CA_EchoInfo">
+      <![CDATA[
+&F_Drush=3
+OR (!F_Drush=3 AND &F_Drush<>2)
+        ]]>
+    </Custom>
+    <Custom Action="CA_EchoDrushPath" After="CA_SetEchoDrushPath">
+      <![CDATA[
+&F_Drush=3
+OR (!F_Drush=3 AND &F_Drush<>2)
+        ]]>
+    </Custom>
+    
+    <Custom Action="CA_SetEchoGnuWin32Path" After="CA_EchoDrushPath">
+      <![CDATA[
+&F_GnuWin32=3
+OR (!F_GnuWin32=3 AND &F_GnuWin32<>2)
+        ]]>
+    </Custom>
+    <Custom Action="CA_EchoGnuWin32Path" After="CA_SetEchoGnuWin32Path">
+      <![CDATA[
+&F_GnuWin32=3
+OR (!F_GnuWin32=3 AND &F_GnuWin32<>2)
+        ]]>
+    </Custom>
+
+    <Custom Action="CA_SetEchoPhpPath" After="CA_EchoGnuWin32Path">
+      <![CDATA[
+&F_Php=3
+OR (!F_Php=3 AND &F_Php<>2)
+        ]]>
+    </Custom>
+    <Custom Action="CA_EchoPhpPath" After="CA_SetEchoPhpPath">
+      <![CDATA[
+&F_Php=3
+OR (!F_Php=3 AND &F_Php<>2)
+        ]]>
+    </Custom>
+
+    <Custom Action="CA_SetEchoCwRsyncPath" After="CA_EchoPhpPath">
+      <![CDATA[
+&F_CwRsync=3
+OR (!F_CwRsync=3 AND &F_CwRsync<>2)
+        ]]>
+    </Custom>
+    <Custom Action="CA_EchoCwRsyncPath" After="CA_SetEchoCwRsyncPath">
+      <![CDATA[
+&F_CwRsync=3
+OR (!F_CwRsync=3 AND &F_CwRsync<>2)
+        ]]>
+    </Custom>
+  </InstallExecuteSequence>
+</Include>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <Property Id="WINRMPORT" Value="0" />
+  
+  <CustomAction Id='CA_SetWinRMHttp'
+                Property='WINRMPORT'
+                Value='80' />
+  <CustomAction Id='CA_SetWinRM'
+                Property='CA_ConfigWinRM'
+                Value='"cmd" /c ""[INSTALLLOCATION]WinRMConfig.bat" [WINRMPORT] > "[%TEMP]\Drush_WinRMConfig.log""' />
+  <CustomAction Id="CA_ConfigWinRM"
+                Execute="deferred"
+                Impersonate="no"
+                BinaryKey="WixCA"
+                DllEntry="CAQuietExec"
+                Return='ignore' />
+<!--  
+  <CustomAction Id='CA_SetStartWinRM'
+                Property='CA_StartWinRM'
+                Value='"sc" start WinRM' />
+  <CustomAction Id="CA_StartWinRM"
+                Execute="deferred"
+                Impersonate="no"
+                BinaryKey="WixCA"
+                DllEntry="CAQuietExec"
+                Return='ignore' />
+
+  <CustomAction Id='CA_SetEnableWinRMHttp'
+                Property='CA_EnableWinRMHttp'
+                Value='"winrm.cmd" set winrm/config/service @{EnableCompatibilityHttpListener="true"}' />
+  <CustomAction Id="CA_EnableWinRMHttp"
+                Execute="deferred"
+                Impersonate="no"
+                BinaryKey="WixCA"
+                DllEntry="CAQuietExec"
+                Return='ignore' />
+-->
+  <InstallExecuteSequence>
+    <Custom Action="CA_SetWinRMHttp" Before="InstallFinalize">
+      <![CDATA[
+(
+&F_WinRMHttp=3 
+OR (!F_WinRMHttp=3 AND &F_WinRMHttp<>2)
+)
+AND WINRMPORT=0
+        ]]>
+    </Custom>
+    <Custom Action="CA_SetWinRM" After="CA_SetWinRMHttp">
+      <![CDATA[
+&F_WinRM=3 
+OR (!F_WinRM=3 AND &F_WinRM<>2)
+        ]]>
+    </Custom>
+    <Custom Action="CA_ConfigWinRM" After="CA_SetWinRM">
+      <![CDATA[
+&F_WinRM=3 
+OR (!F_WinRM=3 AND &F_WinRM<>2)
+OR &F_WinRMHttp=3 
+OR (!F_WinRMHttp=3 AND &F_WinRMHttp<>2)
+        ]]>
+    </Custom>
+<!--
+    <Custom Action="CA_StartWinRM" After="CA_SetStartWinRM">
+      <![CDATA[
+&F_WinRM=3 
+OR (!F_WinRM=3 AND &F_WinRM<>2)
+        ]]>
+    </Custom>
+    <Custom Action="CA_SetEnableWinRMHttp" Before="CA_StartWinRM">
+      <![CDATA[
+&F_WinRMHttp=3 
+OR (!F_WinRMHttp=3 AND &F_WinRMHttp<>2)
+        ]]>
+    </Custom>
+    <Custom Action="CA_EnableWinRMHttp" After="CA_SetEnableWinRMHttp">
+      <![CDATA[
+&F_WinRMHttp=3 
+OR (!F_WinRMHttp=3 AND &F_WinRMHttp<>2)
+        ]]>
+    </Custom>
+-->    
+  </InstallExecuteSequence>
+</Include>

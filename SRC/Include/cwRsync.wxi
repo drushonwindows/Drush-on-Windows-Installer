@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+    <Fragment>
+        <DirectoryRef Id="CwRsyncFolder">
+            <Directory Id="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Name="bin" />
+            <Directory Id="dir03136A219638B4FE836847EE3236B072" Name="doc" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="CG_CWRSYNC">
+            <Component Id="cmp0C59D8BA7EBA894E2F3D27CB0C26C992" Directory="CwRsyncFolder" Guid="{09C2DBC6-F451-4074-852F-F428410FB6A0}">
+                <File Id="fil31F57744B7F2126D361D0381CB813E1E" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\cwrsync.cmd" />
+            </Component>
+            <Component Id="cmp3DE58979E17A3712DBA0E03A95875354" Directory="CwRsyncFolder" Guid="{424D3A66-78DB-4A28-9B58-12AB00A9A148}">
+                <File Id="filD48A615320D6DBEA1ECEAE6E8C5EA981" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\license.txt" />
+            </Component>
+            <Component Id="cmpB83B5DB0DC49F13AB8F037FB7816C92B" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{8DAC0684-E6C9-4CDF-833E-F4875AF7A179}">
+                <File Id="filB3E8B6E4F198B8DFBC214D030AC15191" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\chmod.exe" />
+            </Component>
+            <Component Id="cmpE1CE4D9A84F32971E4B9778589D55EF7" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{84B932F5-86A9-4040-83A7-9C4C97A37AA4}">
+                <File Id="filA1E86160CA043B9389338E67BC9BE854" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\cygcrypto-0.9.8.dll" />
+            </Component>
+            <Component Id="cmp28B8CB9AA5A2C0BCE32632E3720E73AD" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{7A260B9A-2741-4DE0-85D2-55E5DDEA097A}">
+                <File Id="fil26FB43DDE2CEA0902EFD45BD7AE787A5" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\cyggcc_s-1.dll" />
+            </Component>
+            <Component Id="cmp82B4CC68E0AB999959837BA6878C3F00" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{442AB456-A3DF-4C92-9B19-47DD76567A1D}">
+                <File Id="fil0092C9F5E1FBF6797F10B1E70FB27CAE" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\cygiconv-2.dll" />
+            </Component>
+            <Component Id="cmp18C0AB7CACDE1D94F4C0D6EE9D20C7AE" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{B0604261-4A29-444F-BF56-57EA47E20607}">
+                <File Id="filEB52D0A6C0DA5CD1A721C8E6201BFE9A" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\cygintl-3.dll" />
+            </Component>
+            <Component Id="cmp8B56B7059261E0D39A1D6F229A03DC8E" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{80A0DC52-1A9B-4C76-9843-9D3282087179}">
+                <File Id="filEE4D55560B5BEBC11FD38A3E91738C3B" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\cygintl-8.dll" />
+            </Component>
+            <Component Id="cmp00634C8ABC1B0A7824E507CEA20F2C48" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{0B1D9786-E793-41B3-B655-EDAEF6AA5DDD}">
+                <File Id="fil60676C0F2D13230657B37958447728AB" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\cygminires.dll" />
+            </Component>
+            <Component Id="cmp92A872633C8FE7B44DD5569242788478" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{A0CAA741-695E-4D7D-A21D-13EF18C4EEAB}">
+                <File Id="filDFF5487A75C69AD17973F20F37F2BA78" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\cygpath.exe" />
+            </Component>
+            <Component Id="cmpE9964F20A6E5D01254A542822CDBE9CE" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{20FD60B4-A8C8-4665-BC0A-37331770060E}">
+                <File Id="filE1B42BD3F53281475C1158511B3129E4" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\cygssp-0.dll" />
+            </Component>
+            <Component Id="cmpFA967A6AA39E703563D6253812035ABE" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{2396A8D1-9083-487E-85EB-F65B6CC34D79}">
+                <File Id="fil32E2400434CA3F57D39DD76BED39B350" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\cygwin1.dll" />
+            </Component>
+            <Component Id="cmp8EB7BFDD5510DEA7C081DD260412F4CA" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{413127F2-03F7-43E2-B89B-57CCD70B5C10}">
+                <File Id="fil9B3685749AE8FE679CF7578F1583E411" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\cygz.dll" />
+            </Component>
+            <Component Id="cmp493E4A993E5D41224678A5B01F39A01D" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{804970B9-A38C-4779-9582-90228D74A7D9}">
+                <File Id="fil3B31E0A1DECA26F6EB10CFF5CA21B770" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\plink.exe" />
+            </Component>
+            <Component Id="cmpD54F0DA638807A11F787FCAD5A5834D1" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{F9EF4084-733F-4052-81BC-5CBD60370ED2}">
+                <File Id="fil43B17A41F495DF52F12700AE523D9A7E" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\puttygen.exe" />
+            </Component>
+            <Component Id="cmp811995C7114559DB36E125C811F8A1D4" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{298C12B1-E0D0-4AE7-971B-DA456A666E44}">
+                <File Id="filE4270B3511DF72BD263AABC0C37032EA" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\rsync.exe" />
+            </Component>
+            <Component Id="cmpB1D61D8B491DF287DAA0E2D82C88A624" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{800F2FD0-6767-4F8A-9FD4-3B55C4E8C569}">
+                <File Id="fil6D337C03782429CD3292B0226B2B1015" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\sechaw.exe" />
+            </Component>
+            <Component Id="cmp45C8DBEB3C029FA1CF47B7F6F43FA939" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{EB61B8F1-F01C-4ABD-A315-3E54021F7F8A}">
+                <File Id="filB63494956B33C5A3B19BDAC524273505" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\SecureChannelWizard.exe" />
+            </Component>
+            <Component Id="cmp968F10F36454AC3A547870546846BA3A" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{4F6A9059-94A2-4A5E-826E-2AFEB861C9A9}">
+                <File Id="filEC76E9D94FBB00826FD7BA5EE8C1372B" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\ssh-keygen.exe" />
+            </Component>
+            <Component Id="cmp286262712754330DC8BDDD9CDB0EDFA3" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{C49526A0-2D95-4366-8475-3255453875E4}">
+                <File Id="fil26E1DAC1A5BBA44481383943D5D44B97" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\ssh-keyscan.exe" />
+            </Component>
+            <Component Id="cmp527B07453D8F3F94BAB5C47C2FC1CDCA" Directory="dir16CE4F700C55F6FD240AAE8BDA0F43FD" Guid="{990EDCCC-B8CE-4B43-BDBF-E341D0273D66}">
+                <File Id="filBC58FE34BCF4BB9835912BC003849B65" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\bin\ssh.exe" />
+            </Component>
+            <Component Id="cmp20B6FF429C976E369D6F68764846C4DB" Directory="dir03136A219638B4FE836847EE3236B072" Guid="{066A7888-3C76-42EB-BFDA-8F51B871F137}">
+                <File Id="filA7BB99EA29E8ECD98D29C843D14B79C0" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\doc\plink.html" />
+            </Component>
+            <Component Id="cmp592C50FEC7D2A8A87ADB3E229AD8339C" Directory="dir03136A219638B4FE836847EE3236B072" Guid="{6F795A1E-4534-46F1-B643-E2D5BA5753EB}">
+                <File Id="fil423F75CC32D83A2ECF7F951601190713" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\doc\puttygen.html" />
+            </Component>
+            <Component Id="cmp82C99A8CA744DC8F3FA5B3CF7AE160CA" Directory="dir03136A219638B4FE836847EE3236B072" Guid="{145C1E20-AE33-4A06-B514-18D3B6679DFD}">
+                <File Id="filADB11AB8DF2DEE908327627DC0EB5F50" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\doc\rsync.html" />
+            </Component>
+            <Component Id="cmpAA5CFEA19D2DD2FDD56A671055E24959" Directory="dir03136A219638B4FE836847EE3236B072" Guid="{A43C668B-3FC6-4E23-A22F-135D427AD0F3}">
+                <File Id="fil0D2A9515A60434407056DDE7DE1B8235" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\doc\sechaw.html" />
+            </Component>
+            <Component Id="cmp5E3D63BADC472C14C27D0C6ADA049D87" Directory="dir03136A219638B4FE836847EE3236B072" Guid="{32175F1C-21F3-4907-87F1-729BBFFFDFA7}">
+                <File Id="filBC69DC807A922D0B42FB5A8A61A24BE8" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\doc\ssh-keygen.html" />
+            </Component>
+            <Component Id="cmp543A1E7A837F429AAF3578BC1FA76592" Directory="dir03136A219638B4FE836847EE3236B072" Guid="{A0D7BFF0-49B6-4A59-9C35-E5EA16E81F48}">
+                <File Id="fil0C1D2B242A1CC340B8D14D717B508841" KeyPath="yes" Source="$(var.CwRsyncSourceDir)\doc\ssh.html" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir03136A219638B4FE836847EE3236B072" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir16CE4F700C55F6FD240AAE8BDA0F43FD" />
+    </Fragment>
+</Include>

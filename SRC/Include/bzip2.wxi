@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+    <Fragment>
+        <DirectoryRef Id="GnuWin32Folder">
+            <Directory Id="dirEA3C2E9C2358194303C828C2020F22DC" Name="bin" />
+            <Directory Id="dir40754702BA83ED87F12D961C52E167A8" Name="contrib" />
+            <Directory Id="dir9B72E14C826F3159DD117B81F2446A69" Name="include" />
+            <Directory Id="dirA8C85B29FAA60E5C3196EA15FE9691CD" Name="lib" />
+            <Directory Id="dirE1F53FF223FAD700410ADE18A435E668" Name="man" />
+            <Directory Id="dir87B2FF1A618F100AA559C4EF19D1CD44" Name="manifest" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="CG_BZIP2">
+            <Component Id="cmp48BB7E83A7ED57A8A8F3F53F7BD9FBB8" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{78C9C0DB-9546-4DBF-A7E1-317870B00874}">
+                <File Id="fil88CEFA50F41AB27AA1A752B02D45CB8C" KeyPath="yes" Source="$(var.BZIP2SourceDir)\bin\bunzip2.exe" />
+            </Component>
+            <Component Id="cmp85A6E45A62E2F87C6594EB0872869EF7" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{AE3FB74F-815F-46FA-B150-D09319E2A632}">
+                <File Id="fil0B5AB415F687DC733E5D6D4123A63638" KeyPath="yes" Source="$(var.BZIP2SourceDir)\bin\bzcat.exe" />
+            </Component>
+            <Component Id="cmp7EFB0E5154B44FB7F29930FFB8FFF4E6" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{08558B4C-E6F3-40E6-87B3-C442ACA71737}">
+                <File Id="filC3B57E01BE7464AD1AA0221E071AED1A" KeyPath="yes" Source="$(var.BZIP2SourceDir)\bin\bzcmp" />
+            </Component>
+            <Component Id="cmpC2F7CDAF0AD735A1F23632951EDCE0FF" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{39E8585E-EF63-46FB-BC8E-127A4859458D}">
+                <File Id="fil28E63E707F65AB5B5515FA90DDB259BB" KeyPath="yes" Source="$(var.BZIP2SourceDir)\bin\bzdiff" />
+            </Component>
+            <Component Id="cmp31ED699022BE0EBBFAC75CE6F4207CEB" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{1966510B-B9CD-4650-8170-939D0DD9B478}">
+                <File Id="fil15AE507DADFA5EF74744E438D03F2665" KeyPath="yes" Source="$(var.BZIP2SourceDir)\bin\bzegrep" />
+            </Component>
+            <Component Id="cmp5D8FE58F4A6C7D4E709E407E9739C5D5" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{5E9E102D-7A3B-4C39-A648-5B00A2592D79}">
+                <File Id="fil1D07064BD3C305270DC4974E16C97503" KeyPath="yes" Source="$(var.BZIP2SourceDir)\bin\bzfgrep" />
+            </Component>
+            <Component Id="cmp5F52E0BDB3C434A48C878C050CF29956" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{9A341541-16E0-42F6-9BD2-EA6B1370D712}">
+                <File Id="filE0038A6FF6BC9249873A2ACC52899C78" KeyPath="yes" Source="$(var.BZIP2SourceDir)\bin\bzgrep" />
+            </Component>
+            <Component Id="cmp552B7994EFCC4A610FBE987FC4872949" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{54108755-89E3-406B-B03B-75B9FFB37E7A}">
+                <File Id="filF8BB5FFAC0E01322089AE920535C14F7" KeyPath="yes" Source="$(var.BZIP2SourceDir)\bin\bzip2.dll" />
+            </Component>
+            <Component Id="cmpF328C8B8EC5C3B474B8E9C345ED5BA23" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{E495A195-2833-422B-B4F4-12C10A557E42}">
+                <File Id="filAAC024AAA5A5CBF0EB12AAEDEE2C6985" KeyPath="yes" Source="$(var.BZIP2SourceDir)\bin\bzip2.exe" />
+            </Component>
+            <Component Id="cmpFA11FD197D5594D73B25980062C85E8B" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{D50D79B9-5B9D-496F-9D7D-461CE3EDAE70}">
+                <File Id="fil45E4C72E952B14C6C71A1ADBB833A670" KeyPath="yes" Source="$(var.BZIP2SourceDir)\bin\bzip2recover.exe" />
+            </Component>
+            <Component Id="cmpA35FC3875CBBB5EF95DB503D6A0DF054" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{4C07FF49-C41E-44D4-8BD1-6FF96EC7735D}">
+                <File Id="fil67C1A880C46034D5291112D7453EB8C0" KeyPath="yes" Source="$(var.BZIP2SourceDir)\bin\bzless" />
+            </Component>
+            <Component Id="cmp16A16DB34B1A129F8723D3BE96D4A5B1" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{F8331D22-6E75-4C4A-BF49-6B6E9969B6F6}">
+                <File Id="fil89A950C1221EA3989682790131B7ED18" KeyPath="yes" Source="$(var.BZIP2SourceDir)\bin\bzmore" />
+            </Component>
+            <Component Id="cmp83407136FE5E7855E73809720581F3EB" Directory="dir0D6C717D030949B8178165F5077070A0" Guid="{BC832114-6508-467E-994F-4633FEB84EC9}">
+                <File Id="filEC9AB96CE24E880F24068D37198C8D5A" KeyPath="yes" Source="$(var.BZIP2SourceDir)\contrib\bzip2\1.0.5\bzip2-1.0.5-GnuWin32.README" />
+            </Component>
+            <Component Id="cmpF0CCFAA8BCA4F40C7A9B7CF21A6E4795" Directory="dirA33465A7D3EE52CFAAAAE464F96F2257" Guid="{B6E71D25-BEEE-4558-B96A-D054B825121C}">
+                <File Id="filE8C767D17DFA2B1EF9EBCECBE6F4B123" KeyPath="yes" Source="$(var.BZIP2SourceDir)\contrib\bzip2\1.0.5\bzip2-1.0.5\CHANGES" />
+            </Component>
+            <Component Id="cmp85D460772B02AF9CE695E3EFEC3B66CE" Directory="dirA33465A7D3EE52CFAAAAE464F96F2257" Guid="{7E798755-4634-41F0-AA76-1E09AB7794DD}">
+                <File Id="filCD81FFDB4BC4233209E29CB84842652C" KeyPath="yes" Source="$(var.BZIP2SourceDir)\contrib\bzip2\1.0.5\bzip2-1.0.5\LICENSE" />
+            </Component>
+            <Component Id="cmp124A4D569E9796F7F411425A080CD493" Directory="dirA33465A7D3EE52CFAAAAE464F96F2257" Guid="{55FD34B4-392A-45FB-AF9B-D2480253C860}">
+                <File Id="fil2C152CFEBF6D0D9CB1455D31DC4EA494" KeyPath="yes" Source="$(var.BZIP2SourceDir)\contrib\bzip2\1.0.5\bzip2-1.0.5\README" />
+            </Component>
+            <Component Id="cmp017922E27BBD08D189FFEAEDABEB4A22" Directory="dirA33465A7D3EE52CFAAAAE464F96F2257" Guid="{D1A16D3A-3B84-4A35-B14B-9420BBE3923B}">
+                <File Id="filCFC5C1546355A34EB0DE5DE41C510C19" KeyPath="yes" Source="$(var.BZIP2SourceDir)\contrib\bzip2\1.0.5\bzip2-1.0.5\README.COMPILATION.PROBLEMS" />
+            </Component>
+            <Component Id="cmp02D5F86811C97D208B573CF6D6DFAEC5" Directory="dirA33465A7D3EE52CFAAAAE464F96F2257" Guid="{0577C53F-F1CF-436E-8DA1-D8CA6DDDA257}">
+                <File Id="fil9AD052C9A07DF0B3DF5DF2A765A5A2B4" KeyPath="yes" Source="$(var.BZIP2SourceDir)\contrib\bzip2\1.0.5\bzip2-1.0.5\README.XML.STUFF" />
+            </Component>
+            <Component Id="cmp7DD40F29BA55499F4AD013AD42B8BBD9" Directory="dir9B72E14C826F3159DD117B81F2446A69" Guid="{F14A9761-5508-45B7-AE55-DB455FDC0250}">
+                <File Id="filD1FD405A88C589A10F5E5CDE96787EB8" KeyPath="yes" Source="$(var.BZIP2SourceDir)\include\bzlib.h" />
+            </Component>
+            <Component Id="cmpC50DC2BD4D013377B45249FEE4D02C40" Directory="dirA8C85B29FAA60E5C3196EA15FE9691CD" Guid="{4FF9FA9B-4C7D-4AE1-BFD3-BE4B0F4C4574}">
+                <File Id="filFFFB71214EC35455EF027F553D28E67C" KeyPath="yes" Source="$(var.BZIP2SourceDir)\lib\bzip2-bcc.lib" />
+            </Component>
+            <Component Id="cmp3DDF48B554CAB35B65FE416BF68F1052" Directory="dirA8C85B29FAA60E5C3196EA15FE9691CD" Guid="{3FB81EAD-7AC7-4BAD-B721-D2413F63C432}">
+                <File Id="fil72BAF9B4198E75082BF924CBD47EE622" KeyPath="yes" Source="$(var.BZIP2SourceDir)\lib\bzip2.def" />
+            </Component>
+            <Component Id="cmpCF0FE50AA6B7656D3297339A02252F41" Directory="dirA8C85B29FAA60E5C3196EA15FE9691CD" Guid="{AD9B2B56-E32F-44EF-8352-FAEBCA6902BF}">
+                <File Id="filD2F75C1D102E30CFE11B68DC0F6A0732" KeyPath="yes" Source="$(var.BZIP2SourceDir)\lib\bzip2.lib" />
+            </Component>
+            <Component Id="cmp33F94C1E001AA4CFA0D2EB24A50A9CF5" Directory="dirA8C85B29FAA60E5C3196EA15FE9691CD" Guid="{2A61BD18-633B-4331-84E0-1662F93DBAE9}">
+                <File Id="filA0D358380713800B4BF785D1EC67A5CF" KeyPath="yes" Source="$(var.BZIP2SourceDir)\lib\libbz2.a" />
+            </Component>
+            <Component Id="cmp08B9512D80FDFE4B468B1F02300E05F3" Directory="dirA8C85B29FAA60E5C3196EA15FE9691CD" Guid="{F9D232ED-25A4-414E-8650-ACFCFD07B63E}">
+                <File Id="filC47B7877333AEA0B9EBD569514BCFA46" KeyPath="yes" Source="$(var.BZIP2SourceDir)\lib\libbz2.def" />
+            </Component>
+            <Component Id="cmp6612E3807B94F47550E05E8612631D4A" Directory="dirA8C85B29FAA60E5C3196EA15FE9691CD" Guid="{5D135014-91E2-4877-9ABB-4C22F5EBD3DF}">
+                <File Id="filB3F8DC83802731A0B790387A9D134668" KeyPath="yes" Source="$(var.BZIP2SourceDir)\lib\libbz2.dll.a" />
+            </Component>
+            <Component Id="cmpB45941975C5650B5479A9606D5771FE3" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{F584A39B-D539-4AFC-8867-D408E97913C0}">
+                <File Id="filA5960B60FA3265B9B019F88EB54A5FD5" KeyPath="yes" Source="$(var.BZIP2SourceDir)\man\cat1\bzcmp.1.txt.lnk" />
+            </Component>
+            <Component Id="cmpFEFF330599E583DE36BA76377A94893E" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{5FCB1E2F-5271-4587-AABD-AA1AE759370F}">
+                <File Id="fil2325508439B6366D21E737B844DC6DC4" KeyPath="yes" Source="$(var.BZIP2SourceDir)\man\cat1\bzdiff.1.txt" />
+            </Component>
+            <Component Id="cmp85D9618DC1FBA1333D7BC747B8CC6C7A" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{B702C6A3-64EE-42D4-A767-0D3FBBBC8A32}">
+                <File Id="fil264D9AA29BD8E7196FCAFEA0A2EF8C77" KeyPath="yes" Source="$(var.BZIP2SourceDir)\man\cat1\bzegrep.1.txt.lnk" />
+            </Component>
+            <Component Id="cmp61FFBE8A23EE91C992F5C1142778D712" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{D771FD2C-6CDB-4D5A-B841-E612BCA50660}">
+                <File Id="filCD2B886573D84644B92461406F5F0407" KeyPath="yes" Source="$(var.BZIP2SourceDir)\man\cat1\bzfgrep.1.txt.lnk" />
+            </Component>
+            <Component Id="cmpF90CF999B43F4D5C0F7AC77E1E1A0D93" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{D15E2EE5-BA73-4657-AA45-90F53CB68373}">
+                <File Id="fil75E1F5B8B5D18197FCFCFFE2DC27A699" KeyPath="yes" Source="$(var.BZIP2SourceDir)\man\cat1\bzgrep.1.txt" />
+            </Component>
+            <Component Id="cmpE6EB8B19FE6DAF0F98594F1453DBBC77" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{A6B063F2-5AAB-4AF9-9A04-FF4F0F38A8CE}">
+                <File Id="fil6FE01559F39FE1ACE76D133B86EBB732" KeyPath="yes" Source="$(var.BZIP2SourceDir)\man\cat1\bzip2.1.txt" />
+            </Component>
+            <Component Id="cmp76E8B055AA46CEAEE5BE9C9EAB9592A8" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{2C80D093-070A-42F0-9932-829B7BBF5135}">
+                <File Id="fil55E91A823E7B4688FFF8EC7840AB7B8A" KeyPath="yes" Source="$(var.BZIP2SourceDir)\man\cat1\bzless.1.txt.lnk" />
+            </Component>
+            <Component Id="cmp7126BCE61FEDB276234986A2D6691AD5" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{7F2E1463-2AC0-4FE8-B1E6-BA21817F9267}">
+                <File Id="fil7FCFE933126F2879C4F0FFBBB1419672" KeyPath="yes" Source="$(var.BZIP2SourceDir)\man\cat1\bzmore.1.txt" />
+            </Component>
+            <Component Id="cmpBDFB3524C8E8BAFA4A6DB8A455F40102" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{F0A56F54-04D1-4A4D-91D8-D369661C3E37}">
+                <File Id="fil3659285C74EE3AB512AFDA111898F0CC" KeyPath="yes" Source="$(var.BZIP2SourceDir)\manifest\bzip2-1.0.5-bin.mft" />
+            </Component>
+            <Component Id="cmp25DCB41AFADE2F2E99F578621AA72FF4" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{8E1EBAE6-AE25-413A-BC7F-6D36522289FF}">
+                <File Id="fil8372C222D5888B3375C6CEBF4A75A0B0" KeyPath="yes" Source="$(var.BZIP2SourceDir)\manifest\bzip2-1.0.5-bin.ver" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEA3C2E9C2358194303C828C2020F22DC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir9B72E14C826F3159DD117B81F2446A69" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir0D6C717D030949B8178165F5077070A0" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD93A8F7CA457F79A2D974C8A21750586" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir87B2FF1A618F100AA559C4EF19D1CD44" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA8C85B29FAA60E5C3196EA15FE9691CD" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA33465A7D3EE52CFAAAAE464F96F2257" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBF070C5CEF675DE86FBBE1D48728DFC4">
+            <Directory Id="dir0D6C717D030949B8178165F5077070A0" Name="1.0.5" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir0D6C717D030949B8178165F5077070A0">
+            <Directory Id="dirA33465A7D3EE52CFAAAAE464F96F2257" Name="bzip2-1.0.5" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir40754702BA83ED87F12D961C52E167A8">
+            <Directory Id="dirBF070C5CEF675DE86FBBE1D48728DFC4" Name="bzip2" />
+        </DirectoryRef>
+    </Fragment>
+</Include>

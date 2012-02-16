@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+    <Fragment>
+        <ComponentGroup Id="CG_LIBINT">
+            <Component Id="cmpBF80D35C17DB1D77901E6589F1E6FFDF" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{AE91338C-A4CF-4197-928F-00E8D0DAFF46}">
+                <File Id="fil7597CFFABD610D6330F3AD28C1169427" KeyPath="yes" Source="$(var.LIBINTSourceDir)\bin\libintl-2.dll" />
+            </Component>
+            <Component Id="cmpAFAD247E3A00A5E1F342378A28CA7B02" Directory="dir3E874C92C8A2AAAFD764DEDFF36622E0" Guid="{68398A77-E7FD-465C-B7B8-B5525DDB85F1}">
+                <File Id="fil1CA6A039B2F07657577E2BCFB2B716F5" KeyPath="yes" Source="$(var.LIBINTSourceDir)\contrib\libintl-0.11.5\CHANGELOG" />
+            </Component>
+            <Component Id="cmpB679CE3E1CAFB2C3642B3887752F031C" Directory="dir3E874C92C8A2AAAFD764DEDFF36622E0" Guid="{655D5D6B-673B-4B67-86EF-D0F4498BBE5C}">
+                <File Id="filD3A06526146CDC526219138CF7B5B60B" KeyPath="yes" Source="$(var.LIBINTSourceDir)\contrib\libintl-0.11.5\CHANGELOG.INST" />
+            </Component>
+            <Component Id="cmp8D15EC1D073AA56E3BE67914071774DC" Directory="dir3E874C92C8A2AAAFD764DEDFF36622E0" Guid="{F63AB859-5139-44F8-8E05-C1E13838872B}">
+                <File Id="fil10862616C4748F01021087E76D81042E" KeyPath="yes" Source="$(var.LIBINTSourceDir)\contrib\libintl-0.11.5\COPYING.LIB-2.0" />
+            </Component>
+            <Component Id="cmpA16DE8436635CE6F252319F4CAC72328" Directory="dir3E874C92C8A2AAAFD764DEDFF36622E0" Guid="{5BE5FF86-D17F-4ABD-B2EB-7AF8715B96EB}">
+                <File Id="filD4DD52A9E1845AAF1C522E954451F0C6" KeyPath="yes" Source="$(var.LIBINTSourceDir)\contrib\libintl-0.11.5\COPYING.LIB-2.1" />
+            </Component>
+            <Component Id="cmp492C08C503B8BA8BA2076DD522F2C442" Directory="dir3E874C92C8A2AAAFD764DEDFF36622E0" Guid="{C20761D3-D7E4-492F-BB02-858B55779440}">
+                <File Id="fil1ACD18FEB56B992889980FCEDECDD9B4" KeyPath="yes" Source="$(var.LIBINTSourceDir)\contrib\libintl-0.11.5\libintl-0.11.5-GnuWin32.README" />
+            </Component>
+            <Component Id="cmp45D83F91BF26C201F051FC7F5AE89EC6" Directory="dir3E874C92C8A2AAAFD764DEDFF36622E0" Guid="{4B3E37AD-9313-4227-BD49-0826E928D6ED}">
+                <File Id="fil9329915F1B9540F8A2BDD29DBC6E42A7" KeyPath="yes" Source="$(var.LIBINTSourceDir)\contrib\libintl-0.11.5\VERSION" />
+            </Component>
+            <Component Id="cmpC98D6B349BE7405EA4669D13B72E814B" Directory="dirDC69B4FF40315D450B49783DA0238948" Guid="{E79AEE59-8B0C-46BA-9581-16E7AEE155F1}">
+                <File Id="fil0B74551858F55E4DCB4835BC9435BFA3" KeyPath="yes" Source="$(var.LIBINTSourceDir)\contrib\libintl-2-0.11.5\libintl-2-0.11.5-GnuWin32.README" />
+            </Component>
+            <Component Id="cmpCF490358388A13E1502FBBD4AF69B930" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{6C8BABC7-1110-4C99-AB29-6E12318F04C2}">
+                <File Id="filAFB20DF9B95E7E71E60AD340255113FC" KeyPath="yes" Source="$(var.LIBINTSourceDir)\man\cat3\bindtextdomain.3.txt" />
+            </Component>
+            <Component Id="cmp0166AA698F81EFA63F52AD5BFA4A8532" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{C2212825-A146-44AC-8F7E-2DF7CC3768F4}">
+                <File Id="fil54A78EADC395A8B70B9B170EE6315DD3" KeyPath="yes" Source="$(var.LIBINTSourceDir)\man\cat3\bind_textdomain_codeset.3.txt" />
+            </Component>
+            <Component Id="cmpBD615AB02597E86162C49D615F8CA162" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{54D12F1B-134A-4C91-9C89-97D77D0AFAF2}">
+                <File Id="filCA17D315EC7C4D5DB2AC01535E88790B" KeyPath="yes" Source="$(var.LIBINTSourceDir)\man\cat3\dcgettext.3.txt" />
+            </Component>
+            <Component Id="cmp0E80503CF9EC123EABD0EC3F7DF0418E" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{7EBF1A8A-1338-4E38-9599-3F4EA76F5DA0}">
+                <File Id="filF5AE2D78D5189B04183E3608C655D7E4" KeyPath="yes" Source="$(var.LIBINTSourceDir)\man\cat3\dcngettext.3.txt" />
+            </Component>
+            <Component Id="cmp5BC7AE40EBB64A145470EC81EB94D8ED" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{3FEC5D30-38E1-4EF0-BD35-42D87511453F}">
+                <File Id="fil356DB32777733F19A5AA71A7D2DCE2F9" KeyPath="yes" Source="$(var.LIBINTSourceDir)\man\cat3\dgettext.3.txt" />
+            </Component>
+            <Component Id="cmp7D996E80C3335298EACE93F1DCF16623" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{9D3F1D3D-3121-4A4B-88A5-C9430D3323B0}">
+                <File Id="fil78F7B476E7B95860B0BEC6647A44C881" KeyPath="yes" Source="$(var.LIBINTSourceDir)\man\cat3\dngettext.3.txt" />
+            </Component>
+            <Component Id="cmpCB0A0340507BBF6AE96CC28019E0870B" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{63C36731-4D72-434F-BF2E-7542466EB23C}">
+                <File Id="fil17737A5876D6BDA4A840DFC6A76382CA" KeyPath="yes" Source="$(var.LIBINTSourceDir)\man\cat3\gettext.3.txt" />
+            </Component>
+            <Component Id="cmp24DE7C54CE01980076974C71D4444F57" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{D8B925BD-ACBD-49F5-9AD9-3E6B85D09EF9}">
+                <File Id="fil31D4AA9E88C0C9116C443BF8C2663050" KeyPath="yes" Source="$(var.LIBINTSourceDir)\man\cat3\ngettext.3.txt" />
+            </Component>
+            <Component Id="cmp80D394E57E478AD413E7CD87B714F01C" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{D33DA068-C7E7-4399-85D8-2C7747F59EBE}">
+                <File Id="fil65CAD498B61D3A96D7D43A5822A25529" KeyPath="yes" Source="$(var.LIBINTSourceDir)\man\cat3\textdomain.3.txt" />
+            </Component>
+            <Component Id="cmpBAECF05C79DF546828E0BEB22F18E8D0" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{EFC77111-9D36-408E-8E22-0E754C68F793}">
+                <File Id="fil183C0AFCBF4ACFC595642751978D4089" KeyPath="yes" Source="$(var.LIBINTSourceDir)\manifest\libintl-0.11.5-2-bin.mft" />
+            </Component>
+            <Component Id="cmpC137AF47ED3D1BD6EA5C0C00264A567C" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{C671560B-A842-440E-958E-85F5C45B642E}">
+                <File Id="fil4C2D42391715CD4A93186BD64D1F23D0" KeyPath="yes" Source="$(var.LIBINTSourceDir)\manifest\libintl-0.11.5-2-bin.ver" />
+            </Component>
+            <Component Id="cmp3E0FAE53C6D4EBA3A007EDD994242C57" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{3233ED34-9F05-46BC-9FC1-B251FB67E9BD}">
+                <File Id="fil2A9C7D3131FD4AB80C730DBB03C99EC2" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\bindtextdom.c" />
+            </Component>
+            <Component Id="cmpCD1A42C627A3A4FB59F8BA6A7BC85F12" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{88B9FDF6-2BF6-41FE-974A-0912C27E94E1}">
+                <File Id="filDE7F6D07018EF4956122D0C3FD9A08EB" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\ChangeLog" />
+            </Component>
+            <Component Id="cmp17D34F9A11924A25C926DE47664DA2F4" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{06C7464B-AC51-4709-80A4-5954FB52FAED}">
+                <File Id="filC8BD2B23A7A71AF706631C1975071781" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\config.charset" />
+            </Component>
+            <Component Id="cmp7BD9BC0B7A6B02F12C76A94640FB6724" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{075D9FD1-7221-4723-AFDE-4BC8F5CF8171}">
+                <File Id="fil1062C0425EA9D31E3B4082B447B9061C" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\COPYING.LIB-2.0" />
+            </Component>
+            <Component Id="cmp489754F11B8D2B967C7521EFDCC0D6DD" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{E40B83DF-7E09-4C52-9AA0-3A39D6CF7B4A}">
+                <File Id="fil396ABDA12B930ED24CFE241D52404481" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\COPYING.LIB-2.1" />
+            </Component>
+            <Component Id="cmp6DD48BD2683736CF2E7959BD103A3E37" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{05A5615A-A3EC-49DD-B5F1-2CA497B21753}">
+                <File Id="filD0F5EB136B5706C005979B2A611504D1" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\dcgettext.c" />
+            </Component>
+            <Component Id="cmp59B1B0CEC96C87C911471EC45E1D1DD2" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{B082E528-7B93-4CD6-8738-B5089A0F87D4}">
+                <File Id="filBA4A8244E8A1F7B81F91882AFC2EA89E" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\dcigettext.c" />
+            </Component>
+            <Component Id="cmpCD49EC79271E5E648CF8ACEDB4F6EF84" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{DB36315A-F909-45A0-B06D-F5D886D00D6B}">
+                <File Id="filD6CC1DD49C5C85A4FF33063ED5AED2A7" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\dcngettext.c" />
+            </Component>
+            <Component Id="cmpD4D03EC0E80C80CD240288F5C9B56811" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{D381296D-C77A-4699-B0E2-BC6C1AAFA29B}">
+                <File Id="filDC6179CBDEF7B0CFCA0BCEABE41A8B50" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\dgettext.c" />
+            </Component>
+            <Component Id="cmp59C53BDB5583AC54E01D19BD50627710" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{0A38633D-B917-4342-9811-D15AA0C2915C}">
+                <File Id="filBCA511BC4197413EA1788F157768F5B0" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\dngettext.c" />
+            </Component>
+            <Component Id="cmp2C27D47B7B384737FC5F44234AC0F91D" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{0EA27FD5-626E-4ADE-932D-05673B461E5A}">
+                <File Id="filAA333F83E0B5BD18497882CD139372D9" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\explodename.c" />
+            </Component>
+            <Component Id="cmpFAC05E1C6F8568239045A7BE5D4772FD" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{B4750105-C4CE-490D-866C-CA5967986698}">
+                <File Id="filE4C7F56D3688CD04ADBA5DA2D324EE52" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\finddomain.c" />
+            </Component>
+            <Component Id="cmp8E3D25078A10ABA382B2C85F8B2316DB" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{C6CB594A-AC61-4FDB-BA3C-A59FF5333330}">
+                <File Id="fil29EBED87496EF6F129F4A76362789218" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\gettext.c" />
+            </Component>
+            <Component Id="cmpC7B6E0E952AD376F5E35C45A33EE7CC6" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{5443D44E-E907-4360-9B32-052B3BD31EBD}">
+                <File Id="fil1116B327BA9E19A8CBBF56EA0EFCC441" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\intl-compat.c" />
+            </Component>
+            <Component Id="cmp3F494B35FA48EE7AABDA91836E499A5E" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{22B83CC2-B15B-4ABD-BFEF-0E7FC063265E}">
+                <File Id="fil00C3366B792041C49A3F274C0D3B81EE" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\l10nflist.c" />
+            </Component>
+            <Component Id="cmpEBAB40879922412B97F37048AABABAE8" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{1E91504B-E287-4132-B85C-0BEEA5082348}">
+                <File Id="fil018B5CA8E7441980DD34F2E10B78ECC5" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\loadmsgcat.c" />
+            </Component>
+            <Component Id="cmp38EA314857AEA42776368400D1DB57FE" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{D2100DDA-2075-48CF-AE8B-D034B367E6A3}">
+                <File Id="filCC74756B599005053FB5DA1E9E984359" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\localcharset.c" />
+            </Component>
+            <Component Id="cmp80F36E8597E8AD20DAF0AC44C4D32475" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{3580180B-15CC-461F-ACC8-C1A700B1AB88}">
+                <File Id="fil27C3D552037828D1B02AC48EFF45F07B" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\locale.alias" />
+            </Component>
+            <Component Id="cmp655640EE4617B80BC30031A18E720303" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{D355020B-42DE-4182-94EC-94A28A8DFC8F}">
+                <File Id="fil6A0EB6DA4E983E71C202B141CBC6C630" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\localealias.c" />
+            </Component>
+            <Component Id="cmpCCA966ADBEF1A36F7E550C9A14C41D1E" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{FFA7592C-03EC-46B2-9DA0-01980BEBBE95}">
+                <File Id="filD14999E91386BE02766093C7480DDA2D" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\localename.c" />
+            </Component>
+            <Component Id="cmpC166EEF5AC1B47A4BDEE0D808DB3B9D1" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{08CD63C2-75B6-42EE-9FF7-0911870D21FC}">
+                <File Id="fil57349822B1D6E93E512C1A50D2D33B5A" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\Makefile.in" />
+            </Component>
+            <Component Id="cmpA9C17AC52C79B5F3D578E490FDB3AC24" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{9CAA3B9D-7B4A-4F6E-8380-FF299717CF0B}">
+                <File Id="fil4436185DD5209466B328C1F1F6073743" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\ngettext.c" />
+            </Component>
+            <Component Id="cmpE71D3766AC59A39D68D22B9086BD94B3" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{5A9CB14A-F10A-4B0D-B5AE-7062730CF8A8}">
+                <File Id="fil498FD5A2C9C9B0FED7FAA316A5226969" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\os2compat.c" />
+            </Component>
+            <Component Id="cmpF9D84BBA982F09A681AD2DB79B13BFFE" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{C91A9F6B-E34D-44AA-8E02-1756BE2749B2}">
+                <File Id="fil6AE4A384F5FB0026FFEF1E82B149673F" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\osdep.c" />
+            </Component>
+            <Component Id="cmp93958AE4041AF6ECD03A1B9E8AF55658" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{46A70C24-498C-4EEA-9A7D-C4D8036F9E66}">
+                <File Id="fil7425C727EC1A2D020844EC120C4D3D5A" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\plural-exp.c" />
+            </Component>
+            <Component Id="cmpEB8FF17845D01BFF49E00FE93F7F32E7" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{C454DE78-833A-4917-911A-B02823621917}">
+                <File Id="fil01E48A7373F2FF1D733C7ABB4E595CE8" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\plural.c" />
+            </Component>
+            <Component Id="cmpA8CEB3769A4888B56A70C99CBB3A4F5D" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{1004985A-88D9-45C8-95EF-B493A99E7905}">
+                <File Id="fil97E2F2348B88EC201001EDA8850D92B6" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\plural.y" />
+            </Component>
+            <Component Id="cmp1568BBC3645D4F8BDFC0A5B48C174697" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{BE98361D-38E8-4CA4-B087-61975E373DCE}">
+                <File Id="filBADF1D24E794B55EC13421936C9B9889" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\ref-add.sin" />
+            </Component>
+            <Component Id="cmpDEE66A9965681EC97716E0642543914A" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{BAF8BE6F-F7C0-47E2-99D4-B7484FC23FC2}">
+                <File Id="filC802C8479CFBDEECE06A7FFFFBDF9A7D" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\ref-del.sin" />
+            </Component>
+            <Component Id="cmpF61C232C82CCDC3A37F2B769116183B4" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{87186266-E5FB-46F6-A0BE-B0E9987DAD9E}">
+                <File Id="fil87D6E8243CDEBFBA29CC102687ED7CE1" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\textdomain.c" />
+            </Component>
+            <Component Id="cmp8CF55C36488960B83B3062EE83C377D1" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{95703C7E-8603-49F4-9EFD-4F853C8B820F}">
+                <File Id="fil52B6657FFC3E82273D5C0548E065AF27" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\gettext\intl\VERSION" />
+            </Component>
+            <Component Id="cmpABD152ACB89AA41321367284E00F53CE" Directory="dir335C14D7DCB07921AB566259FAE20D1B" Guid="{25A7F628-7E50-4DDF-A793-6167E05E4920}">
+                <File Id="fil2DD276B6A1EFF222B0BA82036807449D" KeyPath="yes" Source="$(var.LIBINTSourceDir)\share\locale\locale.alias" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir91D733756F775DC470858885FFC9274E" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir3E874C92C8A2AAAFD764DEDFF36622E0" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir87B2FF1A618F100AA559C4EF19D1CD44" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEA3C2E9C2358194303C828C2020F22DC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirDC69B4FF40315D450B49783DA0238948" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC319B42821B2BD20AE7AD10238025E25" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir40754702BA83ED87F12D961C52E167A8">
+            <Directory Id="dir3E874C92C8A2AAAFD764DEDFF36622E0" Name="libintl-0.11.5" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE105A56FC689B26F8C608830D7368192">
+            <Directory Id="dir91D733756F775DC470858885FFC9274E" Name="intl" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir40754702BA83ED87F12D961C52E167A8">
+            <Directory Id="dirDC69B4FF40315D450B49783DA0238948" Name="libintl-2-0.11.5" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirAFA2C344C072C6B87D888076B4F5F6A7">
+            <Directory Id="dirE105A56FC689B26F8C608830D7368192" Name="gettext" />
+        </DirectoryRef>
+    </Fragment>
+</Include>

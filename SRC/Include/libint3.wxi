@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+    <Fragment>
+        <ComponentGroup Id="CG_LIBINT3">
+            <Component Id="cmpE782CA5C64A8D801E05A0B1064A2FA9A" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{1EE8B128-7C0E-4220-9ED6-5EEFF6A37877}">
+                <File Id="fil44E58E1DD3D6AADE86BA5752817F0BA4" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\bin\libintl3.dll" />
+            </Component>
+            <Component Id="cmp43FC1D89DD4751E2C1084C73104A698E" Directory="dirC6640917EA7A398C41D0442BF1523280" Guid="{1CB8AC4B-F81A-4B4D-BAC5-06AA571B219C}">
+                <File Id="fil459A82CAA9770F113FCABEDD655504E6" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\contrib\libintl\0.14.4\depends-GnuWin32.lst" />
+            </Component>
+            <Component Id="cmpF1257D6597121F6DB6CFC4C3953407EB" Directory="dir38E9A6B8FD5135336D6AC7846D9794FB" Guid="{A4DBAAC5-A20A-43FD-9FC8-1C28A920648F}">
+                <File Id="filCCA5AB7DF3DCEDFB1A84E9BAC977E831" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\contrib\libintl\0.14.4\libintl-0.14.4-src\AUTHORS" />
+            </Component>
+            <Component Id="cmp79F331F69B7E4F549CDFAF19CCE065AE" Directory="dir38E9A6B8FD5135336D6AC7846D9794FB" Guid="{CF0E6C6F-CB7A-4C08-AC9D-3959BB048A02}">
+                <File Id="filC8B871CC440C98230E3B007B4959C683" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\contrib\libintl\0.14.4\libintl-0.14.4-src\ChangeLog" />
+            </Component>
+            <Component Id="cmpC20F5D81331A04E5FE18D154F688AA77" Directory="dir38E9A6B8FD5135336D6AC7846D9794FB" Guid="{1510241E-B1B0-4566-AC56-5963F796C13E}">
+                <File Id="filCA2D4866D5D2C394320DAC73B8B9C686" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\contrib\libintl\0.14.4\libintl-0.14.4-src\COPYING" />
+            </Component>
+            <Component Id="cmp96D78DDD9CC37EFDA643422E0E91343F" Directory="dir38E9A6B8FD5135336D6AC7846D9794FB" Guid="{D2126267-A4D8-4693-A6E0-A25E5C9C1182}">
+                <File Id="filDBF901DA36D2819C1F7B00B8B1119291" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\contrib\libintl\0.14.4\libintl-0.14.4-src\INSTALL" />
+            </Component>
+            <Component Id="cmp1DBBD2AFFCE0E3752AEE69A2E609CF2D" Directory="dir38E9A6B8FD5135336D6AC7846D9794FB" Guid="{98AC8E0A-F067-4FC0-AA69-324A3D469DDD}">
+                <File Id="fil43ABA8BB4BB2E2CF4D398DF45CF69937" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\contrib\libintl\0.14.4\libintl-0.14.4-src\NEWS" />
+            </Component>
+            <Component Id="cmp81A89453CC2F69B7CD9E60F573933327" Directory="dir38E9A6B8FD5135336D6AC7846D9794FB" Guid="{876EC7F6-37A0-487D-8F75-63B2C63A2FBD}">
+                <File Id="filECDA8E63BF4C5B63D374CE6914B361C9" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\contrib\libintl\0.14.4\libintl-0.14.4-src\README" />
+            </Component>
+            <Component Id="cmpDE0ED6DA828396803EBEC7746518EBA0" Directory="dir38E9A6B8FD5135336D6AC7846D9794FB" Guid="{F03CFD6E-9C06-4F03-939D-C70C35FECA47}">
+                <File Id="fil7093885044CE98DF1E651D5FF4374CA7" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\contrib\libintl\0.14.4\libintl-0.14.4-src\README.mingw" />
+            </Component>
+            <Component Id="cmpA1405B48B7660CEF1C58D7AB031635C5" Directory="dir38E9A6B8FD5135336D6AC7846D9794FB" Guid="{E22FD53C-ED35-4B2A-A14F-683510A89B61}">
+                <File Id="filF6D9FCEEEC63B61B4364235C5F3330DB" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\contrib\libintl\0.14.4\libintl-0.14.4-src\README.vms" />
+            </Component>
+            <Component Id="cmp81D12E421C65795C78F5732CBBA52011" Directory="dir38E9A6B8FD5135336D6AC7846D9794FB" Guid="{DCA7270F-8361-4A7B-869D-962E1EDC0E67}">
+                <File Id="fil136995D7BF9CD999E24C12E8BCAE873C" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\contrib\libintl\0.14.4\libintl-0.14.4-src\README.woe32" />
+            </Component>
+            <Component Id="cmp51BD2EF824B385A94BBFF63A72E807F1" Directory="dir38E9A6B8FD5135336D6AC7846D9794FB" Guid="{3D6536EC-0E5D-4CA3-9DAB-66F21F7E617D}">
+                <File Id="fil28C0D96E54557077FD6976114262AF59" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\contrib\libintl\0.14.4\libintl-0.14.4-src\THANKS" />
+            </Component>
+            <Component Id="cmp343BB2827681CF174AF874F34DD27E69" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{94B1DC66-2FB7-478E-8E14-268196E5CF6C}">
+                <File Id="filF08316012CB8BD69AF769E0C4B9B481D" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\manifest\libintl-0.14.4-bin.mft" />
+            </Component>
+            <Component Id="cmp6E894B5486D7CAA4F8EEBEBCF34904BE" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{D63DDB9B-DF45-4B19-8036-CE29D22C1FB0}">
+                <File Id="fil94416AFC13E2A07C0AFB1CA2E6D1C684" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\manifest\libintl-0.14.4-bin.ver" />
+            </Component>
+            <Component Id="cmp2B35AC468539BD5902841FC9896F738F" Directory="dir37C1A5557CF7A404326E18331D5495FC" Guid="{D7DF3F82-B22F-4048-BAFF-75BD7D9B7949}">
+                <File Id="fil88FC16BD19F74028BD0A49A1F2C7E179" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\aclocal\lib-ld.m4" />
+            </Component>
+            <Component Id="cmp41ABC8477AABA8720487D8EDB1BC983D" Directory="dir37C1A5557CF7A404326E18331D5495FC" Guid="{9BBE1561-6C4A-4BF8-806F-E7F2BA5EAFFB}">
+                <File Id="filA5D3EB7C55BB980C4D8CB49D54A5F5CB" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\aclocal\lib-link.m4" />
+            </Component>
+            <Component Id="cmpDB9CCD10BD0685785FEB18202C53336B" Directory="dir37C1A5557CF7A404326E18331D5495FC" Guid="{7E049E5E-11B8-43A1-8180-B6B56035FBA4}">
+                <File Id="fil3557AB10114A54C50961BE9DF0E15543" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\aclocal\lib-prefix.m4" />
+            </Component>
+            <Component Id="cmp63049A1D004563CD126244B518FD84AA" Directory="dirE105A56FC689B26F8C608830D7368192" Guid="{811A9D82-0154-458C-A6ED-CA19B383A1CD}">
+                <File Id="fil48E0EFBADA36E41F5FC764DCBB0629F6" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\gettext\ABOUT-NLS" />
+            </Component>
+            <Component Id="cmp4794D7AD9AE811324F3125D8E4081D09" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{F022CB95-8957-4702-8791-6B75E4711660}">
+                <File Id="fil02643F77EA0F6585405880FE6C8D26BD" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\gettext\intl\langprefs.c" />
+            </Component>
+            <Component Id="cmp9EC80D6D8BF58180EC3021C3BAFC7760" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{DB2D4965-BCC7-4DAB-B3D8-AD9AD6E60FF2}">
+                <File Id="fil4168B5C468FD80E7BB9C3546CFEECBC2" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\gettext\intl\libgnuintl.h.in" />
+            </Component>
+            <Component Id="cmpF560845E354DF256A6779C07789DED59" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{77C6E972-D424-4281-B20D-A955EFC6B7D3}">
+                <File Id="filE0BFA821E2CAD5B74BAFFC7A7288ECB7" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\gettext\intl\printf-args.c" />
+            </Component>
+            <Component Id="cmpBF20020A6BE109F9AC6B59A6E9AE0AE3" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{595139F1-DFC6-4EAE-A78D-31C563222E0E}">
+                <File Id="filC09305D613B7499A0F7A39455426CDCC" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\gettext\intl\printf-parse.c" />
+            </Component>
+            <Component Id="cmp8743E0C69F31078555B47F50244A56BB" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{85D83915-7839-4FA8-B0B4-0F5F4092EF46}">
+                <File Id="filA1C88FCFA931EA0956162D0BF12CFF19" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\gettext\intl\printf.c" />
+            </Component>
+            <Component Id="cmpC338517AA89CA3783039B58DEB144723" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{1D570BFE-D294-4865-9203-A09E1B921DA1}">
+                <File Id="fil8E6A6E84C136919D777129327222EE17" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\gettext\intl\relocatable.c" />
+            </Component>
+            <Component Id="cmpCD3A2836A6FB6654E6EBBFFD0C3D63A8" Directory="dir91D733756F775DC470858885FFC9274E" Guid="{8F039703-4522-473E-B34E-1B9B82159E2C}">
+                <File Id="filC25C748F3276FCB973D192AC6E8578DE" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\gettext\intl\vasnprintf.c" />
+            </Component>
+            <Component Id="cmp5F00544A0EE2E9681EC6F3FA71C42E88" Directory="dir9D46840EEFE8B036D0BA65530289A576" Guid="{731F7F4F-8952-449B-ACC3-715C1C1A0068}">
+                <File Id="filA997139D0D3864B9DDD376F20342490C" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\be\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp138279DCEAF6E85EB4F3FE6CC84ADCE3" Directory="dir1D5CA9BD2172AF423BBF1B5102BC77AB" Guid="{DC2FA1AD-63DD-4767-9C65-E6F7B2918CA7}">
+                <File Id="filA6AD3AC3F1D28EE3FA4840250C938D87" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\ca\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpE3655FBD79EB3127118286A58448A104" Directory="dirC8B3A91C3BAD538947989AE73C4A542D" Guid="{8B9FB5AF-E1E1-43C0-A332-3A0227BA9C6A}">
+                <File Id="fil694CEC0A90E3890F7E34855D93AF5738" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\cs\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpB257AEE21B5C2E6C53F0362004BD0790" Directory="dirBA717F0A4E5467F938C5FC5A987C34FB" Guid="{C7CB3791-C6B7-400B-B078-F2D22EC8C818}">
+                <File Id="fil65F17FF50B964063C9E56CF7639FB7E6" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\da\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpDA58CE85DD77A0DC003953B6A83F5A7D" Directory="dirDD6EA11C6C017E5886419896AE6865C9" Guid="{0F117243-8948-4340-A4F6-02012318BD23}">
+                <File Id="filAEB651AB63A53046A92008AAC8A85CDD" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\de\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpA9F243844D6CF7A9809A23A7D9BEB374" Directory="dirE66B180A02E0012526A43F07C4C1C768" Guid="{2CE77408-32DB-4F60-A62F-DC44B17D9F5C}">
+                <File Id="fil069A3291C50596735E6D07F3137B414A" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\el\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpFF62FA9CD4106738D39D784BBECD457B" Directory="dir2051DB91E006B364919EAA7A7BB06455" Guid="{52215209-DD6F-4E61-953D-DEAD9DA18BB0}">
+                <File Id="filC241F746996F62A4D8234B4E8452E2BC" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\en@boldquot\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp2AEB21AC8F9CAF754DEBA407D904AC13" Directory="dir97C20E6FA96A590A1A068F3B6B974AC6" Guid="{9CA430E4-A456-49AF-B992-BDA5D242388E}">
+                <File Id="filA06A65FB1D44083C56312207783DE6AD" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\en@quot\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp5ED5CE66A3BA1B290B6D4533821645ED" Directory="dirD0F4CEDC75FC5650194BB63F0DB1ED2B" Guid="{0A4B7B14-E394-4760-8AF8-C2AB1863E7F8}">
+                <File Id="filC828486D4EC5EC035C4205E9BA49492C" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\es\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpB147F05C14029E21BC11490B1A3C0B77" Directory="dir5B73ECCBEDAB438EAD9B39428F41886B" Guid="{F4C79923-A819-42AD-A7FB-8720052240F5}">
+                <File Id="fil90280CE1C5D9FB61867B57795C02B74B" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\et\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpD148B09E7D0BB1580D952D40EFEDC670" Directory="dir722CD03585D95B083DF6C2148B0016BB" Guid="{863ADB94-E766-4B64-91C6-9B4A51C4B7B2}">
+                <File Id="filECCFF819B1334495B4746A0DF952FC8C" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\fi\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp622D1B5AA01CF3FAA793648E42F7C29A" Directory="dir505CEF1D551F7F0365C8BF94D56B3987" Guid="{2F327094-63FA-4189-A3CC-3A29C138BCE7}">
+                <File Id="filF44C1D7889DB91B44EBA2B7FA92EF142" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\fr\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp507CE9F35E2EAEA683262B76E186A869" Directory="dir37D9F795F7392946D890514F57D511B9" Guid="{5B27D5AB-CEC7-4E4C-90CD-796C435AD4A0}">
+                <File Id="filE71A7B18286DF9A5C1BB80CE831A40AF" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\ga\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp90D7BCFA08D0AF05EE4DFF470152E020" Directory="dirF2A4051B537349734BBDE0556934CC82" Guid="{4499D9F4-E59C-41EB-BF94-DA496025D2B1}">
+                <File Id="filE040C4C93AB837F276F1D492CD815234" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\gl\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpF9CB33C1A561801FEFF1653DA9E7F0FD" Directory="dirEFCF317BC010FD21EF7152BEACE6E18C" Guid="{0A824D70-68CC-4351-BFDE-51391632177D}">
+                <File Id="fil3E4E9D3B23A440895FB52D02584D055B" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\id\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp119EF8E62648F9D208C655AC4CA202C7" Directory="dir1233E7793F4795828C650A105463FBD2" Guid="{1E1D82B6-B845-40CA-9DE1-04C10B2BF6D4}">
+                <File Id="filD1EF28F445A8C3B94A7DD1FF21299DA4" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\it\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp4D9B2D37D05CE6A6E1DAD9F91499DD99" Directory="dir10E73A7304DB418AA310A4C251C09D85" Guid="{17E753F2-9147-4047-B4EB-B926D6879AFF}">
+                <File Id="fil1D1128522A1A05155F2F75FFE410DD41" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\ja\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpE2267ED4C922FC86485998B11E8472B2" Directory="dir5873A49010187E40ED5C4EB76542DECC" Guid="{C67B8597-1CA1-4B72-82E1-712A6154A0CF}">
+                <File Id="fil828B1DB98A8C09C7ECDD47C53464F503" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\ko\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp0F6D8206D367655808FA165C02E8B4D5" Directory="dir0340D06814E0B28F719D079AD3C20846" Guid="{9A31462C-FFD8-4855-AF06-142DABCC8FB8}">
+                <File Id="filC21EC0B9F78D86FF97866A9CC71CBC73" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\nl\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp05FCC8534DF82DA511998F8EF1022D06" Directory="dirC512BB175FE498266A2FDDE14FA8362D" Guid="{314277C2-0670-4D43-8938-2C68B44DE83B}">
+                <File Id="filB5211191D6B2C3AB7D92F156E1EA135F" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\nn\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp5F3D8484C96D2547759FD3607B801A05" Directory="dirC3B0F3F69F83DE0D5C1B0B704850816D" Guid="{E6DD1574-BA31-43D5-8A0D-090A41D9C53C}">
+                <File Id="fil75DF7CCA2DF21AA2174CDED407D4D82B" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\no\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpBDA78CB653A3B69A3093D9EFAFEA7A8B" Directory="dir97CF7820A9C046AE2856840E60266CDC" Guid="{4397792E-9548-4A83-96A5-64187063F138}">
+                <File Id="fil29A589D091F077F89105365D2182C0BD" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\pl\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpF7D71A681E38E79C3C24C973C9BA6A97" Directory="dir621DED391BD208ACE5A9ED7B7C216687" Guid="{D99588F0-D367-40DC-915A-7561A7AD8688}">
+                <File Id="fil0B3A56C48AFA6B9DBC32829F863E3FB5" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\pt\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpE72AFBF0F3280072C63A08C26531F6BF" Directory="dir8DA4E64336044BE23BCC2FE92F6E84BB" Guid="{7D9F58E3-D6AF-4D85-AF83-176CF4EA71BF}">
+                <File Id="fil9304CB61650E5FAD0BCA16D246EDA4A1" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\pt_BR\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp9B04A12CA881AA6647EDDD81317C7F37" Directory="dir2C1F30841C61F30CAEAF89E40EA33AB9" Guid="{5B120ADB-AE8B-47DE-9B08-1C5B25101077}">
+                <File Id="filB806347B6FAD9800F68B24B0FF6524B7" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\ro\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp14494668C9D00D47F4ADD2E2C8F2F43B" Directory="dir01A98A370943693934F4C8E4B0C3B03D" Guid="{2FCCD05B-A192-4D64-BE8F-159D8EB01EFF}">
+                <File Id="filC87FE2EB562FD4FE4707B54133DE84CC" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\ru\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpBE8B7F8B2F9545A3D45652A2B461CB92" Directory="dir39AD3DE871D829891DB41ED7A6A52608" Guid="{863D5EDC-8AA7-4CF3-B543-E99FBB10FBCB}">
+                <File Id="filD30541785F2265B2F8F65EAEB75265AE" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\sk\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp4FFF4853A41732ED963B0BC383E349F2" Directory="dir489BBF8CB184A28CE709DF4960E26179" Guid="{4A64F84D-F91C-4240-BBB3-67FA715C1298}">
+                <File Id="filB69F2FDEB24EB14CBB7D33643C3A2D85" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\sl\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpED85E0DD63684B7C3034D758C0BE18A1" Directory="dir0380A879256E486543A2D2A089CB1AC0" Guid="{5774B4B4-1954-4011-BA82-16463B7054B0}">
+                <File Id="filED17B529EEC63D171520679A93137432" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\sr\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp784526B0BC21906AF5D42FFDE7DE5CF1" Directory="dir01051F36511FF6457A7E91DEA611C115" Guid="{BE61FEA1-080A-478F-A40A-5727F2ACEF48}">
+                <File Id="fil0C4B2E3AF35004CC888717A7E459F8BE" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\sv\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpACF0DF8835072CE34787374FE9AA4E5C" Directory="dirC79644BAA7538670E7B01F54A2EA5B0B" Guid="{A31EC6F6-35DD-4765-B6F7-F607B5CB0C98}">
+                <File Id="fil09C7425DD78F951186FBD156101FD8F5" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\tr\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmp55063D411516407258A974E2E12C69FB" Directory="dirBE7682D06EB5731F84EBC027278646B6" Guid="{E6B69E1E-1F88-4778-9607-7F61B7B8FBC5}">
+                <File Id="fil7BA745F4A883028106D407B3E01C8120" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\uk\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpC1DD0832452AF8F28C8F197AF3AFEDB0" Directory="dir479C9C06FE5B9BF7B27EA88080AE0107" Guid="{D0FEFFD7-C552-43FC-B668-1B5F6F2B4588}">
+                <File Id="filBBB40074F317745ABC5C19DEFCC8C76A" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\vi\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpA40F5AC7C9ADCCD1E53BDCABC9F32C89" Directory="dirA4DD2BE2F116F7FEF0B050EBE06B5E39" Guid="{E92EB79E-5847-4D8D-8DD2-A57B16E83422}">
+                <File Id="fil0EE99B49175688BB7E950E89D9B66659" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\zh_CN\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+            <Component Id="cmpBCA33A08C6F8FEDAF8489B9750E8DBB2" Directory="dir16E565D929CA06314E561C71556D9B54" Guid="{8393ABD1-D6DF-4CC6-851A-75BCFEE96E2A}">
+                <File Id="filD45D7F463E234939212314FA29462F19" KeyPath="yes" Source="$(var.LIBINT3SourceDir)\share\locale\zh_TW\LC_MESSAGES\gettext-runtime.mo" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC512BB175FE498266A2FDDE14FA8362D" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir0340D06814E0B28F719D079AD3C20846" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir1233E7793F4795828C650A105463FBD2" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir1D5CA9BD2172AF423BBF1B5102BC77AB" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir01A98A370943693934F4C8E4B0C3B03D" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97C20E6FA96A590A1A068F3B6B974AC6" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir37C1A5557CF7A404326E18331D5495FC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir87B2FF1A618F100AA559C4EF19D1CD44" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir91D733756F775DC470858885FFC9274E" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC6640917EA7A398C41D0442BF1523280" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir10E73A7304DB418AA310A4C251C09D85" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir489BBF8CB184A28CE709DF4960E26179" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir37D9F795F7392946D890514F57D511B9" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBE7682D06EB5731F84EBC027278646B6" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD0F4CEDC75FC5650194BB63F0DB1ED2B" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir9D46840EEFE8B036D0BA65530289A576" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC3B0F3F69F83DE0D5C1B0B704850816D" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir505CEF1D551F7F0365C8BF94D56B3987" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE105A56FC689B26F8C608830D7368192" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir01051F36511FF6457A7E91DEA611C115" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF2A4051B537349734BBDE0556934CC82" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2C1F30841C61F30CAEAF89E40EA33AB9" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA4DD2BE2F116F7FEF0B050EBE06B5E39" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE66B180A02E0012526A43F07C4C1C768" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC79644BAA7538670E7B01F54A2EA5B0B" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir5B73ECCBEDAB438EAD9B39428F41886B" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBA717F0A4E5467F938C5FC5A987C34FB" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir16E565D929CA06314E561C71556D9B54" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97CF7820A9C046AE2856840E60266CDC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir39AD3DE871D829891DB41ED7A6A52608" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir479C9C06FE5B9BF7B27EA88080AE0107" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir722CD03585D95B083DF6C2148B0016BB" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirDD6EA11C6C017E5886419896AE6865C9" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir5873A49010187E40ED5C4EB76542DECC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC8B3A91C3BAD538947989AE73C4A542D" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir8DA4E64336044BE23BCC2FE92F6E84BB" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEA3C2E9C2358194303C828C2020F22DC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir0380A879256E486543A2D2A089CB1AC0" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir38E9A6B8FD5135336D6AC7846D9794FB" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir621DED391BD208ACE5A9ED7B7C216687" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEFCF317BC010FD21EF7152BEACE6E18C" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2051DB91E006B364919EAA7A7BB06455" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFE2926035D988F515E2855983A157AC1">
+            <Directory Id="dir2051DB91E006B364919EAA7A7BB06455" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirAFA2C344C072C6B87D888076B4F5F6A7">
+            <Directory Id="dir37C1A5557CF7A404326E18331D5495FC" Name="aclocal" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC6640917EA7A398C41D0442BF1523280">
+            <Directory Id="dir38E9A6B8FD5135336D6AC7846D9794FB" Name="libintl-0.14.4-src" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dir4825E5A23AE26363C24B5035A27DB62E" Name="en@quot" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dir6AED677258D4FA2E1833B4B3EDC2A137" Name="nn" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir4825E5A23AE26363C24B5035A27DB62E">
+            <Directory Id="dir97C20E6FA96A590A1A068F3B6B974AC6" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6AED677258D4FA2E1833B4B3EDC2A137">
+            <Directory Id="dirC512BB175FE498266A2FDDE14FA8362D" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF4143454044B2E08BC1D4F015B680DCE">
+            <Directory Id="dirC6640917EA7A398C41D0442BF1523280" Name="0.14.4" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir40754702BA83ED87F12D961C52E167A8">
+            <Directory Id="dirF4143454044B2E08BC1D4F015B680DCE" Name="libintl" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dirFE2926035D988F515E2855983A157AC1" Name="en@boldquot" />
+        </DirectoryRef>
+    </Fragment>
+</Include>

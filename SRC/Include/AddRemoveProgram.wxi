@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <Property Id="ARPCOMMENTS" Value="$(var.ProductName) installs everything you need to get you started to use Drush on Windows OS." />
+  <Property Id="ARPCONTACT" Value="$(var.Manufacturer)" />
+  <Property Id="ARPPRODUCTICON" Value="Drush.ico" />
+  <Property Id="ARPHELPLINK" Value="www.wearepropeople.com" />
+  <!--
+  <Property Id="ARPREADME" Value="Your README link" />
+  <Property Id="ARPURLINFOABOUT" Value="Your &apos;About&apos; information" />
+  <Property Id="ARPURLUPDATEINFO" Value="Your &apos;Update&apos; URL" />
+  <Property Id="ARPHELPTELEPHONE" Value="" />
+  <Property Id="ARPAUTHORIZEDCDFPREFIX" Value="URL of the update channel for the application" />
+  <Property Id="ARPSIZE" Value="3" />
+  -->
+
+  <!--
+  <Property Id="ARPNOMODIFY" Value="0" />
+  <Property Id="ARPNOREPAIR" Value="0" />
+  <Property Id="ARPNOREMOVE" Value="0" />
+  <Property Id="ARPSYSTEMCOMPONENT" Value="0" />
+  --> 
+
+  <!-- Set up ARPINSTALLLOCATION property -->
+  <CustomAction Id="SetARPINSTALLLOCATION" Property="ARPINSTALLLOCATION" Value="[INSTALLLOCATION]" />
+
+  <!-- Sequences -->
+  <InstallExecuteSequence>
+    <Custom Action="SetARPINSTALLLOCATION" After="InstallValidate"></Custom>
+  </InstallExecuteSequence>
+</Include>

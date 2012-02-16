@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>SECHAW - A Secure Channel Wrapper</title>
+<link rev="made" href="mailto:" />
+</head>
+
+<body style="background-color: white">
+
+<p><a name="__index__"></a></p>
+<!-- INDEX BEGIN -->
+
+<ul>
+
+	<li><a href="#name">NAME</a></li>
+	<li><a href="#synopsis">SYNOPSIS</a></li>
+	<li><a href="#description">DESCRIPTION</a></li>
+	<li><a href="#options">OPTIONS</a></li>
+	<li><a href="#environment_variables">ENVIRONMENT VARIABLES</a></li>
+	<li><a href="#return_value">RETURN VALUE</a></li>
+	<li><a href="#version">VERSION</a></li>
+</ul>
+<!-- INDEX END -->
+
+<hr />
+<p>
+</p>
+<h1><a name="name">NAME</a></h1>
+<p>sechaw - Secure channel wrapper</p>
+<p>
+</p>
+<hr />
+<h1><a name="synopsis">SYNOPSIS</a></h1>
+<p>sechaw [options]</p>
+<pre>
+        Options:</pre>
+<pre>
+        -ty, --type &lt;channel type&gt;
+        -c, --command &lt;command to run via secure channel&gt;
+        -tu, --tunnel &lt;command to establish secure channel&gt;
+        -l, --localport &lt;local port&gt;
+        -r, --remoteport &lt;remote port&gt;
+        --host &lt;remote host&gt;
+        -i, --identity &lt;private key file&gt;
+        -u, --user &lt;remote user&gt;
+        -d, --delay &lt;seconds&gt;
+        -v, --verbose
+        --help</pre>
+<p>
+</p>
+<hr />
+<h1><a name="description">DESCRIPTION</a></h1>
+<p><strong>sechaw</strong> can be used to establish a connection between a client and a server via a secure channel (port forwarding).</p>
+<p>
+</p>
+<hr />
+<h1><a name="options">OPTIONS</a></h1>
+<p>Use quotes for values containing spaces.</p>
+<dl>
+<dt><strong><a name="item__2d_2dtype"><strong>--type</strong></a></strong><br />
+</dt>
+<dd>
+Secure channel type. This version supports <strong>ssh</strong> and <strong>plink</strong>.
+</dd>
+<p></p>
+<dt><strong><a name="item__2d_2dcommand"><strong>--command</strong></a></strong><br />
+</dt>
+<dd>
+Command-to-run on the client. This command must use localport on local machine to initiate secure channel.
+Use backslash for quotes (\``).
+</dd>
+<p></p>
+<dt><strong><a name="item__2d_2dtunnel"><strong>--tunnel</strong></a></strong><br />
+</dt>
+<dd>
+Command to establish secure channel.
+</dd>
+<p></p>
+<dt><strong><a name="item__2d_2dlocalport"><strong>--localport</strong></a></strong><br />
+</dt>
+<dd>
+Local port where secure communication will be initiated from. Default is 8730.
+</dd>
+<p></p>
+<dt><strong><a name="item__2d_2dhost"><strong>--host</strong></a></strong><br />
+</dt>
+<dd>
+Remote host name.
+</dd>
+<p></p>
+<dt><strong><a name="item__2d_2dremoteport"><strong>--remoteport</strong></a></strong><br />
+</dt>
+<dd>
+remote port where secure communication will be forwarded to. Default is 873 (rsync).
+</dd>
+<p></p>
+<dt><strong><a name="item__2d_2duser"><strong>--user</strong></a></strong><br />
+</dt>
+<dd>
+User name on remote host.
+</dd>
+<p></p>
+<dt><strong><a name="item__2d_2didentity"><strong>--identity</strong></a></strong><br />
+</dt>
+<dd>
+Private key file for ssh public key authentication.
+</dd>
+<p></p>
+<dt><strong><a name="item__2d_2ddelay"><strong>--delay</strong></a></strong><br />
+</dt>
+<dd>
+Delay inititation of tunneled command. Might be useful in firewalled environments.
+Default is 5 seconds.
+</dd>
+<p></p>
+<dt><strong><a name="item__2d_2dverbose"><strong>--verbose</strong></a></strong><br />
+</dt>
+<dd>
+Displays more information during operation.
+</dd>
+<p></p>
+<dt><strong><a name="item__2dhelp"><strong>-help</strong></a></strong><br />
+</dt>
+<dd>
+Shows this message.
+</dd>
+<p></p></dl>
+<p>
+</p>
+<hr />
+<h1><a name="environment_variables">ENVIRONMENT VARIABLES</a></h1>
+<p><strong>sechaw</strong> can also use environment variables to set its parameters:</p>
+<dl>
+<dt><strong><a name="item_sechaw_user_for_user_name">SECHAW_USER for user name</a></strong><br />
+</dt>
+<dt><strong><a name="item_sechaw_type_for_tunnell_type">SECHAW_TYPE for tunnell type</a></strong><br />
+</dt>
+<dt><strong><a name="item_sechaw_cmd_for_command_to_run">SECHAW_CMD for command to run</a></strong><br />
+</dt>
+<dt><strong><a name="item_sechaw_tunnel_for_secure_channel_command">SECHAW_TUNNEL for secure channel command</a></strong><br />
+</dt>
+<dt><strong><a name="item_sechaw_localport_for_local_port">SECHAW_LOCALPORT for local port</a></strong><br />
+</dt>
+<dt><strong><a name="item_sechaw_server_for_remote_server">SECHAW_SERVER for remote server</a></strong><br />
+</dt>
+<dt><strong><a name="item_sechaw_serverport_for_remote_port">SECHAW_SERVERPORT for remote port</a></strong><br />
+</dt>
+<dt><strong><a name="item_sechaw_identity_for_private_key">SECHAW_IDENTITY for private key</a></strong><br />
+</dt>
+</dl>
+<p>Command line options override values from environment variables.</p>
+<p>
+</p>
+<hr />
+<h1><a name="return_value">RETURN VALUE</a></h1>
+<p>Sechaw returns the exit value from the command executed within the secure channel.</p>
+<p>
+</p>
+<hr />
+<h1><a name="version">VERSION</a></h1>
+<p>Version 1.4, July 2006, ITeF!x Consulting, <a href="http://itefix.no">http://itefix.no</a></p>
+
+</body>
+
+</html>

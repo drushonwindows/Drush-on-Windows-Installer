@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+    <Fragment>
+        <ComponentGroup Id="CG_PCRE">
+            <Component Id="cmp8698CA912E4EA64585730B047870602B" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{D8686F61-39A0-4897-8885-D977A7CD1AA9}">
+                <File Id="filFA31C27F4C556C9D066A64CD4DE1A3EC" KeyPath="yes" Source="$(var.PCRESourceDir)\bin\pcre-config" />
+            </Component>
+            <Component Id="cmp9A97BFCD1AB70BABB09EF5BE1F636728" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{2934EBBF-B448-4972-90BE-D1D554F26D44}">
+                <File Id="filAE2FD2EFDF868E9D3E5970190885ECB4" KeyPath="yes" Source="$(var.PCRESourceDir)\bin\pcre3.dll" />
+            </Component>
+            <Component Id="cmp226B89375DB20E6D6656ED00B88547CA" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{4BCC12BC-69DA-49BC-9175-93B203CA72FA}">
+                <File Id="fil1E09418AC1ACB36440B6218E4CC0344A" KeyPath="yes" Source="$(var.PCRESourceDir)\bin\pcregrep.exe" />
+            </Component>
+            <Component Id="cmp4EB4E276FF093BC62AB09227455F421C" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{C3E23D13-7B49-4D75-ABB9-7E8629DAC332}">
+                <File Id="fil9DC786F80AADF3380842438BC04B1B53" KeyPath="yes" Source="$(var.PCRESourceDir)\bin\pcreposix3.dll" />
+            </Component>
+            <Component Id="cmp947F89D492C4D8F2E88B155411A69FE9" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{8B3F391B-A168-495C-86F7-668A1CF851D6}">
+                <File Id="filFF693FE0A6D7C1BDB142749BA64F7E40" KeyPath="yes" Source="$(var.PCRESourceDir)\bin\pcretest.exe" />
+            </Component>
+            <Component Id="cmp59EF410CE60109E7FDAE99F34C00251A" Directory="dir55FF12E8CF7E5BF18B8E46E7145E41E1" Guid="{BB50A227-7896-49E8-B9C4-873DF92A47DB}">
+                <File Id="fil3936197D4E1EB5B4825993DB5963EDFE" KeyPath="yes" Source="$(var.PCRESourceDir)\contrib\pcre\7.0\pcre-7.0-GnuWin32.README" />
+            </Component>
+            <Component Id="cmp36ABAF12D0C140E6CA0B6B8882D6BBC1" Directory="dir77E4861CA1D7EFFAB937A5862B1D2AE3" Guid="{3AEEF1D8-111B-4DC3-AD17-8FC482621E28}">
+                <File Id="fil770B176531C8D16DA29B3D98FB36FE1F" KeyPath="yes" Source="$(var.PCRESourceDir)\contrib\pcre\7.0\pcre-7.0\check.log" />
+            </Component>
+            <Component Id="cmp55DE889710972F8B92B9B6A0CF6532EC" Directory="dir6959EBF4E974A4BC589EEBFD0FE41624" Guid="{FA6ACFDF-8B98-48CF-8EE9-AF823B2F2DC4}">
+                <File Id="fil265F188D1588FE88B434A3566224205B" KeyPath="yes" Source="$(var.PCRESourceDir)\contrib\pcre\7.0\pcre-7.0-src\AUTHORS" />
+            </Component>
+            <Component Id="cmp7812E264E6657EE0080C94298448A96F" Directory="dir6959EBF4E974A4BC589EEBFD0FE41624" Guid="{3A93EFBC-9EF4-444B-B7ED-D53FC43B4203}">
+                <File Id="fil94404E8A78FEC19876DB4098C800EBDD" KeyPath="yes" Source="$(var.PCRESourceDir)\contrib\pcre\7.0\pcre-7.0-src\ChangeLog" />
+            </Component>
+            <Component Id="cmpD3BFC5709FA69C9413155EF63C1EADE6" Directory="dir6959EBF4E974A4BC589EEBFD0FE41624" Guid="{BE189711-7689-4D5A-9E0F-55E338FC9109}">
+                <File Id="filD7545864C822B79EDAF78CCE414634AC" KeyPath="yes" Source="$(var.PCRESourceDir)\contrib\pcre\7.0\pcre-7.0-src\COPYING" />
+            </Component>
+            <Component Id="cmp4803259BDD38D57E8A4E69F63FA4B13F" Directory="dir6959EBF4E974A4BC589EEBFD0FE41624" Guid="{E794D34C-2F59-4FA1-AB0D-F9B7717DABBD}">
+                <File Id="filA524E34CCAF1763C3C1DA8A8442ABEAB" KeyPath="yes" Source="$(var.PCRESourceDir)\contrib\pcre\7.0\pcre-7.0-src\INSTALL" />
+            </Component>
+            <Component Id="cmpE8595FD5083A2633C2E7072A120AC53D" Directory="dir6959EBF4E974A4BC589EEBFD0FE41624" Guid="{52D74D5D-1C99-42F3-A3A7-6B9BEB770382}">
+                <File Id="filB860D2035D8B77D4915992275555A12F" KeyPath="yes" Source="$(var.PCRESourceDir)\contrib\pcre\7.0\pcre-7.0-src\LICENCE" />
+            </Component>
+            <Component Id="cmp17E04E21880CAB0A344FA3E5FA1D0338" Directory="dir6959EBF4E974A4BC589EEBFD0FE41624" Guid="{82FD90F8-1266-4365-ABEA-B2ECE79F640D}">
+                <File Id="filC7E2ED5D84B2DB55AB345D4C93BEEAE2" KeyPath="yes" Source="$(var.PCRESourceDir)\contrib\pcre\7.0\pcre-7.0-src\NEWS" />
+            </Component>
+            <Component Id="cmp8E60958CE7C48D9E43A4AD0D8ED81483" Directory="dir6959EBF4E974A4BC589EEBFD0FE41624" Guid="{78BDB12E-9CB9-4898-B36D-E1FED0C67F93}">
+                <File Id="filBEC2E1E4AFB86D501016A669D91F14BB" KeyPath="yes" Source="$(var.PCRESourceDir)\contrib\pcre\7.0\pcre-7.0-src\README" />
+            </Component>
+            <Component Id="cmpAFB256DDF3840B8E2BAAC44CEFD35E4F" Directory="dir91B52B7E331CED4D6712F2A0B976D226" Guid="{A540F492-A6E5-49F8-9B7D-6D05D4EE9D07}">
+                <File Id="fil8E7303169BE864AD20A2CBCBFFAF7701" KeyPath="yes" Source="$(var.PCRESourceDir)\lib\pkgconfig\libpcre.pc" />
+            </Component>
+            <Component Id="cmp1D364B34BE2EA81DEEF2011EC79BB106" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{FA040247-F997-47E1-9B28-FFC4C9B57752}">
+                <File Id="filCE251A966834AA3DF68682A058745928" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat1\pcregrep.1.txt" />
+            </Component>
+            <Component Id="cmp2B20D0D272A04A490C27F7151EFAB0C2" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{0DD2875A-5249-4854-8775-0155CA2244EF}">
+                <File Id="filD888FB065B21AAA17C3741850E9FB34F" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat1\pcretest.1.txt" />
+            </Component>
+            <Component Id="cmpCB59A4BEA549A61F7110763C17AB6FC8" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{B6694EB5-6B69-4905-8A0C-1EF53B30A3D0}">
+                <File Id="fil42DF25F05952E3D1187A75D4887EE8C8" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre.3.txt" />
+            </Component>
+            <Component Id="cmpE80B8CDE264CAD50124A6FDA6B75667C" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{C1BB65D2-66D5-497C-8B2C-3F8EF15E9918}">
+                <File Id="fil36A8B6B7F4D420408142217DDC939912" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcreapi.3.txt" />
+            </Component>
+            <Component Id="cmp91759CA125922944C9183BD6231F3496" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{5C9768E1-7E12-415F-9E15-F8A05463E5F5}">
+                <File Id="fil339065723D74F7EA14820A0F5A30C452" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcrebuild.3.txt" />
+            </Component>
+            <Component Id="cmpCD4A402992CA27A5D83E51BAA7D6D3C8" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{CE25B697-987D-4563-8C96-9124BE5712DF}">
+                <File Id="fil84FE218E45906614480331859DF70561" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcrecallout.3.txt" />
+            </Component>
+            <Component Id="cmp236F5B0210E28B7EFEA65958A23A4841" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{1D03A70E-B048-43FE-B5B5-FE9CA43043DD}">
+                <File Id="fil4297A66C95211AA77066ACE3A77C7C11" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcrecompat.3.txt" />
+            </Component>
+            <Component Id="cmp15679789E3C726FEB79D5827038CB89F" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{EB85D279-41D2-49D6-A639-18686DD73B1D}">
+                <File Id="fil1AEAEED3628F25184339896C5CA6AB91" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcrematching.3.txt" />
+            </Component>
+            <Component Id="cmpB86ECD639A462066CEA1CD86A567824C" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{A467A30D-D665-4F8B-BCF7-6EEB253E91FB}">
+                <File Id="filB96C5C942843CD12E9FA0CE5CAE84441" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcrepartial.3.txt" />
+            </Component>
+            <Component Id="cmp3E9490F1CAC4681C0FCB523B4756DA78" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{C0F963F6-6423-4C7F-927A-E74DC61F83AD}">
+                <File Id="filCF0EDAFC930446CB00D27C95110CD60F" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcrepattern.3.txt" />
+            </Component>
+            <Component Id="cmp7B00F9E31B99C079E8E7A96D0271F538" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{209E389F-13DD-4FD2-9126-8107476652A2}">
+                <File Id="fil41E648130934F53CD75C085AD5A6BE68" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcreperform.3.txt" />
+            </Component>
+            <Component Id="cmpF1B8C316A6664A162F1A14F9CEA1BF41" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{51876DC7-479F-45FC-BD05-ED8A6D544251}">
+                <File Id="fil8DB72B46B42ED47328F9002D87EBC8C7" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcreposix.3.txt" />
+            </Component>
+            <Component Id="cmp6B749370C58D315AEFA1C8A1DBD30323" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{81153AF1-2BDF-4AAF-891B-B642B1C4E38F}">
+                <File Id="filCAE3BA15D6A7F8ECE39CD117177A8A6D" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcreprecompile.3.txt" />
+            </Component>
+            <Component Id="cmpC7C73ED19C69D7A96F5668EBAA0DE31A" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{E388EB6B-CB28-4ECC-8760-59242CA9AC19}">
+                <File Id="fil570C14F4B31B1DCFBE9DF98FA5D38FCF" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcresample.3.txt" />
+            </Component>
+            <Component Id="cmp13A4A8332EB5EE94F8C13AA351849138" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{F8BF950B-1554-4785-A219-E274EC5CAEB5}">
+                <File Id="filB6F308E83491F06307EC947478D4E4EA" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcrestack.3.txt" />
+            </Component>
+            <Component Id="cmp23DDEEC96F14906D9417DB5F13C534B8" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{D77A655C-594E-4126-B166-42E93BF0E041}">
+                <File Id="filECE2C9B7F6CEB9AF06EC37745533E99E" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_compile.3.txt" />
+            </Component>
+            <Component Id="cmp69F7B78E070E3923DAB8B8543F71CFB7" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{C10389D9-D435-4857-B693-EC482EC5EF39}">
+                <File Id="filC68CD5A7F80CEEB0C5AAE7E27ED2C095" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_compile2.3.txt" />
+            </Component>
+            <Component Id="cmp942675031261A63E003B2C1611D0FB9E" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{889E6CEC-588F-4FD5-88BA-2BB1500B4A45}">
+                <File Id="fil7A282A06B3D1D1F387F537667F053A62" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_config.3.txt" />
+            </Component>
+            <Component Id="cmp5A699EEF75F3875CD60A9BF5DEE6B624" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{39251FF0-1DD3-452F-8200-A75194380759}">
+                <File Id="fil585CF60E41B988BDAB8855A1F3ACB1CA" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_copy_named_substring.3.txt" />
+            </Component>
+            <Component Id="cmp8358EF1607AFE8D4BEB6E14E0ECF9556" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{3B071A8A-70C4-4B9D-BEF5-3135A7600B3E}">
+                <File Id="fil9EBB5FF550C2449B6A48BB219EC98D4B" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_copy_substring.3.txt" />
+            </Component>
+            <Component Id="cmpE3F5FA9CE1D1A9DD941F687F765B711D" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{2426777C-23C5-4646-B56F-5DEEE65912F6}">
+                <File Id="fil547BF766107DD7F3693CC5AE6924F2CB" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_dfa_exec.3.txt" />
+            </Component>
+            <Component Id="cmp39AA93DF79F73639708077541A399E19" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{8AB360B1-63DE-4D17-BE3B-AC41E6C7F8EC}">
+                <File Id="filB9CBE6B8F3A3E7C194ADA61ECE6F3803" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_exec.3.txt" />
+            </Component>
+            <Component Id="cmp45DBCEB92DF266AB33E372E2882806AA" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{DFEBCA97-504E-467D-B875-B850C35FF594}">
+                <File Id="fil79625A0F52EDF1DC1DA6A8E150691FA1" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_free_substring.3.txt" />
+            </Component>
+            <Component Id="cmp948965ED95FC2C58B64787D0EE96A607" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{69041402-AD3C-4D25-97FD-660630F706F6}">
+                <File Id="filC395957C9AF9A08DBA9C4FA08FFFCFA8" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_free_substring_list.3.txt" />
+            </Component>
+            <Component Id="cmpC027BFBD93EF507E5A047FE8724191D1" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{D5189B98-19CF-42BE-AFB0-D7B4C426A3F4}">
+                <File Id="fil29BEFFC89301DA163EE6A87E1FF36F78" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_fullinfo.3.txt" />
+            </Component>
+            <Component Id="cmpA4DFB30E579428688E7D1DAB43EB7A05" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{8D5D0877-B2A6-44B9-894A-CD5A9B6E7ED1}">
+                <File Id="fil6C8031987642179001E1B044D40AB6A2" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_get_named_substring.3.txt" />
+            </Component>
+            <Component Id="cmp3DD4979713FA1DC2ABA9754EC29855A7" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{5E9B82AE-0BFD-4310-9CDA-ACA11EE7CC36}">
+                <File Id="fil79044D87A2FFAB53CB3E037D952BB192" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_get_stringnumber.3.txt" />
+            </Component>
+            <Component Id="cmp4A07361075D61C0C9CF00C45C7D4060A" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{12A7CAD9-2F7F-4CB3-AA72-495C12859DE9}">
+                <File Id="fil323E895E4079521DB6443B53BD966989" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_get_stringtable_entries.3.txt" />
+            </Component>
+            <Component Id="cmpEBC83E888A18A50D535BDF9AED14A82A" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{668232D3-B344-4644-8B34-CACDE75B1822}">
+                <File Id="filC20C3302C6B166F6166F4A0B9AA33F23" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_get_substring.3.txt" />
+            </Component>
+            <Component Id="cmp5110BE0DB2EB6A0E88822E89B1F2C727" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{4FD4295C-365A-4914-98EB-36E74EBFFF4B}">
+                <File Id="filF5CFD856A6E17A3DF247D318B81E19A7" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_get_substring_list.3.txt" />
+            </Component>
+            <Component Id="cmp656B12B85A6F3604DDB39C97DDECEDC3" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{4E6000BD-9A04-4260-AAD0-2BE1D29CDB3C}">
+                <File Id="fil829D89741D6AE1118D45C16B1CC20DD3" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_info.3.txt" />
+            </Component>
+            <Component Id="cmpB7162C16DED92FA83AFB1EF5765671F6" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{F02612BC-AA11-4543-8C97-CD657DD99B05}">
+                <File Id="fil75039DB228C1D15A3D0533353E0C12D9" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_maketables.3.txt" />
+            </Component>
+            <Component Id="cmp663E8D1BB517F1B3BB7DB585D8E5074E" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{27A4DDB3-6ABA-40BA-9A04-6B8DB5E10725}">
+                <File Id="fil78DC7E156AA6B9E562BB5BCFAD277EAC" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_refcount.3.txt" />
+            </Component>
+            <Component Id="cmp6F1AEF0ABEE3C9FEF97E2EB9A5A6AAC4" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{CB15BC32-3B2C-45CB-9DA2-C53CE5300F7C}">
+                <File Id="filA77B60F71B9C106C9A9E38E90A868A20" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_study.3.txt" />
+            </Component>
+            <Component Id="cmp4FE9A39DD9B10CD8582C9347F779CC0D" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{DFB7989F-4D81-4367-9E10-CB93F5564F4F}">
+                <File Id="filF1456AA6326A1E307C0B8F4F841B08E7" KeyPath="yes" Source="$(var.PCRESourceDir)\man\cat3\pcre_version.3.txt" />
+            </Component>
+            <Component Id="cmpCE8B09504FD465137B7F474528AC01D4" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{43D8ED48-2460-4832-9251-B0D318E4B05D}">
+                <File Id="filC8F3120446D3F9289505A2550D917573" KeyPath="yes" Source="$(var.PCRESourceDir)\manifest\pcre-7.0-bin.mft" />
+            </Component>
+            <Component Id="cmp745BFC61C2772A0772A3F7120E3ED7F4" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{CE83A308-92CB-419B-B61E-46C58BB8A8CB}">
+                <File Id="filBAF5BE35A4E2B97A93CF7BFBCF93BF0F" KeyPath="yes" Source="$(var.PCRESourceDir)\manifest\pcre-7.0-bin.ver" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD93A8F7CA457F79A2D974C8A21750586" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir77E4861CA1D7EFFAB937A5862B1D2AE3" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6959EBF4E974A4BC589EEBFD0FE41624" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir55FF12E8CF7E5BF18B8E46E7145E41E1" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEA3C2E9C2358194303C828C2020F22DC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir91B52B7E331CED4D6712F2A0B976D226" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC319B42821B2BD20AE7AD10238025E25" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir87B2FF1A618F100AA559C4EF19D1CD44" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir77C82A466FFE1DE07D72130FCADFFDDC">
+            <Directory Id="dir55FF12E8CF7E5BF18B8E46E7145E41E1" Name="7.0" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir55FF12E8CF7E5BF18B8E46E7145E41E1">
+            <Directory Id="dir6959EBF4E974A4BC589EEBFD0FE41624" Name="pcre-7.0-src" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir40754702BA83ED87F12D961C52E167A8">
+            <Directory Id="dir77C82A466FFE1DE07D72130FCADFFDDC" Name="pcre" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir55FF12E8CF7E5BF18B8E46E7145E41E1">
+            <Directory Id="dir77E4861CA1D7EFFAB937A5862B1D2AE3" Name="pcre-7.0" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA8C85B29FAA60E5C3196EA15FE9691CD">
+            <Directory Id="dir91B52B7E331CED4D6712F2A0B976D226" Name="pkgconfig" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE1F53FF223FAD700410ADE18A435E668">
+            <Directory Id="dirD93A8F7CA457F79A2D974C8A21750586" Name="cat1" />
+        </DirectoryRef>
+    </Fragment>
+</Include>

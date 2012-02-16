@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+    <Fragment>
+        <DirectoryRef Id="GnuWin32Folder">
+            <Directory Id="dirAFA2C344C072C6B87D888076B4F5F6A7" Name="share" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="CG_LIBCON">
+            <Component Id="cmp2B5AA065AB889A8097246B4908C96379" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{55D59911-B939-4116-8394-5982FE8954A5}">
+                <File Id="filD5BA9974BA751D58CE8E42A548111559" KeyPath="yes" Source="$(var.LIBCONSourceDir)\bin\iconv.exe" />
+            </Component>
+            <Component Id="cmpB196ACCF030C92AA1A207304C8FBC05B" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{95FC0F3D-B0C8-4588-8047-FC4E3ED11613}">
+                <File Id="fil60092030EE9A2D0F09662179B865E91B" KeyPath="yes" Source="$(var.LIBCONSourceDir)\bin\libcharset-1.dll" />
+            </Component>
+            <Component Id="cmp1E29A2FB44DE9D2236D284EC59B2CB18" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{96E951D5-67A5-4E3B-8AED-897CD69197E1}">
+                <File Id="filB9F9F97CBD2499BAE440C87073B7D84D" KeyPath="yes" Source="$(var.LIBCONSourceDir)\bin\libiconv-2.dll" />
+            </Component>
+            <Component Id="cmp97FC7EA1FD10841AD81B7BC9D4D16281" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{0DC5E1F1-6AA7-4644-8146-0187BC2D188C}">
+                <File Id="filBD876926660BC539D28E8255E8651C2D" KeyPath="yes" Source="$(var.LIBCONSourceDir)\bin\table-from.exe" />
+            </Component>
+            <Component Id="cmp4E64F4C020EE5BD48C2F65A4BF2760CE" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{1A443E61-DB94-463C-9883-3F8444D9C331}">
+                <File Id="filF68D1E3253CC9DE9F20CA272A0C01D97" KeyPath="yes" Source="$(var.LIBCONSourceDir)\bin\table-to.exe" />
+            </Component>
+            <Component Id="cmpA545DDB4CFFD0EF47E12FA31D2998843" Directory="dir147ECD8C20F924D663056C32069805F2" Guid="{78C97A17-7C11-472A-8368-D2DBA38ED22B}">
+                <File Id="filC082FDD0123716C30B7925F35EF3D21C" KeyPath="yes" Source="$(var.LIBCONSourceDir)\contrib\libiconv-1.8\ABOUT-NLS" />
+            </Component>
+            <Component Id="cmpC9644819E395062D4D777CAAA3657D84" Directory="dir147ECD8C20F924D663056C32069805F2" Guid="{D177373B-98DF-4C39-9D2B-7B68F10DFE4B}">
+                <File Id="filFF9FE9A3A9E30A9D365F820571929B73" KeyPath="yes" Source="$(var.LIBCONSourceDir)\contrib\libiconv-1.8\AUTHORS" />
+            </Component>
+            <Component Id="cmpD5BD5B3F078EADF6ACABEA8B91DE9B43" Directory="dir147ECD8C20F924D663056C32069805F2" Guid="{285A4334-C8A8-4A20-B539-4C9A3030DB7C}">
+                <File Id="fil3162D33683F824027FC0C099D05DB543" KeyPath="yes" Source="$(var.LIBCONSourceDir)\contrib\libiconv-1.8\CHANGELOG" />
+            </Component>
+            <Component Id="cmp78BDF7FD0DD718B66A03B9D7AB5CD7EA" Directory="dir147ECD8C20F924D663056C32069805F2" Guid="{5F60F422-AA39-4DC0-81A1-178F36A03567}">
+                <File Id="fil569DCDCBE725DDA06D458F2CF499E6A4" KeyPath="yes" Source="$(var.LIBCONSourceDir)\contrib\libiconv-1.8\COPYING.LIB" />
+            </Component>
+            <Component Id="cmpD56E8695701F257996F4E988A0DDBF2D" Directory="dir147ECD8C20F924D663056C32069805F2" Guid="{71134C1C-4CDE-4DE7-A214-01DDEE59B1C4}">
+                <File Id="filEF5B7532BD73A7689A06C5D1A646E0FD" KeyPath="yes" Source="$(var.LIBCONSourceDir)\contrib\libiconv-1.8\DESIGN" />
+            </Component>
+            <Component Id="cmp238C8AC1D2A8615BA4773E3FF1D029B9" Directory="dir147ECD8C20F924D663056C32069805F2" Guid="{9EF62C95-9AA8-4FC8-B7DB-904A721A2737}">
+                <File Id="filD80ADF8C159A2F3632549FEC2312BECD" KeyPath="yes" Source="$(var.LIBCONSourceDir)\contrib\libiconv-1.8\libiconv-1.8-GnuWin32.README" />
+            </Component>
+            <Component Id="cmp327409B88874FCF69DF9454BDE38F55A" Directory="dir147ECD8C20F924D663056C32069805F2" Guid="{33E09C80-CE77-4CF7-8807-DA986039E27F}">
+                <File Id="fil1E5898A2F48FBEDC637FF3A69DB6FB56" KeyPath="yes" Source="$(var.LIBCONSourceDir)\contrib\libiconv-1.8\NEWS" />
+            </Component>
+            <Component Id="cmp6747E91AFBB623A423474F3721E03E81" Directory="dir147ECD8C20F924D663056C32069805F2" Guid="{6A7B78B8-FA76-49D0-B5BD-A9CFAB20E736}">
+                <File Id="fil50F09068960919E1159853AFA470172F" KeyPath="yes" Source="$(var.LIBCONSourceDir)\contrib\libiconv-1.8\NOTES" />
+            </Component>
+            <Component Id="cmpF2EEE62FDDEDB500FFCB05DE574C8E26" Directory="dir147ECD8C20F924D663056C32069805F2" Guid="{01958BBD-8ABE-4511-8DFD-F49073E9ED27}">
+                <File Id="fil0BF15E7B068D34CDF9FA773D5719AFA8" KeyPath="yes" Source="$(var.LIBCONSourceDir)\contrib\libiconv-1.8\PORTS" />
+            </Component>
+            <Component Id="cmp1BE36A1B3746A236F9D78E3548D80727" Directory="dir147ECD8C20F924D663056C32069805F2" Guid="{95F234E7-1941-4A82-90A0-CA395868AB65}">
+                <File Id="fil74FCCBDC5EFCB7E518AD9189B3FA43A6" KeyPath="yes" Source="$(var.LIBCONSourceDir)\contrib\libiconv-1.8\README" />
+            </Component>
+            <Component Id="cmp2C8BBE1929AF0862576853D015806BD4" Directory="dir147ECD8C20F924D663056C32069805F2" Guid="{E4AC0172-2A8D-43AE-9776-BB01BD4DD51C}">
+                <File Id="filE3FB814A631E536F9C58947E9391FE09" KeyPath="yes" Source="$(var.LIBCONSourceDir)\contrib\libiconv-1.8\README.DJGPP" />
+            </Component>
+            <Component Id="cmp89E9D52E4D8BF6999629801DF4ED6270" Directory="dir147ECD8C20F924D663056C32069805F2" Guid="{9D0F52CE-76D6-4E65-8A7A-D38DE76E76E6}">
+                <File Id="fil14D066617944C94E05A309CC52A3CD57" KeyPath="yes" Source="$(var.LIBCONSourceDir)\contrib\libiconv-1.8\README.OS2" />
+            </Component>
+            <Component Id="cmpD3A3800E67B99B3E57983B7A003E8B4F" Directory="dir147ECD8C20F924D663056C32069805F2" Guid="{C4D477B8-6831-46C5-8279-FA052B6DA99A}">
+                <File Id="filBEF736EDB242A69A6407F4BD19842D06" KeyPath="yes" Source="$(var.LIBCONSourceDir)\contrib\libiconv-1.8\README.WOE32" />
+            </Component>
+            <Component Id="cmp4784E988505256404A5C1B8325CE700E" Directory="dir147ECD8C20F924D663056C32069805F2" Guid="{BA6AD70C-BB0C-4590-8A02-68D270AF1202}">
+                <File Id="filA866E282B44270F4CA01A0C427E471CC" KeyPath="yes" Source="$(var.LIBCONSourceDir)\contrib\libiconv-1.8\THANKS" />
+            </Component>
+            <Component Id="cmpD152951B218CD0752A39BDB1E659E2FF" Directory="dir9B72E14C826F3159DD117B81F2446A69" Guid="{F3117336-04F5-485F-A380-E537C53029C2}">
+                <File Id="fil82FEAE9FF9BB27005E059BF3B219468F" KeyPath="yes" Source="$(var.LIBCONSourceDir)\include\iconv.h.static" />
+            </Component>
+            <Component Id="cmp76A52CB78999FC0763070BBC32EAB741" Directory="dir9B72E14C826F3159DD117B81F2446A69" Guid="{B9D3F8E9-A35D-497E-9A28-ADE83290931B}">
+                <File Id="fil929EF7FDA2C308F5BBCF819D6A30F8A3" KeyPath="yes" Source="$(var.LIBCONSourceDir)\include\libcharset.h.static" />
+            </Component>
+            <Component Id="cmp0824155A865DB7C1A5DC340AC2EF8D1A" Directory="dirA8C85B29FAA60E5C3196EA15FE9691CD" Guid="{E7275499-BF40-4893-962B-224C590706DB}">
+                <File Id="filB2A19B3AFC830C917F818476ABFAF243" KeyPath="yes" Source="$(var.LIBCONSourceDir)\lib\libcharset-ltversion" />
+            </Component>
+            <Component Id="cmp6CD7E47FA9149534F7FB637A63F894A5" Directory="dirA8C85B29FAA60E5C3196EA15FE9691CD" Guid="{1FB2300E-7584-47F5-ABB9-4C2796DA6A32}">
+                <File Id="filD83F700324241C0067E5E6ADEE8B8B67" KeyPath="yes" Source="$(var.LIBCONSourceDir)\lib\libcharset.lai" />
+            </Component>
+            <Component Id="cmp35E7E728005CED3D0C781DB6687BF8FA" Directory="dirA8C85B29FAA60E5C3196EA15FE9691CD" Guid="{451B4F92-7F8A-46CF-A52A-BAF649556AE7}">
+                <File Id="fil299B53552F36AA76B60ADF8C83511AF6" KeyPath="yes" Source="$(var.LIBCONSourceDir)\lib\libiconv-ltversion" />
+            </Component>
+            <Component Id="cmpA59B8DD65C857CE5E80D8924A3E62FC9" Directory="dirA8C85B29FAA60E5C3196EA15FE9691CD" Guid="{1490B0B2-275C-427F-B8D0-C6842EE1B158}">
+                <File Id="fil495609886E8939D84AC1BFA0FD27134F" KeyPath="yes" Source="$(var.LIBCONSourceDir)\lib\libiconv.lai" />
+            </Component>
+            <Component Id="cmp657298EC1CBD726488464AD6CFE49BF9" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{55E7045E-68BD-42DD-AB18-63E7466F3366}">
+                <File Id="fil7C736901C0927B2A90CDD456B517CF6E" KeyPath="yes" Source="$(var.LIBCONSourceDir)\man\cat1\iconv.1.txt" />
+            </Component>
+            <Component Id="cmpD26DF1350B74FD382AB008421C41FF07" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{A842EB2A-8A69-427F-90A1-A699670AEC22}">
+                <File Id="fil38CD48B587C7C099B96020FF7A8E231D" KeyPath="yes" Source="$(var.LIBCONSourceDir)\man\cat3\iconv.3.txt" />
+            </Component>
+            <Component Id="cmpCCD1670567C121EC8AFF25F994EAC1B7" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{FF651062-DCFB-4313-B08F-B3FC8079EE38}">
+                <File Id="fil8D012CC96C264EF38C9209252BD71A88" KeyPath="yes" Source="$(var.LIBCONSourceDir)\man\cat3\iconv_close.3.txt" />
+            </Component>
+            <Component Id="cmpD597C88E3B2F162CA9D01324E3671C02" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{7E3D92AB-DA44-4429-9898-631B74D6B21B}">
+                <File Id="filC826B69DF1FF4E4CA9471DAF8C75FC53" KeyPath="yes" Source="$(var.LIBCONSourceDir)\man\cat3\iconv_open.3.txt" />
+            </Component>
+            <Component Id="cmpE1B6BC29CA6A116EF56F01F1E0D2C31C" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{A6815250-DFD7-4846-B5EB-B3A58A3ED9C2}">
+                <File Id="fil963E977A803BC61162C517E6F4CC4BBB" KeyPath="yes" Source="$(var.LIBCONSourceDir)\manifest\libiconv-1.8-1-bin.mft" />
+            </Component>
+            <Component Id="cmpA758BDC51D73BA12CAF928FA7F1226AF" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{750E0EEB-487F-4465-BF8E-8A80FD7CB94D}">
+                <File Id="fil8C5024DA7DA732D436D515A57221E5B2" KeyPath="yes" Source="$(var.LIBCONSourceDir)\manifest\libiconv-1.8-1-bin.ver" />
+            </Component>
+            <Component Id="cmp17E7A2AECC768C9BD33C8402C8458D56" Directory="dirDD6EA11C6C017E5886419896AE6865C9" Guid="{C7F2294C-74EE-458F-A5F0-576E6917CD9F}">
+                <File Id="filE7272A0A7CF22ED653AD98B556261D33" KeyPath="yes" Source="$(var.LIBCONSourceDir)\share\locale\de\LC_MESSAGES\libiconv.mo" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA8C85B29FAA60E5C3196EA15FE9691CD" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirDD6EA11C6C017E5886419896AE6865C9" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEA3C2E9C2358194303C828C2020F22DC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD93A8F7CA457F79A2D974C8A21750586" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir147ECD8C20F924D663056C32069805F2" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir9B72E14C826F3159DD117B81F2446A69" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC319B42821B2BD20AE7AD10238025E25" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir87B2FF1A618F100AA559C4EF19D1CD44" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir40754702BA83ED87F12D961C52E167A8">
+            <Directory Id="dir147ECD8C20F924D663056C32069805F2" Name="libiconv-1.8" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirAFA2C344C072C6B87D888076B4F5F6A7">
+            <Directory Id="dir335C14D7DCB07921AB566259FAE20D1B" Name="locale" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF6D0EFEA4EAA58739A62557CC4CF4B74">
+            <Directory Id="dirDD6EA11C6C017E5886419896AE6865C9" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dirF6D0EFEA4EAA58739A62557CC4CF4B74" Name="de" />
+        </DirectoryRef>
+    </Fragment>
+</Include>

@@ -1,0 +1,32 @@
+* LibIntl-0.11.5 for Windows *
+==============================
+
+What is it?
+-----------
+LibIntl: library for native language support
+
+Description
+-----------
+Libintl is a library that provides native language support to programs.
+It is part of Gettext.
+	 
+Homepage
+--------
+http://www.gnu.org/software/gettext/gettext.html
+	 
+System
+------
+- Windows 95 / 98 / ME / NT / 2000 / XP with msvcrt.dll
+- if msvcrt.dll is not in your Windows/System folder, get it
+  by installing Internet Explorer 4.0 or higher
+- libiconv <http://gnuwin32.sourceforge.net/packages/libiconv.htm> 
+
+Notes
+-----
+- Bugs and questions on this MS Windows port: gnuwin32@users.sourceforge.net
+
+Package Availability
+--------------------
+- in: http://sourceforge.net/project/showfiles.php?group_id=23617
+- as: libintl-0.11.5bin.zip
+

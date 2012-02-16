@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <Fragment>
+    <DirectoryRef Id="PhpFolder">
+      <Directory Id="dirACBCCA8A3E2A7737C59EF1D10873F31C" Name="dev" />
+      <Directory Id="dirC60D9452F514141FA9623732A887E09A" Name="ext" />
+      <Directory Id="dir99D67A5585DC8933F6995D6FA46EE844" Name="extras" />
+      <Directory Id="dir15F5ABC118367BA21E4E19C55B47364C" Name="PEAR" />
+    </DirectoryRef>
+  </Fragment>
+  <Fragment>
+    <ComponentGroup Id="CG_PHP">
+      <Component Id="cmpCFF51580AE1046733296F71A8D79437D" Directory="PhpFolder" Guid="{9273023F-EFD6-4998-8EA6-5F34FDB71158}">
+        <File Id="fil9ACC607C7DBD4A90B050C59EC2AE7FBB" KeyPath="yes" Source="$(var.PhpSourceDir)\glib-2.dll" />
+      </Component>
+      <Component Id="cmp51A6ED48E459B258F77040014351E932" Directory="PhpFolder" Guid="{D18250A0-E606-4CE1-B30F-88E9FCDCC493}">
+        <File Id="filF91D47FF770DFF57C2B442A0618933D7" KeyPath="yes" Source="$(var.PhpSourceDir)\gmodule-2.dll" />
+      </Component>
+      <Component Id="cmp6C60CE227F3B6F963ECBD3C832C697E3" Directory="PhpFolder" Guid="{BE9005E7-DB34-49F5-B53A-685AE20EB7E4}">
+        <File Id="fil8886C1F519813C8464E06228275427E7" KeyPath="yes" Source="$(var.PhpSourceDir)\go-pear.bat" />
+      </Component>
+      <Component Id="cmp8511D45B039127D6E9BA420F3EB4527A" Directory="PhpFolder" Guid="{D061447E-760E-4104-8C11-6701C90A9EE6}">
+        <File Id="fil61A8404B9D382D4C0E905524D8AA72B7" KeyPath="yes" Source="$(var.PhpSourceDir)\icudt38.dll" />
+      </Component>
+      <Component Id="cmpC482C4F323A9D48DCAD228333198E3CD" Directory="PhpFolder" Guid="{D5EAAC4C-5554-4665-A51C-B07CD2A1E28C}">
+        <File Id="filEE346296F0C7619437489563582E1949" KeyPath="yes" Source="$(var.PhpSourceDir)\icuin38.dll" />
+      </Component>
+      <Component Id="cmp224261E199D82141761748F0B2070AE1" Directory="PhpFolder" Guid="{002473E7-C6B5-4106-8DB8-E4FB9A38C9C2}">
+        <File Id="filCA843114F9D40E8FDF172E358A9B0A01" KeyPath="yes" Source="$(var.PhpSourceDir)\icuio38.dll" />
+      </Component>
+      <Component Id="cmp166077A600F988E80BF209DA4C967ED0" Directory="PhpFolder" Guid="{4D2DB10D-9E64-45A8-848D-F354C52169A4}">
+        <File Id="fil4D48FE7406F7BA5BBBCA7725F5437170" KeyPath="yes" Source="$(var.PhpSourceDir)\icule38.dll" />
+      </Component>
+      <Component Id="cmp753B0BBA3E053A99C082A8A3E9EA84EC" Directory="PhpFolder" Guid="{DFEA2F6C-E65E-41D9-A8B0-6763565AA1EB}">
+        <File Id="fil559A32E34A3B5516D76AECBF254AB19B" KeyPath="yes" Source="$(var.PhpSourceDir)\iculx38.dll" />
+      </Component>
+      <Component Id="cmpE56B96358CEE12171E7E5446ACCDF68F" Directory="PhpFolder" Guid="{71FAA119-DDEE-46F5-82A5-3A818698662B}">
+        <File Id="fil7B45F7A191B41E8D1F70A81770BE1DF3" KeyPath="yes" Source="$(var.PhpSourceDir)\icutest.dll" />
+      </Component>
+      <Component Id="cmpF5C14AEBCE40B04D505700F49323F38D" Directory="PhpFolder" Guid="{A1565C44-991F-4118-8022-DD109D1BF23D}">
+        <File Id="fil410F6E5FC693A6F6A4B098B699E76B58" KeyPath="yes" Source="$(var.PhpSourceDir)\icutu38.dll" />
+      </Component>
+      <Component Id="cmp152C9A2E05D98B3F07219E4B68593349" Directory="PhpFolder" Guid="{EB2A6E6E-3838-40F0-9058-FB127673F035}">
+        <File Id="filA7825DDD842683987D610944E7DC4906" KeyPath="yes" Source="$(var.PhpSourceDir)\icuuc38.dll" />
+      </Component>
+      <Component Id="cmp58718E407C53D5404FC338CD4BC96E64" Directory="PhpFolder" Guid="{0CC7364B-4855-40A2-8E9F-6DC7A7DBBE81}">
+        <File Id="filCE782CE76FEFEED2224D7FC6EACAE130" KeyPath="yes" Source="$(var.PhpSourceDir)\install.txt" />
+      </Component>
+      <Component Id="cmp5F7011486808141687732787C208DA93" Directory="PhpFolder" Guid="{3CC706DB-FE0F-470B-BEFC-51E292856440}">
+        <File Id="fil704F5DC779ACCF1FEFD1A602EB249B35" KeyPath="yes" Source="$(var.PhpSourceDir)\libeay32.dll" />
+      </Component>
+      <Component Id="cmp6BBFEFB72DFB6C662C3A0F5A3BCA6762" Directory="PhpFolder" Guid="{5390EA6D-8302-405D-91D6-EDF0A231C389}">
+        <File Id="fil5C945732E6EC7604A1D64A4D2C6DEDB1" KeyPath="yes" Source="$(var.PhpSourceDir)\libenchant.dll" />
+      </Component>
+      <Component Id="cmpFC152D12DA0961EDB1B0BE18D21C9A7C" Directory="PhpFolder" Guid="{DB69523C-DECC-49EC-A5BE-8D02769A1A7A}">
+        <File Id="fil5173953D45B64F658FB9F6E681FCC834" KeyPath="yes" Source="$(var.PhpSourceDir)\libenchant_ispell.dll" />
+      </Component>
+      <Component Id="cmp7480FA5E0318E61E99E4BF997544C59A" Directory="PhpFolder" Guid="{B866E67F-5667-47C5-8C3A-DDB40DB95E6B}">
+        <File Id="fil0568778B3DF866BA52B79C539F04D8E1" KeyPath="yes" Source="$(var.PhpSourceDir)\libenchant_myspell.dll" />
+      </Component>
+      <Component Id="cmpC73E35CB64D64D774415530F0F488A74" Directory="PhpFolder" Guid="{1C3C2B3B-92FE-4651-8574-C955B8A3BF44}">
+        <File Id="fil4CAB810778AB88CEE6662F52AA484A7B" KeyPath="yes" Source="$(var.PhpSourceDir)\libpq.dll" />
+      </Component>
+      <Component Id="cmpCD773EE5928DCA61B350CF8C8AFFAFA0" Directory="PhpFolder" Guid="{03A74206-D6C6-45F9-A502-6418072498DB}">
+        <File Id="fil62A60F3ABC2ED1917D176485E20A09BE" KeyPath="yes" Source="$(var.PhpSourceDir)\libsasl.dll" />
+      </Component>
+      <Component Id="cmp981400A93991F246164158ED8E6D0A99" Directory="PhpFolder" Guid="{F8CE59C3-51D1-4E96-8B96-05B1ABBC919C}">
+        <File Id="fil86270AD9C8FECD8B1C147FACCD5FF012" KeyPath="yes" Source="$(var.PhpSourceDir)\license.txt" />
+      </Component>
+      <Component Id="cmp4342F65F76BF86719C58B3CF54F1DD64" Directory="PhpFolder" Guid="{DB93454A-46D4-4755-8478-00E3C5519119}">
+        <File Id="filF11CF5C400FF6B2BAB5FC5D06E9AB3E8" KeyPath="yes" Source="$(var.PhpSourceDir)\news.txt" />
+      </Component>
+      <Component Id="cmpBEE33E29D38F0BE960D38F45F8EC62B6" Directory="PhpFolder" Guid="{7EB5C16F-A9DA-4965-B5FB-6D03E788E150}">
+        <File Id="fil167DE630BCBA052CBC598CE1C25F53DE" KeyPath="yes" Source="$(var.PhpSourceDir)\phar.phar.bat" />
+      </Component>
+      <Component Id="cmpB7DD341BC5B723C7A85DF33079003668" Directory="PhpFolder" Guid="{4118A8CD-9496-4248-AF0D-DFB03B79AEAE}">
+        <File Id="fil399B5A92A3FE1941B9B7C7395E6EDF43" KeyPath="yes" Source="$(var.PhpSourceDir)\pharcommand.phar" />
+      </Component>
+      <Component Id="cmp5ADD1F02F6770C92619BAAEBDB85B243" Directory="PhpFolder" Guid="{B7FD1864-6A32-4051-9A08-1EBE41D9A0CC}">
+        <File Id="filCF5AF77B623A69CC07E653C534BCF600" KeyPath="yes" Source="$(var.PhpSourceDir)\php-cgi.exe" />
+      </Component>
+      <Component Id="cmpE8FEFD89099E63DF271C6BA5C42CDF0A" Directory="PhpFolder" Guid="{06A30939-E08F-4E5A-847C-DE15BD05E1E2}">
+        <File Id="fil1EC67BEEB2305CD32F74CC68E521554D" KeyPath="yes" Source="$(var.PhpSourceDir)\php-win.exe" />
+      </Component>
+      <Component Id="cmp20DB38B45EBB41965A47B194A5CF7C67" Directory="PhpFolder" Guid="{E97621A7-E30B-4465-8985-D715DBC2BCD8}">
+        <File Id="filFAE4A98DBB2C500C32A48C55C912EC2C" KeyPath="yes" Source="$(var.PhpSourceDir)\php.exe" />
+      </Component>
+      <Component Id="cmp525F477D67C07E8A72BB985CE80C9DBE" Directory="PhpFolder" Guid="{22A3269D-D246-4461-8A4C-9009614EB018}">
+        <File Id="fil8667A9F7DA832AA4BAF8EB234CC4BBAD" KeyPath="yes" Source="$(var.PhpSourceDir)\php.gif" />
+      </Component>
+      <Component Id="cmp2F31A3795CE5BC1BB6D74B5B679BD68D" Directory="PhpFolder" Guid="{4B37CE29-DBBE-4B54-95F4-766232F6EB40}">
+          <File Id="fil7A254B1D4D0F7C7F413CE980C1248E7C" KeyPath="yes" Source="$(var.PhpSourceDir)\php.ini" />
+      </Component>
+      <Component Id="cmpCF83C1BBB04F3A9172CB9C470D2ED230" Directory="PhpFolder" Guid="{1E6FB7A3-5450-4B95-99C9-696CF37BCFC5}">
+        <File Id="fil8BA40D3E7F6BB09AB9505D7C5D425B3C" KeyPath="yes" Source="$(var.PhpSourceDir)\php.ini-development" />
+      </Component>
+      <Component Id="cmp0FEF77876F2EBE5CCEB0CAECFA56BE09" Directory="PhpFolder" Guid="{0C6012F9-C47A-4BD1-A44B-7B4E58579887}">
+        <File Id="fil3889EF09E691F970DE360377C1E0E132" KeyPath="yes" Source="$(var.PhpSourceDir)\php.ini-production" />
+      </Component>
+      <Component Id="cmp2ED544801D70ED4BDA92237EFDFB78FB" Directory="PhpFolder" Guid="{ECDDFBC7-AD1E-4E9A-B712-08A9CF9DD4A9}">
+        <File Id="filA2CCFDC66F0E583228F44E0EFE7ED139" KeyPath="yes" Source="$(var.PhpSourceDir)\php5.dll" />
+      </Component>
+      <Component Id="cmp6AE2333255BCA69F3C722F4BA3693318" Directory="PhpFolder" Guid="{7491D825-D592-419C-9C31-480D8E7E92E7}">
+        <File Id="fil69DD0ED72E2BD52C5CDA9795F8B3C495" KeyPath="yes" Source="$(var.PhpSourceDir)\php5embed.lib" />
+      </Component>
+      <Component Id="cmp5A9FEA43DB446AFDD63BE4332171752B" Directory="PhpFolder" Guid="{207F41C0-6EE6-4317-8E4F-60C378A62AF5}">
+        <File Id="filF5509EDB9B9CF1D0B8F5A62747A315BE" KeyPath="yes" Source="$(var.PhpSourceDir)\pws-php5cgi.reg" />
+      </Component>
+      <Component Id="cmp3B2CB56E34468EEC12E22B89E95A9051" Directory="PhpFolder" Guid="{80D32A1A-2195-4A36-9DA5-F7D9E0F6E4B5}">
+        <File Id="fil9A3E07588FABEFE2D5B8668F562DD94C" KeyPath="yes" Source="$(var.PhpSourceDir)\pws-php5isapi.reg" />
+      </Component>
+      <Component Id="cmp0DA2A7AD683DBF28B6A744D709955DBA" Directory="PhpFolder" Guid="{322303CF-ECFE-4B31-AA70-915A7ED6E462}">
+        <File Id="filBEC5BF95EF504402C4C7C298DBB71A81" KeyPath="yes" Source="$(var.PhpSourceDir)\readme-redist-bins.txt" />
+      </Component>
+      <Component Id="cmpA00E5118C5EE1A2E81AA578DB941AFCD" Directory="PhpFolder" Guid="{0CB14EEB-A959-4769-9034-419600AFE5F5}">
+        <File Id="fil9CD71D281F4213DB4519A92E8521DDF6" KeyPath="yes" Source="$(var.PhpSourceDir)\snapshot.txt" />
+      </Component>
+      <Component Id="cmpC1EC9B27A94F49DA55521D9DACDE7D40" Directory="PhpFolder" Guid="{8B33B13C-7250-4382-AD69-F25E7E615702}">
+        <File Id="fil9ADA29CCCBBB6CF7FBB51E33D9F426C0" KeyPath="yes" Source="$(var.PhpSourceDir)\ssleay32.dll" />
+      </Component>
+      <Component Id="cmp8BC213B1B4380178B265E6CFF5C52644" Directory="dirACBCCA8A3E2A7737C59EF1D10873F31C" Guid="{BE4F16E4-4E27-443B-9E5A-28C2F73B415D}">
+        <File Id="fil9DD1D73CE3DC43F03F94E8B5A8A0E3DF" KeyPath="yes" Source="$(var.PhpSourceDir)\dev\php5.lib" />
+      </Component>
+      <Component Id="cmp2F8BF480C3C31DB015B7C6136278E8AF" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{B22C7218-102E-4EC2-81F3-67CC72FB0F42}">
+        <File Id="filD61F733D022BAFCB3A53416529CCB29A" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_bz2.dll" />
+      </Component>
+      <Component Id="cmp2827FCABFD2A1328B3667E50C04A9CA5" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{FF0AA336-7FBF-4B41-9BF5-1D527179FA71}">
+        <File Id="fil3ED2FC0F2E4CBCDA86EE82D1EDAF310F" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_curl.dll" />
+      </Component>
+      <Component Id="cmpEF1E4B5F8CC0CC44A1C19AE454B0E37A" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{395607EC-D0FB-41C7-B750-CE266F0BB6F8}">
+        <File Id="fil079917861F36B7E9799614336EDA358B" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_enchant.dll" />
+      </Component>
+      <Component Id="cmp138A75A1F95B536442000CA3814D2EEF" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{258ADDFB-FB4B-4BE2-A8AA-3AAF36584AF7}">
+        <File Id="fil0BF10942DDE823691B853D4A5E9A6262" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_exif.dll" />
+      </Component>
+      <Component Id="cmp7DA4FCFAB2706B3519F4A3EE14B0B29B" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{468EBC1F-D1AE-47F1-9022-2CD0E098E214}">
+        <File Id="fil6153D1D1C40382F981ABCD3E4B6873CC" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_fileinfo.dll" />
+      </Component>
+      <Component Id="cmpBBDCC6136D5C09A8EE577E9DA3C2CCB4" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{F3ADFE34-0FFB-47E8-AD29-E7EDA57EDD4F}">
+        <File Id="fil0843DED7B62ED54989CD772875BFD880" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_gd2.dll" />
+      </Component>
+      <Component Id="cmp1F10EA30226C5B0B8689DF691F94A62A" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{309A53B2-8F3E-41CB-9E36-8DE5C29A6BEF}">
+        <File Id="fil6CF9223BC80A1C9D9B1CDA2FAC288040" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_gettext.dll" />
+      </Component>
+      <Component Id="cmp611885CF813E411C9824078243A20547" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{A60252D6-AF05-4515-8CAA-F6335E991DFF}">
+        <File Id="fil3A797AA4E3CD65393654BEF2A5743FEB" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_gmp.dll" />
+      </Component>
+      <Component Id="cmpA26A5FE7571AA6DC5F78F830E0633087" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{18F8C377-F6C0-41B7-B61B-E4B3987F6598}">
+        <File Id="fil662CC832A91B538B08CA715E30F0269D" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_imap.dll" />
+      </Component>
+      <Component Id="cmpD808D9BFEB26A7D7477A7BE968C0E3B0" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{442FFBAD-6BB2-4BB9-AFAC-F64B771BFE80}">
+        <File Id="fil5FA95FD448B9B6E7E78BC18F397CA824" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_interbase.dll" />
+      </Component>
+      <Component Id="cmp96BDF0E29AE42C57EBE6175F7D0508B6" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{090C72DC-5E06-45F8-965E-12C4BCC48236}">
+        <File Id="fil48FAAFAE79EE930B84645D0EA09995CD" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_intl.dll" />
+      </Component>
+      <Component Id="cmpE36451B18D49326E5897419848DEE5C4" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{1B8C45BA-4A94-47D9-B67C-8CEF0A2C33C6}">
+        <File Id="fil35B192C6B71F65E417791B3FDC63516E" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_ldap.dll" />
+      </Component>
+      <Component Id="cmp8AACEF7BBEA14DAC3BC8EFECD9071CE1" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{93AF8CB5-036E-4474-8FE3-E33B10CB82EC}">
+        <File Id="fil03B637B89A6831C10E3DC8A369502806" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_mbstring.dll" />
+      </Component>
+      <Component Id="cmpDF623C5C5009CDB418AE19785826C061" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{B21C4962-FE11-4358-931F-CC7C1795D543}">
+        <File Id="fil86DC13B5595BFD11FC513E196BBF1FDD" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_mysql.dll" />
+      </Component>
+      <Component Id="cmp2E1BA360A99B696241F597FF63DC0693" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{2E0E5850-500F-42EE-8860-6084CA1CADFA}">
+        <File Id="fil6EF113D121F330A9B21396537B3994FF" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_mysqli.dll" />
+      </Component>
+      <Component Id="cmp6321178FF27A3074BE57C63ECECFD16F" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{65C461DD-F14F-4A05-8E06-BD455CCD980C}">
+        <File Id="fil502E862918D6AD517B4F515231BE61BA" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_oci8.dll" />
+      </Component>
+      <Component Id="cmp25EE0F99ABCD68EE4BA3E7EBB06F9B64" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{E26AAAED-C339-47EC-9EEA-5601CFD1BB1B}">
+        <File Id="fil8230A1AAD69FC642284011125D46D015" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_oci8_11g.dll" />
+      </Component>
+      <Component Id="cmpC2EAB09133CE0A76227DFF4E73A1B98D" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{1913149C-2CA8-4E6E-9DAE-9754AE650F02}">
+        <File Id="filDAE7403896DFD6386734A68F1C69652D" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_openssl.dll" />
+      </Component>
+      <Component Id="cmpAC8C3ADC5F3208A1A06FFE7B3B57A564" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{D78A2AEE-F9F5-4D94-BBC4-A93A69133B7F}">
+        <File Id="fil130ADE7999E01F9688042836070321CC" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_pdo_firebird.dll" />
+      </Component>
+      <Component Id="cmpF74206B7C165DE6FEC11ED34D9C8298F" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{A3FB03BB-95AC-4701-822B-409CE4E077B7}">
+        <File Id="fil9DA3CCE319175C3612332443FAAB8EA1" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_pdo_mysql.dll" />
+      </Component>
+      <Component Id="cmpBE893EB4CA648A421EC120D1D9A6B836" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{07250D46-65FB-453B-B845-671A6C6D74F3}">
+        <File Id="filEEF66CCE1FFD7EFB08F8C3843436A3BB" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_pdo_oci.dll" />
+      </Component>
+      <Component Id="cmpF1661FCF95347A4D7FE8F3198F88FAC0" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{40B80828-4184-4B81-B73E-909575137F94}">
+        <File Id="fil9ED73FFEC6038D9296445249441BEF6A" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_pdo_odbc.dll" />
+      </Component>
+      <Component Id="cmp618DA5BBB4DA6322B3B26FAEEEA1AB12" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{9EB6E0D0-F4B9-48AC-BF09-869B6E9EFB45}">
+        <File Id="fil2418E9004C5B67C53F13D0692132B70D" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_pdo_pgsql.dll" />
+      </Component>
+      <Component Id="cmp8C1E85AD7281A5D9A12EA9645EBF9BC2" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{024B644C-09D3-49F9-B0D7-94401419C462}">
+        <File Id="filFA2937D528FBB8BF31403EB805628BC7" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_pdo_sqlite.dll" />
+      </Component>
+      <Component Id="cmpBFB45FDF59906057942DA5907CD1464A" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{F9903932-390A-4F57-9EC6-910FCD57F48B}">
+        <File Id="fil48F83CE4256985ABFDCAB7A9FCA09297" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_pdo_sqlsrv.dll" />
+      </Component>
+      <Component Id="cmpB2CB95068EF64151EE2D5CB3CB682AA8" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{00A544B8-529D-41F5-9AF6-D823A6DED6FF}">
+        <File Id="fil8228F795870588F15F0E733F73FFF016" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_pgsql.dll" />
+      </Component>
+      <Component Id="cmp8428808360718F15E837CB3095B12C7A" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{CDFA5BC5-F7CF-49D2-9C41-2DBB923256A3}">
+        <File Id="fil7EA99FF3167699C4FB955A1EBB879E8A" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_shmop.dll" />
+      </Component>
+      <Component Id="cmp4228D94DC273E0E8E54278044E087276" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{F1F11127-4AAA-4262-AB9D-220DE68AE77E}">
+        <File Id="fil5878546973DD79156CBA73B1D43F547B" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_snmp.dll" />
+      </Component>
+      <Component Id="cmp089560B615EDF6A5A7010071E99B8171" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{BE2ADA9F-A249-453F-BCF3-5C2F006A3CC9}">
+        <File Id="filA41667968DED6D5989A25F3C7799ACE4" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_soap.dll" />
+      </Component>
+      <Component Id="cmp63F163FF3F298AD4DE79E83151E59BFD" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{947E49A5-DB91-4592-97E4-BA1E05A2A8B7}">
+        <File Id="fil96FBF2146DA735537884A86AE3946CDF" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_sockets.dll" />
+      </Component>
+      <Component Id="cmpD0CAEC83108A68BE08639F424B1CE65F" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{23F5EB00-54CA-4C0A-99E3-47A8B5E9A009}">
+        <File Id="fil0909B1C53393D9C417D23F85AA25EBA8" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_sqlite.dll" />
+      </Component>
+      <Component Id="cmpA51917EF43AC04AE6E7D08498867DB90" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{23CD85E9-5B6B-43D1-B0B2-38A567A24C14}">
+        <File Id="fil735F47B5478BCE784CFF6C9082617D51" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_sqlite3.dll" />
+      </Component>
+      <Component Id="cmp0D147663C311FED16CCEA9A4E8DB7A84" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{DC27373A-9789-4A81-AE5C-0CE772618090}">
+        <File Id="fil74AB23E8D0AFA77419F3F07F3EC45ADF" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_sqlsrv.dll" />
+      </Component>
+      <Component Id="cmpA5256D8A0F693CD8C88DF85AF5DBC526" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{E8FFA3D3-A080-4A26-B845-8642683692A0}">
+        <File Id="fil4B605648C097CA7B26E95366D5CAFAB8" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_sybase_ct.dll" />
+      </Component>
+      <Component Id="cmp56C1F5254F9610FB1B7688BEB80A7C7A" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{D779C7DE-2922-412D-948C-2BF74B60E4E4}">
+        <File Id="fil209B2CAD2F0DD41E4875AD451327379B" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_tidy.dll" />
+      </Component>
+      <Component Id="cmp80AC8CB35FB18466631503871B7713AF" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{7FFEFED5-3176-4DB5-A1D9-B0218C3B57CE}">
+        <File Id="filBF9C7C2B37F829F81DA850167CC2795F" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_xmlrpc.dll" />
+      </Component>
+      <Component Id="cmpFA111FD8B13C13CB57A34C3C32E9C4AA" Directory="dirC60D9452F514141FA9623732A887E09A" Guid="{D233220E-747D-4362-AB03-32606192AB4E}">
+        <File Id="fil464F8E5E74047B21493494DA53FA5DA3" KeyPath="yes" Source="$(var.PhpSourceDir)\ext\php_xsl.dll" />
+      </Component>
+      <Component Id="cmp17605BE0E0CDE05F8F84F73263ED453E" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{EF469847-2626-420F-91A2-924412A8D926}">
+        <File Id="fil1CA51E471734B425AE510CF19CCC9F9D" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\AGENTX-MIB.txt" />
+      </Component>
+      <Component Id="cmpDE4D86D396F1CDB1773D1A9F0D6F4062" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{BC79B637-3D13-498A-92CE-26900C7EE713}">
+        <File Id="filB924AC5610958A01572714871B813067" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\DISMAN-EVENT-MIB.txt" />
+      </Component>
+      <Component Id="cmp076177EE205DF86BEF1BCC55941F5849" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{CF632499-7E7A-4153-B99E-68452F59851F}">
+        <File Id="filC2DAE2CFD2D99BBC588311018A13F1E9" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\DISMAN-EXPRESSION-MIB.txt" />
+      </Component>
+      <Component Id="cmpF9E3CC8808816902A3BB4C20DB9562A9" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{7F242D58-07B4-47B9-A662-4878B3DA360C}">
+        <File Id="filC14232EEA971D695FC00D471CB55F5AE" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\DISMAN-NSLOOKUP-MIB.txt" />
+      </Component>
+      <Component Id="cmpAFC605AB860CB314BCD6B1A7B6FA698C" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{C6796D21-C709-4C56-8C09-54CDFA0B7B90}">
+        <File Id="filB9804ACF82F0764ABF2C7780D01EA08A" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\DISMAN-PING-MIB.txt" />
+      </Component>
+      <Component Id="cmp3D6D5D41BC37CDBBEEAB35AB8C073603" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{82A692BA-E270-46C8-B7FE-40220674886B}">
+        <File Id="filAE95C2977CC6A1633EFDDA31547E95BA" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\DISMAN-SCHEDULE-MIB.txt" />
+      </Component>
+      <Component Id="cmp90D1C0662895A8E181BEBBD4377693E7" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{4BEA0C55-1640-4118-ACD9-65434D0BD13D}">
+        <File Id="fil63F8A96611B8C61C6E43612305D2E5D5" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\DISMAN-SCRIPT-MIB.txt" />
+      </Component>
+      <Component Id="cmpA9C6A80F6B45DCF652D3CF653B5B2C90" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{4B2E4A99-A249-4A0B-AA11-EF34EB2E390C}">
+        <File Id="filFCCA53B51F82E721E71E7F3A2618D67F" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\DISMAN-TRACEROUTE-MIB.txt" />
+      </Component>
+      <Component Id="cmpA17039D260A207F659CA0F74FB188AC4" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{84160B9C-82B2-4D03-9785-D58CEF6E4F60}">
+        <File Id="filE9160E83449982922042CB9A9D7E7442" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\EtherLike-MIB.txt" />
+      </Component>
+      <Component Id="cmp976F9445D1CAD87EC95A25F6F57A3FA6" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{F0519E56-F8F9-4828-8CC8-3B2CF3C491CA}">
+        <File Id="fil63A88891397725FF315924B539A31FB2" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\HCNUM-TC.txt" />
+      </Component>
+      <Component Id="cmpF6F0D2819439AC18614ABD558F5EBF6A" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{D5F00B52-2D5A-4F7F-8FD1-4493799C7DAD}">
+        <File Id="fil92B333560C5A58C955D18ECC3C3556AE" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\HOST-RESOURCES-MIB.txt" />
+      </Component>
+      <Component Id="cmpB9EA4AC042738869CBB78352285CFD83" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{526FA134-54AF-494A-9F6B-C20359A4ADCD}">
+        <File Id="filFEFE3A7FE8B3447A1FAE89FB164AB058" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\HOST-RESOURCES-TYPES.txt" />
+      </Component>
+      <Component Id="cmp712646D36FF7C81467D859478376643A" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{042CD2BF-447D-4DB3-8589-E8DE3DC3001C}">
+        <File Id="fil53B1B0FBDA9BE80AAD352D3A4BF03DD0" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\IANA-ADDRESS-FAMILY-NUMBERS-MIB.txt" />
+      </Component>
+      <Component Id="cmp0775EA43934979560EBCF8045B8B8198" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{4F6F9AFB-577C-4B3D-8F86-8BB16BC3BA54}">
+        <File Id="fil9CB345D6BE9F3EDF9467CC17674DC28B" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\IANA-LANGUAGE-MIB.txt" />
+      </Component>
+      <Component Id="cmp767556B6378728567BD27D683671ED99" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{D0997944-56C8-4D38-BAB4-B103354DF933}">
+        <File Id="fil5320C48B3621E6684FDDC3145A0A623C" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\IANA-RTPROTO-MIB.txt" />
+      </Component>
+      <Component Id="cmpE038ED00EF350C1AEF812DDE7A874E07" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{19961D10-0C49-47A4-A367-DF2724198B81}">
+        <File Id="fil2F90BC97759DBE9D630C00AF1940B5D1" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\IANAifType-MIB.txt" />
+      </Component>
+      <Component Id="cmpB0F67C80BC2AC96337DA50F3AC82B399" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{E08A7094-846E-46C4-BC33-AD6729ED8671}">
+        <File Id="fil6561A982E54995AF36A6628C5F427777" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\ianalist" />
+      </Component>
+      <Component Id="cmpE6D12402B57D662EE530DD4FE36517B1" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{A5B699DE-17CA-4619-BF42-9961302A4680}">
+        <File Id="filA11E34558588B5B30775A5C7848BABDF" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\IF-INVERTED-STACK-MIB.txt" />
+      </Component>
+      <Component Id="cmpED2AE6C9F5B5123A955680D74F75A7F0" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{8FF51A62-2800-4F39-B286-2BE6F03CFA66}">
+        <File Id="fil221D9C988253D450015C32AA8ED2C068" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\IF-MIB.txt" />
+      </Component>
+      <Component Id="cmp3C2DF6D1D608E5842E8863C22E5C8074" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{9AA6AACC-C194-4228-89CC-806BC7711240}">
+        <File Id="filE6AA515A7C380A0FE8A79457E666D86D" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\INET-ADDRESS-MIB.txt" />
+      </Component>
+      <Component Id="cmp564AC334846F81012052703EBA616019" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{9BDBC86F-CEF7-432A-890D-B5157B9815C0}">
+        <File Id="fil3E9F8B9473832A26F01EBE78A4782D8F" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\IP-FORWARD-MIB.txt" />
+      </Component>
+      <Component Id="cmpCDBC8628F2E5B04687F23EA68126AFD1" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{DB680C97-BA39-4F22-9C01-DCFA3855400C}">
+        <File Id="filD48B22D9E07D720C4897C5FDC9E081F8" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\IP-MIB.txt" />
+      </Component>
+      <Component Id="cmp623A21E0A354EAC0BC0B27DCD17E4706" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{F99176A4-19A4-4D95-B37E-BBEC6D789F0F}">
+        <File Id="fil48A53752D9566FA889A79DBBCC3EF877" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\IPV6-FLOW-LABEL-MIB.txt" />
+      </Component>
+      <Component Id="cmpFF8FAD23EF214C6A9CD53E01A6033AEC" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{D22EBC5A-62B4-4715-97D8-4B552B61864E}">
+        <File Id="filB44DB7525AA9A398903F913541F2E10C" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\IPV6-ICMP-MIB.txt" />
+      </Component>
+      <Component Id="cmpC097C40AF885CE486EA45FE3C78C083A" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{5559083B-8A88-4E5A-8B5C-F72AF9065A70}">
+        <File Id="fil18C670B5D5E9ED4DEC8B8AF4AB5A447D" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\IPV6-MIB.txt" />
+      </Component>
+      <Component Id="cmpECA162AEE770F3F9112737AED047C707" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{3C7FF95E-85F9-4DD2-9171-810D0F7C021F}">
+        <File Id="fil15F5C830858901DEDAAC4CEC8112A72E" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\IPV6-TC.txt" />
+      </Component>
+      <Component Id="cmpCFDB87DEA280E06952D3608CF32B4D8A" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{886360A8-C978-4145-8542-35A8B6D2CF6E}">
+        <File Id="fil01ACF0895623635FCC9B5690730C5473" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\IPV6-TCP-MIB.txt" />
+      </Component>
+      <Component Id="cmp853753E0DDB7DB93599B05B59CC31799" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{E9E1E092-0153-40E2-BCA9-DB13C933754A}">
+        <File Id="filD9BEC94DB6FFE18E4000096C0FD647FB" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\IPV6-UDP-MIB.txt" />
+      </Component>
+      <Component Id="cmp891AE094CBD6ECEF55B961644F419B57" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{7329E304-CC30-432B-9207-7FFAAA869434}">
+        <File Id="fil65EDE425218E51E177B52B5882515354" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\LM-SENSORS-MIB.txt" />
+      </Component>
+      <Component Id="cmpFF6EBCC6C3BD1C5F54BFE27AE38EB836" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{FC670975-48FD-4315-8AE7-0660BA6A0236}">
+        <File Id="filE3E3C3C13BAEC5B4EF2DCBF677B7EA66" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\Makefile.in" />
+      </Component>
+      <Component Id="cmp0D8D24479F5BE49C53F4CC71B410328A" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{6EE3ED72-5850-42E3-9F8C-C7FF91AFFA5B}">
+        <File Id="fil30573B659D77F858AFC9009A833F7621" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\Makefile.mib" />
+      </Component>
+      <Component Id="cmp8618FBB27F194C474AA46D25EA804C04" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{B6ECEAF4-6292-44DE-890C-59791D8FE694}">
+        <File Id="filAFFF617E8E759CC71A6B61FDF0B1E479" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\makehtml.pl" />
+      </Component>
+      <Component Id="cmp2A1A8F18BB6551781BB21602F5A72AD9" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{76FC6BFC-BD39-4434-A30E-C9CBEC6359D1}">
+        <File Id="fil3D7243DE11218E7E6B78877677EFBE2F" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\mibfetch" />
+      </Component>
+      <Component Id="cmp7E2A45F50D67AC3D0A193BF2373225B9" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{E37C2ED9-E162-4419-8A09-1D29CCD9A852}">
+        <File Id="filA0543A97681FF39D3FD4149A560C7B31" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\MTA-MIB.txt" />
+      </Component>
+      <Component Id="cmpC7E08B0EAA790ECAA040F24A36A96DFD" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{BC3EFE9D-9BBA-4271-AA89-FC6DF754A2B9}">
+        <File Id="filC70CAC551456098BC61FD6F39CFCF7E0" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\NET-SNMP-AGENT-MIB.txt" />
+      </Component>
+      <Component Id="cmp260B5D426DB1F490C42FEBDEB7D4F276" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{FF956EE3-8320-4874-ABD6-FB604DF081E0}">
+        <File Id="fil3C8E07EBC1E7C4B1218BA217C1C04D78" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\NET-SNMP-EXAMPLES-MIB.txt" />
+      </Component>
+      <Component Id="cmp264AE517B3736427632FDAFBE59DBBC4" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{0BC4BC31-5BDE-46C0-A4AF-20EE8639CB27}">
+        <File Id="fil013689EECA4997ACE5F693AA784EDFE7" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\NET-SNMP-EXTEND-MIB.txt" />
+      </Component>
+      <Component Id="cmp9F090046EA7927E62911A7EF9D47A18C" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{77F74301-1449-4B5B-B0FA-270AEBAD0B1C}">
+        <File Id="filC1F45D735DBAC99C897BEDB5A5DB816D" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\NET-SNMP-MIB.txt" />
+      </Component>
+      <Component Id="cmp95AE77FDD0A9FF2997819A425E2887C1" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{9246D3F1-0BD5-44D3-A961-1ECC20B221A8}">
+        <File Id="filFA9554FE75E91A6D9621DD17E33AACDD" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\NET-SNMP-MONITOR-MIB.txt" />
+      </Component>
+      <Component Id="cmpA907A35478488B60C4D1A618DE7BA736" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{9D5659EB-E37C-4C68-B1E2-2B0C24DA40DB}">
+        <File Id="fil4BCD92382DDC9A829A8CF33E7CFD8F66" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\NET-SNMP-SYSTEM-MIB.txt" />
+      </Component>
+      <Component Id="cmp77A05448399D543897599D83A022E237" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{DD2D0754-02AA-4BA6-A33B-CD6FBA1081E9}">
+        <File Id="fil9CBF51EADC7D88DFFB207AA61FD83266" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\NET-SNMP-TC.txt" />
+      </Component>
+      <Component Id="cmp30396B01F299878158C7F776CD9EC0CB" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{50F0E3AC-DF8A-4F30-96DC-E40D2F407BA2}">
+        <File Id="fil340FF0EC0ECBEB7AB2853CB3BD706630" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\NET-SNMP-VACM-MIB.txt" />
+      </Component>
+      <Component Id="cmpBC4A30CA42C26266D1CE953D01E0D44B" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{96607B1F-C79C-4031-986B-8DCD0060D9BA}">
+        <File Id="filC9F5FAAEB9E8EB540B5F4BDE7FCD2F00" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\NETWORK-SERVICES-MIB.txt" />
+      </Component>
+      <Component Id="cmpE95A478CA7792AAAC0D00D2048614BA0" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{3A7F85C1-A89E-4FA3-BC50-D403307768CB}">
+        <File Id="fil6994941B396AE4F9A2CEBA7FBD7A799D" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\nodemap" />
+      </Component>
+      <Component Id="cmp2197129DEFF1E49663A967169DBA130A" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{CFA01DF0-8FD7-4345-BF72-2CAA4A71A915}">
+        <File Id="fil7ED71637AC2EF33642B776FC65369CA6" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\NOTIFICATION-LOG-MIB.txt" />
+      </Component>
+      <Component Id="cmp1FE4EB2D7DF8422721C537F42ECF8E84" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{895A4B9D-FBDC-4608-9289-07E6F9E12D32}">
+        <File Id="filFA1B0800091D8ABA0F50D2D13366E312" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\README.mibs" />
+      </Component>
+      <Component Id="cmp4F2DBE6707144962535D1530F3064AE4" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{04244991-F07E-421C-A55B-7F3730D936D0}">
+        <File Id="fil14D23E487869133A6D0A9F28E17D6C6D" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\RFC-1215.txt" />
+      </Component>
+      <Component Id="cmpEACB4781043C043911B797A9953A3BC7" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{AA2B601A-6AFF-483E-B1E2-5A4A69DD04B8}">
+        <File Id="filB12B0CAB8E1A8983C1DD653E41C0F4D3" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\RFC1155-SMI.txt" />
+      </Component>
+      <Component Id="cmpB79FFE782D291517F2540B39A9EC1335" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{DE88EDFF-18C9-44E0-8A0B-0CBFDAD672C9}">
+        <File Id="filC5B8CC8B52264E2BBEB62C9199388FB2" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\RFC1213-MIB.txt" />
+      </Component>
+      <Component Id="cmp0D418D7D09D22E8C23F33AF292ACD619" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{A82B8C81-926C-4B3C-9C05-5E4BAC537D99}">
+        <File Id="fil89E3667082E84F67EFC645F2FF648B6C" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\rfclist" />
+      </Component>
+      <Component Id="cmp528330165783E60BBB8ABCCE2B2CEC96" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{0EB73532-668B-4989-99D5-283FAE3B9191}">
+        <File Id="fil4F6F89A8DA8C24226BCFC10DF472BDEF" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\rfcmibs.diff" />
+      </Component>
+      <Component Id="cmpB9A50B021E964B17E40A52F109650095" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{68888AF0-B192-4495-BDFD-F2EDBECDE82C}">
+        <File Id="fil9E3D34A1B877345C2D789B668F1AA8BC" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\RMON-MIB.txt" />
+      </Component>
+      <Component Id="cmpC61F2CCB095D86176D196F762F5E4959" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{2C78CD41-3F6F-4D09-9765-584C3DA20297}">
+        <File Id="fil20EBC2B5C7B0A77D260CC5BFDBDFCD1F" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\smistrip" />
+      </Component>
+      <Component Id="cmpFC5DCA206123E623731097FC117B02FE" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{35601680-294C-45EE-8ACE-D687FC595FA2}">
+        <File Id="filAF586D98006EE0DBBFBD0C0C1F8AFEE2" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SMUX-MIB.txt" />
+      </Component>
+      <Component Id="cmp1A0F55DDC08B807CC09FFB85CC31D2D8" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{33E1FEF3-334E-4EF8-808A-A385C5ABB88B}">
+        <File Id="fil8C8849A5CB1FC55565128173C31B4E27" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SNMP-COMMUNITY-MIB.txt" />
+      </Component>
+      <Component Id="cmp2D02E7BD1933DEF3EB48D050E0FF3853" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{513E0610-23DB-4B75-BEE8-1A36B0A884CD}">
+        <File Id="filDFE5D1EF291D8916EE3FE63F595E5ECD" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SNMP-FRAMEWORK-MIB.txt" />
+      </Component>
+      <Component Id="cmp3A7E18D7502A3D021A2EF1CC8C67D38D" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{CC0BE58A-EB5E-4558-8780-C4867C95E7CF}">
+        <File Id="fil3E9CA202F0EC0F690C225EA0C6DD8BCE" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SNMP-MPD-MIB.txt" />
+      </Component>
+      <Component Id="cmp22ECEE3D706F1E726847F05FD52D3A28" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{30A42F9F-FCEF-4419-B5E3-8AA2FE77A78A}">
+        <File Id="filE408C821BD56D2907FA2FC4E902BA47C" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SNMP-NOTIFICATION-MIB.txt" />
+      </Component>
+      <Component Id="cmp0B248AE7F868A87946BAC734DB2A83D7" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{310C57B5-8F3C-4CFA-9EAF-0FC2B4A0814E}">
+        <File Id="fil5E9305D5E3D0FB8435179E7BB004AF38" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SNMP-PROXY-MIB.txt" />
+      </Component>
+      <Component Id="cmp92F5C86D6E923C4EF0C2F21EE39BCCF3" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{BEA37AEA-B806-4223-AAB3-07760ECB8436}">
+        <File Id="fil5E46623DCC90C0D1216EAAC7E34EAEE6" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SNMP-TARGET-MIB.txt" />
+      </Component>
+      <Component Id="cmp5376583642F7C0F7BD303A0967BD9354" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{9D36C795-1770-4245-BDFC-B5DBB259A55C}">
+        <File Id="filFEA06D680ABEE8A840F4552F00EA22AB" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SNMP-USER-BASED-SM-MIB.txt" />
+      </Component>
+      <Component Id="cmpA1C463A0A05427B2DA4C1EC34248DB2E" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{C44752A1-14E9-4317-9B7A-F47726413F86}">
+        <File Id="fil89F0ED911ED93D3D01ADDD0123E2C4DF" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SNMP-USM-AES-MIB.txt" />
+      </Component>
+      <Component Id="cmp0E82A273ED8AA145C21955893E07097A" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{00AE8BDA-0BCD-4358-A14A-C3BF46295999}">
+        <File Id="filA8E63DB0049FE7B1E600343A2B39BBF7" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SNMP-USM-DH-OBJECTS-MIB.txt" />
+      </Component>
+      <Component Id="cmpE44E59E767587FA4E58F03EE128214EC" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{16C8CC83-A549-4983-B450-1FEC5C987ED1}">
+        <File Id="fil59BFE238B5532811367449BCE490AD0C" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SNMP-VIEW-BASED-ACM-MIB.txt" />
+      </Component>
+      <Component Id="cmp2C7E69CD935F61CE35AC5BF29BB18AFF" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{57609ED9-42A9-4F28-870D-DD2CB3760A00}">
+        <File Id="fil1B4BB7AB1F453B1B19A1BA20ED1839F4" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SNMPv2-CONF.txt" />
+      </Component>
+      <Component Id="cmp78A1760AFCB66BFFD2C6D598650D118A" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{7F386E2E-0DA4-44EE-8DC8-E65AC3B87E5D}">
+        <File Id="filBADFF180A340512C543EAE7BD0AA2762" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SNMPv2-MIB.txt" />
+      </Component>
+      <Component Id="cmpD86C909AA890FCF74212B2130DE6B08F" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{6387E203-BE12-4141-9EB8-7EF35F7CD161}">
+        <File Id="filD035237576CDC02379AE3849E20A6535" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SNMPv2-SMI.txt" />
+      </Component>
+      <Component Id="cmp79F8DDCAB363E3659B5AE8D0B4E931FF" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{11FB0E2C-3CD9-43DE-AB44-D41B78A933D2}">
+        <File Id="filAF3C14EF9D011FDC2F10BB59BF12ECF5" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SNMPv2-TC.txt" />
+      </Component>
+      <Component Id="cmpB8A45DA906C94B5ED957BFBA510B26EE" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{3B37EDAB-B5FC-4B88-A025-6E9D0C954B1F}">
+        <File Id="filA3FDA4F5444D68BFECAD4A69AB17153C" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\SNMPv2-TM.txt" />
+      </Component>
+      <Component Id="cmpE46830C4A63D59158DD900F7B75B7A43" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{2323CD48-57FB-42D4-9084-A924CD840A6C}">
+        <File Id="fil9706E204A90249B1D24628B972A8CAB0" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\TCP-MIB.txt" />
+      </Component>
+      <Component Id="cmp28437B9F44B7A376C670DCC10D5D7AE7" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{BC8E61DE-9430-440B-B7DD-13F85B17EDA9}">
+        <File Id="fil924034E9796C4171C1086C0A5E18FA80" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\TRANSPORT-ADDRESS-MIB.txt" />
+      </Component>
+      <Component Id="cmp196671A82743CEA4A40897FB542298AC" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{7E3C5ABA-6952-4236-94C7-033DE77256B1}">
+        <File Id="fil73853C078D3A609BF90C1386586C7A66" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\TUNNEL-MIB.txt" />
+      </Component>
+      <Component Id="cmp325E610D766587FAE021A051D7EB88F1" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{36C9EFE8-864F-4D0E-B967-2E6D1A682DF6}">
+        <File Id="filB59330E178FF2191A8579ACF6927FC2E" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\UCD-DEMO-MIB.inc" />
+      </Component>
+      <Component Id="cmp6EC31BF96CD8633C3C7688C3E475E502" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{44B5C204-F36C-469F-AFF4-7E1357091AE2}">
+        <File Id="filAA9107C9AFCAFFAD074B808243B7A12C" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\UCD-DEMO-MIB.txt" />
+      </Component>
+      <Component Id="cmp89125CB13B5596602B9D601A85D8A231" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{AF3D0F88-76DF-4CC1-8CE1-A82B16CB5C25}">
+        <File Id="filA01D7D29CE7E888205593AFD04B093B9" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\UCD-DISKIO-MIB.inc" />
+      </Component>
+      <Component Id="cmp74AC87DBBC8FEEE7FAB3708FC44C2A5B" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{1EB812C0-21F0-4694-8338-D4883E47C7CE}">
+        <File Id="fil380DABD94334B6E0E60AB52E6E88A12E" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\UCD-DISKIO-MIB.txt" />
+      </Component>
+      <Component Id="cmp1ABB7ABAA64BF9605014F3BF1683C795" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{D6669D80-AE2E-4F27-993A-BAF45EB16DE3}">
+        <File Id="fil86F7BF0988335E34BA1C11F006052B8A" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\UCD-DLMOD-MIB.inc" />
+      </Component>
+      <Component Id="cmpA9CB7BE22114C1364DA0D83938C559B7" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{A051C3BB-B69F-4185-B0E3-A8E13BD8B9C1}">
+        <File Id="filF27B97B2E22E3149B0FA4F7ACFFB495F" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\UCD-DLMOD-MIB.txt" />
+      </Component>
+      <Component Id="cmp6E70040549A806FADA74325E129AB85D" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{B5BBDE09-8892-4682-BB69-C69AEFC8988A}">
+        <File Id="filA2A0BB9EE97172B9A186B089FE71B46F" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\UCD-IPFILTER-MIB.inc" />
+      </Component>
+      <Component Id="cmp1C1931BA57557938082EFD9FD7ABE582" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{C8F8A741-B197-4083-8836-A30E41DB3B0F}">
+        <File Id="fil65965460EA7A1C9D23C0C2EAF799A22C" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\UCD-IPFILTER-MIB.txt" />
+      </Component>
+      <Component Id="cmp9583DFBF69F25638FD31137E1CEDA0A8" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{F4944FA6-F9AC-4F4D-9D83-D2CFE9EA771C}">
+        <File Id="filA3EFE69091D6F9C294550C526D438608" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\UCD-IPFWACC-MIB.inc" />
+      </Component>
+      <Component Id="cmpC04F9225BF4322031B3BD26E150593CD" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{B3540319-47E4-4008-AACA-CCB6FE6994C7}">
+        <File Id="fil328F5E546B4F98B95E5F2BF00291ED8E" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\UCD-IPFWACC-MIB.txt" />
+      </Component>
+      <Component Id="cmpFDC04E9F3A3CD32B24813BC35D4FA509" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{D80DEE1A-EF5B-491A-845B-87721701A851}">
+        <File Id="filEE90962F72451328A0914A62A8519324" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\UCD-SNMP-MIB-OLD.txt" />
+      </Component>
+      <Component Id="cmp8BD499348330CD7070412DB7231777FF" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{E6007471-51BE-47E2-A86B-D21CBE22949B}">
+        <File Id="filD518E59519DD5DD140A55D35A1DD458A" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\UCD-SNMP-MIB.inc" />
+      </Component>
+      <Component Id="cmp483213C6F477A73077D56245EA6BF0A4" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{4FC4C080-F43C-4D36-BC49-ABBA4A7C1DCC}">
+        <File Id="fil815A94769057540794359279919D72DD" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\UCD-SNMP-MIB.txt" />
+      </Component>
+      <Component Id="cmp36FBB901A5913023E3CB3F1DFA1A4FF6" Directory="dir5EA01E8B623BAE99F27C3357C5DED152" Guid="{0947417D-AEBB-4468-85A8-953ACECA7335}">
+        <File Id="fil4666FD4380E9DECC171C991B6EBD723E" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\mibs\UDP-MIB.txt" />
+      </Component>
+      <Component Id="cmp07ED483785056E756B7F868A0167E9E7" Directory="dir316102CF46A22EBB18F333A7F55D22B1" Guid="{E6ED7BFA-E4CF-47B2-92E7-4C5DD0630A81}">
+        <File Id="filCD0AD128A431FECA35ACC0616E671DE5" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\openssl\openssl.cnf" />
+      </Component>
+      <Component Id="cmp947C4D24A93F34991A6A3FE3BAD40311" Directory="dir316102CF46A22EBB18F333A7F55D22B1" Guid="{8D294D70-FF93-4D27-950C-B5CC4C27A15F}">
+        <File Id="filB9CAED68509D2C371DF7A498E66915CD" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\openssl\openssl.exe" />
+      </Component>
+      <Component Id="cmp8525B0DB4FDAC0F8899A29534E9CC05E" Directory="dir316102CF46A22EBB18F333A7F55D22B1" Guid="{0A55108F-7000-4B36-B6D2-5A36BC2B4CDD}">
+        <File Id="fil9E35F952CF157DBEBC8B5A88636A3B37" KeyPath="yes" Source="$(var.PhpSourceDir)\extras\openssl\README-SSL.txt" />
+      </Component>
+      <Component Id="cmpF49AE25321FB814FC38122E48A358B70" Directory="dir15F5ABC118367BA21E4E19C55B47364C" Guid="{088FD9D1-4173-448E-A3BB-E091011D4715}">
+        <File Id="filEE6CDE5A7E796193176847EE3B9CAC36" KeyPath="yes" Source="$(var.PhpSourceDir)\PEAR\go-pear.phar" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir316102CF46A22EBB18F333A7F55D22B1" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dirACBCCA8A3E2A7737C59EF1D10873F31C" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir5EA01E8B623BAE99F27C3357C5DED152" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dirC60D9452F514141FA9623732A887E09A" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir15F5ABC118367BA21E4E19C55B47364C" />
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir99D67A5585DC8933F6995D6FA46EE844">
+      <Directory Id="dir316102CF46A22EBB18F333A7F55D22B1" Name="openssl" />
+    </DirectoryRef>
+  </Fragment>
+  <Fragment>
+    <DirectoryRef Id="dir99D67A5585DC8933F6995D6FA46EE844">
+      <Directory Id="dir5EA01E8B623BAE99F27C3357C5DED152" Name="mibs" />
+    </DirectoryRef>
+  </Fragment>
+</Include>

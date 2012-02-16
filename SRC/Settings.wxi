@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <!-- Change very carefully since many folders and keys depend on product name. -->
+  <?define ProductName="Drush" ?>
+  <?define Manufacturer="Propeople" ?>
+  <!-- UpgradeCode is looked for when performing any upgrade
+  to check if any version of the product has been ever installed.
+  It should NOT be changed. -->
+  <?define UpgradeCode="{8A209171-D579-48CB-80F6-450EECCF14D7}" ?>
+
+  <!-- Product Code is unique per application and 
+  should be changed on every major upgrade. 
+  Log here all used product codes in case you need to do 
+  more complicated upgrade. -->
+  <!-- 1.0.0 -> {DD7055A2-7FCB-4474-81C1-4A003861693E} -->
+  <!-- 1.0.1 -> {3CE23FFC-3F1D-4367-995A-62E00E5A23E8} -->
+  <!-- 1.0.2 -> {CF1DAD76-D4AE-4F9A-9BCD-2BA6FEA999CD} -->
+  <!-- 1.0.3 -> {60A8C74E-CA38-41B9-89B5-BA5A02C2F231} -->
+  <!-- 1.0.4 -> {E5C72F44-6DA9-47B1-A662-340CBC7F18AA} -->
+  <!-- 1.0.5 -> {AB5B1162-D4DE-4C59-BAB3-020B2323AF98} -->
+  <!-- 1.0.6 -> {ACE7E610-6263-47AC-A01E-398AE31DE44E} -->
+  <!-- 1.0.7 -> {6A937115-39E9-4619-9F07-22A4A5D5EB31} -->
+  <!-- 1.0.8 -> {8360AECA-5E05-4CC4-9AAD-43634D914323} -->
+  <!-- 1.0.9 -> {31134246-6012-44CE-9736-2A3C80C1873A} -->
+  <!-- 1.0.10 -> {DD70778E-BD5A-449D-B788-D35969CE8776} -->
+  <!-- 1.0.11 -> {FE1E0051-91C3-4174-B0E4-493D20F0ACF1} -->
+  <!-- 1.0.12 -> {FBE8D9F7-ACE3-4EC3-A4E8-728041561F62} -->
+  <?define ProductCode="{FBE8D9F7-ACE3-4EC3-A4E8-728041561F62}" ?>
+
+  <!-- Change CurrentVersion for every major upgrade. -->
+  <?define CurrentVersion="1.0.12.20214" ?>  
+
+  <?define BZIP2SourceDir="$(var.ProjectDir)\GnuWin32\bzip2-1.0.5-bin" ?>
+  <?define GZIPSourceDir="$(var.ProjectDir)\GnuWin32\gzip-1.3.12-1-bin" ?>
+  <?define LESSSourceDir="$(var.ProjectDir)\GnuWin32\less-394-bin" ?>
+  <?define LIBARCSourceDir="$(var.ProjectDir)\GnuWin32\libarchive-2.4.12-1-bin" ?>
+  <?define LIBCONSourceDir="$(var.ProjectDir)\GnuWin32\libiconv-1.8-1-bin" ?>
+  <?define LIBCON2SourceDir="$(var.ProjectDir)\GnuWin32\libiconv-1.9.2-1-bin" ?>
+  <?define LIBINTSourceDir="$(var.ProjectDir)\GnuWin32\libintl-0.11.5-2-bin" ?>
+  <?define LIBINT3SourceDir="$(var.ProjectDir)\GnuWin32\libintl-0.14.4-bin" ?>
+  <?define OPENSSLSourceDir="$(var.ProjectDir)\GnuWin32\openssl-0.9.8h-1-bin" ?>
+  <?define PCRESourceDir="$(var.ProjectDir)\GnuWin32\pcre-7.0-bin" ?>
+  <?define TARSourceDir="$(var.ProjectDir)\GnuWin32\tar-1.13-1-bin" ?>
+  <?define WGETSourceDir="$(var.ProjectDir)\GnuWin32\wget-1.11.4-1-bin" ?>
+  <?define ZLIBSourceDir="$(var.ProjectDir)\GnuWin32\zlib-1.2.3-bin" ?>
+
+  <?define DrushSourceDir="$(var.ProjectDir)\Drush" ?>
+
+  <?define PhpSourceDir="$(var.ProjectDir)\Php" ?>
+
+  <?define CwRsyncSourceDir="$(var.ProjectDir)\cwRsync" ?>
+</Include>

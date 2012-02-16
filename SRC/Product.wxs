@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:util='http://schemas.microsoft.com/wix/UtilExtension' >
+  <?include $(sys.CURRENTDIR)\Settings.wxi ?>
+  
+  <Product Id="$(var.ProductCode)" Language="1033" 
+           Name="$(var.ProductName)" Manufacturer="$(var.Manufacturer)" 
+           Version="$(var.CurrentVersion)" UpgradeCode="$(var.UpgradeCode)">
+
+    <Package Id="*" Keywords="$(var.ProductName)" 
+             Description="$(var.ProductName) Installer by $(var.Manufacturer)" 
+             InstallerVersion="200" Compressed="yes" 
+             InstallPrivileges="elevated" />
+
+    <MajorUpgrade 
+      DowngradeErrorMessage="A later version of $(var.ProductName) is already installed. Setup will now exit." />
+    
+    <?include $(sys.CURRENTDIR)\Include\AddRemoveProgram.wxi ?>
+
+    <?ifdef Debug ?>
+      <?include $(sys.CURRENTDIR)\Include\Debug.wxi ?>
+    <?endif ?>
+    
+    <CustomAction Id='CA_AddShellArgs' Property='SHELLARGS' Value='/k "cd ""[DrushFolder]"" &amp; call ^"[INSTALLLOCATION]DrushEnv.bat^""' />
+
+    <InstallExecuteSequence>
+      <Custom Action='CA_AddShellArgs' After='CostFinalize' />
+    </InstallExecuteSequence>
+
+    <?include $(sys.CURRENTDIR)\Include\WixUI_FeatureTreeNoEULA.wxi ?>  
+    <?include $(sys.CURRENTDIR)\Include\WinRMConfig.wxi ?>  
+    <?include $(sys.CURRENTDIR)\Include\DrushEnvPath.wxi ?>  
+    <?include $(sys.CURRENTDIR)\Include\DrushEnvBat.wxi ?>  
+
+    <Media Id='1' Cabinet='Product.cab' EmbedCab='yes' DiskPrompt='CD-ROM #1' />
+    <Property Id='DiskPrompt' Value="$(var.ProductName) Installation [1]" />
+
+    <Property Id="INSTALLLEVEL" Value="100" />
+    
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLLOCATION" />
+    <WixVariable Id="WixUIBannerBmp" Value="Bmp\WixUIBannerBmp.bmp" />
+    <WixVariable Id="WixUIDialogBmp" Value="Bmp\WixUIDialogBmp.bmp" />
+    <!--
+    <WixVariable Id="WixUILicenseRtf" Value="path\License.rtf" />
+    <WixVariable Id="WixUIExclamationIco" Value="path\exclamation.ico" />
+    <WixVariable Id="WixUIInfoIco" Value="path\information.ico" />
+    <WixVariable Id="WixUINewIco" Value="path\new.ico" />
+    <WixVariable Id="WixUIUpIco" Value="path\up.ico" />
+    -->
+
+    <UIRef Id="WixUI_FeatureTreeNoEULA" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="CompanyFolder" Name="$(var.Manufacturer)">
+          <Directory Id="INSTALLLOCATION" Name="$(var.ProductName)">
+            <Component Id="Comp_License" Guid="{7ABE2C87-6154-4C1A-9C78-62A2B6FB8E6E}">
+              <File Id="File_License" Name="license.txt" Source="license.txt" KeyPath="yes" />
+            </Component> 
+            <Component Id="Comp_EnvShortcut" Guid="{C9B5EC4C-3C3B-4225-854C-750440B2314E}">
+              <File Id="FL_DrushEnv" KeyPath="yes" Source="DrushEnv.bat" />
+            </Component>
+            <Component Id="Comp_WinRMConfig" Guid="{ADF87A7A-7E2A-41AC-88D6-DEA1B8B7E946}">
+              <File Id="FL_WinRMConfig" KeyPath="yes" Source="WinRMConfig.bat" />
+            </Component>
+            <Directory Id="GnuWin32Folder" Name="GnuWin32" />
+            <Directory Id="PhpFolder" Name="Php" />
+            <Directory Id="CwRsyncFolder" Name="cwRsync" />
+          </Directory>
+        </Directory>
+      </Directory>
+      <Directory Id="CommonAppDataFolder">
+        <Directory Id="AppCompanyFolder" Name="$(var.Manufacturer)">
+          <Directory Id="DrushFolder" Name="Drush" />
+        </Directory>
+      </Directory>
+
+      <Directory Id="ProgramMenuFolder" Name="Programs">
+        <Directory Id="ProgramMenuDir" Name="$(var.ProductName)">
+          <Component Id="Comp_ProgramMenuDir" Guid="{66C429C9-477D-4C48-8B64-0A480F7AB472}">
+            <RemoveFolder Id='ProgramMenuDir' On='uninstall' />
+            <RegistryValue Root='HKCU' Key='Software\$(var.Manufacturer)\$(var.ProductName)' Type='string' Value='' KeyPath='yes' />
+            <Shortcut Id='startmenuDrushWin' 
+              Directory='ProgramMenuDir' 
+              Name='$(var.ProductName) Command Prompt'
+              WorkingDirectory='DrushFolder' 
+              Icon='Drush.ico'
+              Target='[%ComSpec]'
+              Advertise='no' />
+            <Shortcut Id='desktopDrushWin' 
+              Directory='DesktopFolder' 
+              Name='$(var.ProductName) Command Prompt'
+              WorkingDirectory='DrushFolder' 
+              Icon='Drush.ico' 
+              Target='[%ComSpec]'
+              Arguments='[SHELLARGS]'
+              Advertise='no' />
+             <Shortcut Id='uninstallDrush'
+              Directory='ProgramMenuDir'
+              Name='Uninstall $(var.ProductName)'
+              WorkingDirectory='INSTALLDIR'
+              Target='[SystemFolder]msiexec.exe'
+              Arguments="/x [ProductCode]" 
+              Advertise="no" />
+          </Component>
+        </Directory>
+      </Directory>
+
+      <Directory Id="DesktopFolder" Name="Desktop" />
+    </Directory>
+
+    <Icon Id="Drush.ico" SourceFile="Drush.ico"/>
+    
+    <?include $(sys.CURRENTDIR)\Include\Features.wxi ?>
+
+  </Product>
+
+  <?include $(sys.CURRENTDIR)\Include\bzip2.wxi ?>
+  <?include $(sys.CURRENTDIR)\Include\gzip.wxi ?>
+  <?include $(sys.CURRENTDIR)\Include\less.wxi ?>
+  <?include $(sys.CURRENTDIR)\Include\libarc.wxi ?>
+  <?include $(sys.CURRENTDIR)\Include\libcon.wxi ?>
+  <?include $(sys.CURRENTDIR)\Include\libcon2.wxi ?>
+  <?include $(sys.CURRENTDIR)\Include\libint.wxi ?>
+  <?include $(sys.CURRENTDIR)\Include\libint3.wxi ?>
+  <?include $(sys.CURRENTDIR)\Include\openssl.wxi ?>
+  <?include $(sys.CURRENTDIR)\Include\pcre.wxi ?>
+  <?include $(sys.CURRENTDIR)\Include\tar.wxi ?>
+  <?include $(sys.CURRENTDIR)\Include\wget.wxi ?>
+  <?include $(sys.CURRENTDIR)\Include\zlib.wxi ?>
+  <?include $(sys.CURRENTDIR)\Include\drush.wxi ?>
+  <?include $(sys.CURRENTDIR)\Include\php.wxi ?>  
+  <?include $(sys.CURRENTDIR)\Include\cwRsync.wxi ?>  
+</Wix>

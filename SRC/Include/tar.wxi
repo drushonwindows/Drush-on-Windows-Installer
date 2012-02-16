@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+    <Fragment>
+        <ComponentGroup Id="CG_TAR">
+            <Component Id="cmp5A6E5BE26A377BDB84AB1AB8817A6963" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{F025F97D-5D93-46AC-AE25-28C3389093D9}">
+                <File Id="fil7D00DF564F752B97E353D043B536EBD4" KeyPath="yes" Source="$(var.TARSourceDir)\bin\tar.exe" />
+            </Component>
+            <Component Id="cmp281A4CD223421C1F78FF421B715F01C1" Directory="dir3C3D3B55E6BD9E49ED787180AB586DA1" Guid="{2D79DEED-FC15-4D42-A083-4F8C88A5EA61}">
+                <File Id="filC5E2DDB9C6F378B1203D0CF184707F16" KeyPath="yes" Source="$(var.TARSourceDir)\contrib\tar-1.13\ABOUT-NLS" />
+            </Component>
+            <Component Id="cmpA0749EE8FC6244E6E697A2FDA0BEDF7F" Directory="dir3C3D3B55E6BD9E49ED787180AB586DA1" Guid="{6AB2486D-FE13-4A9F-A94A-4635CF804BD8}">
+                <File Id="fil289081B6848BC2B0ED4D9BA65094ED90" KeyPath="yes" Source="$(var.TARSourceDir)\contrib\tar-1.13\AUTHORS" />
+            </Component>
+            <Component Id="cmp95663E159D24C83FCBBA47B65D42F70D" Directory="dir3C3D3B55E6BD9E49ED787180AB586DA1" Guid="{6376866D-8D7B-4F80-AA9A-908D47D32A65}">
+                <File Id="fil6E61D92F30F424F89500EC357DD2FD26" KeyPath="yes" Source="$(var.TARSourceDir)\contrib\tar-1.13\BACKLOG" />
+            </Component>
+            <Component Id="cmp0F88991F9BAE9DA0781B614FD753F30B" Directory="dir3C3D3B55E6BD9E49ED787180AB586DA1" Guid="{956B225C-DADD-4AD0-86DC-E5AA1600ABA4}">
+                <File Id="filF70147DE48BA802635E8B5C21C889DDB" KeyPath="yes" Source="$(var.TARSourceDir)\contrib\tar-1.13\CHANGELOG" />
+            </Component>
+            <Component Id="cmp872D5D71CA793D4111855D440F40AE09" Directory="dir3C3D3B55E6BD9E49ED787180AB586DA1" Guid="{1D1E5E3B-C932-46FB-A4CD-F27DD8570FDE}">
+                <File Id="fil590D8A7C3584EA376043BB19B162F2E4" KeyPath="yes" Source="$(var.TARSourceDir)\contrib\tar-1.13\COPYING" />
+            </Component>
+            <Component Id="cmp1F13A7934C2783E4162128792090F597" Directory="dir3C3D3B55E6BD9E49ED787180AB586DA1" Guid="{BCDA0C68-84FE-4FF5-8E85-1B3E343EBA62}">
+                <File Id="filD899938E0E11609F2D17898AFD5CB1C8" KeyPath="yes" Source="$(var.TARSourceDir)\contrib\tar-1.13\depends-GnuWin32.lst" />
+            </Component>
+            <Component Id="cmp0E844B72DE3848D57EDDD6CBCDB01780" Directory="dir3C3D3B55E6BD9E49ED787180AB586DA1" Guid="{5E636711-ABC7-458C-80F0-42E4D9ACB9ED}">
+                <File Id="fil1F2B0DA6106B0E7C4AE660826EE024A9" KeyPath="yes" Source="$(var.TARSourceDir)\contrib\tar-1.13\INSTALL" />
+            </Component>
+            <Component Id="cmp3824DCEE8D68A71FACE874A61715C970" Directory="dir3C3D3B55E6BD9E49ED787180AB586DA1" Guid="{A7B09F77-4D30-4FD7-B0CC-C3AB975A5BBF}">
+                <File Id="filFFF369A92EE3DDE90A2A222F4AFB11A5" KeyPath="yes" Source="$(var.TARSourceDir)\contrib\tar-1.13\NEWS" />
+            </Component>
+            <Component Id="cmp5A08C44E2939853930D6BC3E44722D33" Directory="dir3C3D3B55E6BD9E49ED787180AB586DA1" Guid="{8FA08FEC-290D-4CAE-B1D0-EBE13549F95C}">
+                <File Id="fil6471E88E2520511DFF3D8DC4400E98DE" KeyPath="yes" Source="$(var.TARSourceDir)\contrib\tar-1.13\PORTS" />
+            </Component>
+            <Component Id="cmp09FD50862C4D9D4F51CED38EB84A6EBF" Directory="dir3C3D3B55E6BD9E49ED787180AB586DA1" Guid="{5E4E1791-3927-4093-9046-FE2BC52F850F}">
+                <File Id="fil24B3C0A0FD01F79A50219F83E0E70AC9" KeyPath="yes" Source="$(var.TARSourceDir)\contrib\tar-1.13\README" />
+            </Component>
+            <Component Id="cmpA99C059F8637C986A0ABC3EA72B7353D" Directory="dir3C3D3B55E6BD9E49ED787180AB586DA1" Guid="{EFA252E3-DDDB-43F7-84E4-7233EB7DCDE7}">
+                <File Id="filB5BC4509D51C7D7FE78A86784021E464" KeyPath="yes" Source="$(var.TARSourceDir)\contrib\tar-1.13\tar-1.13-GnuWin32.README" />
+            </Component>
+            <Component Id="cmp9448541370678C81438557B81B820B17" Directory="dir3C3D3B55E6BD9E49ED787180AB586DA1" Guid="{A231D09F-3F5F-4B09-B13F-697BCF47C67B}">
+                <File Id="filF18289D3DBE9F2FF33EA9B246D225AEE" KeyPath="yes" Source="$(var.TARSourceDir)\contrib\tar-1.13\THANKS" />
+            </Component>
+            <Component Id="cmp01074E3198AED4169BB07E675FCD5A1B" Directory="dir3C3D3B55E6BD9E49ED787180AB586DA1" Guid="{1A0449EA-842E-4735-B4B4-FC2AB27E08C9}">
+                <File Id="filFC9536A6E36A9C0504862977D3FB7624" KeyPath="yes" Source="$(var.TARSourceDir)\contrib\tar-1.13\TODO" />
+            </Component>
+            <Component Id="cmpC939277720AB4C3C4BEA78E2A1474689" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{9EE04784-C38E-453A-977C-045DDA15C104}">
+                <File Id="filAAA466CE63207C6539D300ECA6CFA1CF" KeyPath="yes" Source="$(var.TARSourceDir)\man\cat1\tar.1.txt" />
+            </Component>
+            <Component Id="cmp986C145611AEE4FB35CD1DDDC8DEF198" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{EE0CD93E-82A8-4BF1-BDEB-89115ECECC0C}">
+                <File Id="filFC50AED645584F00BF9D133D3408D7BE" KeyPath="yes" Source="$(var.TARSourceDir)\manifest\tar-1.13-1-bin.mft" />
+            </Component>
+            <Component Id="cmp5317851783B6F0ED020F35088387A41B" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{C3C5749C-B527-4482-8268-198E8D5F4445}">
+                <File Id="fil4155BEA6E8A4E433BBE8DDF3B03B1F91" KeyPath="yes" Source="$(var.TARSourceDir)\manifest\tar-1.13-1-bin.ver" />
+            </Component>
+            <Component Id="cmp035C3B8D2DA7FE6FD71F0EF512AB1B8E" Directory="dirC8B3A91C3BAD538947989AE73C4A542D" Guid="{67E6F249-7C1B-4611-A33F-A000853517BE}">
+                <File Id="fil0C45135F5F531400E110E4046AE45B84" KeyPath="yes" Source="$(var.TARSourceDir)\share\locale\cs\LC_MESSAGES\tar.mo" />
+            </Component>
+            <Component Id="cmp2A66905D4DACAE3141BFB5DCD477A97A" Directory="dirDD6EA11C6C017E5886419896AE6865C9" Guid="{3B020022-EDCB-4E8D-B8EB-ABF7BC92173D}">
+                <File Id="filDF104BF560C18E8059B832E73D033410" KeyPath="yes" Source="$(var.TARSourceDir)\share\locale\de\LC_MESSAGES\tar.mo" />
+            </Component>
+            <Component Id="cmp388F37C56C77CD078563B277A670CEBA" Directory="dirD0F4CEDC75FC5650194BB63F0DB1ED2B" Guid="{73F86DEE-C38A-4E7F-9981-4683E601C0C0}">
+                <File Id="fil9ED41EC6E642BEFCB0A8231734B4ED1A" KeyPath="yes" Source="$(var.TARSourceDir)\share\locale\es\LC_MESSAGES\tar.mo" />
+            </Component>
+            <Component Id="cmp55A4FD6619E9F4E041F8331E4BE595AA" Directory="dir505CEF1D551F7F0365C8BF94D56B3987" Guid="{12865639-AEB7-4B6B-9E1A-6EAEAF06F9E6}">
+                <File Id="filF89414F28C38963EECB2E6EF275583A8" KeyPath="yes" Source="$(var.TARSourceDir)\share\locale\fr\LC_MESSAGES\tar.mo" />
+            </Component>
+            <Component Id="cmpD6F75040CD3890AC83E87F9185764900" Directory="dir1233E7793F4795828C650A105463FBD2" Guid="{94EF2767-14B1-4A12-8325-DD965B25246A}">
+                <File Id="fil9586C0D9503EE1005820E5B0930A5A2D" KeyPath="yes" Source="$(var.TARSourceDir)\share\locale\it\LC_MESSAGES\tar.mo" />
+            </Component>
+            <Component Id="cmp8D994197BF8D952256A80A850D2CF8E8" Directory="dir5873A49010187E40ED5C4EB76542DECC" Guid="{997EBD1E-6795-4D94-A6AD-3BA71EB9D470}">
+                <File Id="fil292C9595AD0F3D1C5257F9D039D6F971" KeyPath="yes" Source="$(var.TARSourceDir)\share\locale\ko\LC_MESSAGES\tar.mo" />
+            </Component>
+            <Component Id="cmp0AAA0BD052D2A52411E5FDACCC55DAC3" Directory="dir0340D06814E0B28F719D079AD3C20846" Guid="{8DF49DB1-A8B7-476C-8F5E-40F4B2125E3E}">
+                <File Id="fil3983BD36C6EA9892D97A2197C3351BA3" KeyPath="yes" Source="$(var.TARSourceDir)\share\locale\nl\LC_MESSAGES\tar.mo" />
+            </Component>
+            <Component Id="cmp2F35C9F0F0CA32B4ACA2D09167CD1C6C" Directory="dirC3B0F3F69F83DE0D5C1B0B704850816D" Guid="{1A88F872-6B52-4BDB-A7DD-4D8219BC0402}">
+                <File Id="filB3B0D79047B88F4CC63FE3ABC0130E98" KeyPath="yes" Source="$(var.TARSourceDir)\share\locale\no\LC_MESSAGES\tar.mo" />
+            </Component>
+            <Component Id="cmp2C9FFB0F920E996B119D129EE5DD700D" Directory="dir97CF7820A9C046AE2856840E60266CDC" Guid="{B33C5810-E9D0-41A5-BF54-5860C451F811}">
+                <File Id="fil0F0420F608E85823A0E1E76D777965AF" KeyPath="yes" Source="$(var.TARSourceDir)\share\locale\pl\LC_MESSAGES\tar.mo" />
+            </Component>
+            <Component Id="cmpB45D97BB5FA14BF24FACB35856AE299D" Directory="dir621DED391BD208ACE5A9ED7B7C216687" Guid="{AFD68171-59D4-4260-8AF5-AA70D2AD138F}">
+                <File Id="filDCD50A67012B1E28FECCD6A008F9E9F6" KeyPath="yes" Source="$(var.TARSourceDir)\share\locale\pt\LC_MESSAGES\tar.mo" />
+            </Component>
+            <Component Id="cmp5DCA38315D12EA69E5F6BDDBB942188D" Directory="dir01A98A370943693934F4C8E4B0C3B03D" Guid="{658B34C3-E4DF-43A2-92F9-5A3D5F1DDA5D}">
+                <File Id="fil1A77A6119A5307C32ED2E0D97565A666" KeyPath="yes" Source="$(var.TARSourceDir)\share\locale\ru\LC_MESSAGES\tar.mo" />
+            </Component>
+            <Component Id="cmpA1D53BDE59D5F38F88867FBA5C0C2938" Directory="dir489BBF8CB184A28CE709DF4960E26179" Guid="{CF52946F-B502-4EC2-9BEA-973F37B3CF81}">
+                <File Id="fil76AD0B28AE44424CC1B6BE5FFB430F7C" KeyPath="yes" Source="$(var.TARSourceDir)\share\locale\sl\LC_MESSAGES\tar.mo" />
+            </Component>
+            <Component Id="cmp01F1E527AC7CA116E3AC3F401F7D3A5B" Directory="dir01051F36511FF6457A7E91DEA611C115" Guid="{60ED7855-8927-4A37-8F16-9555761B95B7}">
+                <File Id="fil8A0AFA96BB07A8337888F54A26725FD7" KeyPath="yes" Source="$(var.TARSourceDir)\share\locale\sv\LC_MESSAGES\tar.mo" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir01051F36511FF6457A7E91DEA611C115" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC8B3A91C3BAD538947989AE73C4A542D" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir0340D06814E0B28F719D079AD3C20846" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir3C3D3B55E6BD9E49ED787180AB586DA1" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirDD6EA11C6C017E5886419896AE6865C9" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir97CF7820A9C046AE2856840E60266CDC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC3B0F3F69F83DE0D5C1B0B704850816D" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD0F4CEDC75FC5650194BB63F0DB1ED2B" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir505CEF1D551F7F0365C8BF94D56B3987" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEA3C2E9C2358194303C828C2020F22DC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir01A98A370943693934F4C8E4B0C3B03D" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir5873A49010187E40ED5C4EB76542DECC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir87B2FF1A618F100AA559C4EF19D1CD44" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir489BBF8CB184A28CE709DF4960E26179" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir621DED391BD208ACE5A9ED7B7C216687" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD93A8F7CA457F79A2D974C8A21750586" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir1233E7793F4795828C650A105463FBD2" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD4353015950BE068CFAF4870A9AB1F83">
+            <Directory Id="dir01051F36511FF6457A7E91DEA611C115" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEC8A93FBC6DE8C69D52110EFFF958044">
+            <Directory Id="dir01A98A370943693934F4C8E4B0C3B03D" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2FA45FB32DED5E5B37268B74BFBD62E9">
+            <Directory Id="dir0340D06814E0B28F719D079AD3C20846" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir7C1D8B59E3FDC52216FB84600B0E5DE6">
+            <Directory Id="dir1233E7793F4795828C650A105463FBD2" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dir1C1736A3D38F9789B7FB40783C1D8628" Name="no" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dir2AFE3EAF0DCF94F0EF358E9B83E043AB" Name="es" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dir2FA45FB32DED5E5B37268B74BFBD62E9" Name="nl" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dir361D5721BB9332F20B3C2A253B01F49B" Name="pl" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir40754702BA83ED87F12D961C52E167A8">
+            <Directory Id="dir3C3D3B55E6BD9E49ED787180AB586DA1" Name="tar-1.13" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC9BD33B1392BE08860FBF7AE6C1AB54B">
+            <Directory Id="dir489BBF8CB184A28CE709DF4960E26179" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC036B348F335329B89DC90043CCBC37F">
+            <Directory Id="dir505CEF1D551F7F0365C8BF94D56B3987" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir9599B814DDAECF9CD529A63BE89673DB">
+            <Directory Id="dir5873A49010187E40ED5C4EB76542DECC" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir8DF9BBD755E2E897726B3818531803E8">
+            <Directory Id="dir621DED391BD208ACE5A9ED7B7C216687" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dir7C1D8B59E3FDC52216FB84600B0E5DE6" Name="it" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dir7D651DB8E3742DB9A95B7A08D8D9DDAB" Name="cs" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dir8DF9BBD755E2E897726B3818531803E8" Name="pt" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dir9599B814DDAECF9CD529A63BE89673DB" Name="ko" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir361D5721BB9332F20B3C2A253B01F49B">
+            <Directory Id="dir97CF7820A9C046AE2856840E60266CDC" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dirC036B348F335329B89DC90043CCBC37F" Name="fr" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir1C1736A3D38F9789B7FB40783C1D8628">
+            <Directory Id="dirC3B0F3F69F83DE0D5C1B0B704850816D" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir7D651DB8E3742DB9A95B7A08D8D9DDAB">
+            <Directory Id="dirC8B3A91C3BAD538947989AE73C4A542D" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dirC9BD33B1392BE08860FBF7AE6C1AB54B" Name="sl" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2AFE3EAF0DCF94F0EF358E9B83E043AB">
+            <Directory Id="dirD0F4CEDC75FC5650194BB63F0DB1ED2B" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dirD4353015950BE068CFAF4870A9AB1F83" Name="sv" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir335C14D7DCB07921AB566259FAE20D1B">
+            <Directory Id="dirEC8A93FBC6DE8C69D52110EFFF958044" Name="ru" />
+        </DirectoryRef>
+    </Fragment>
+</Include>

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+    <Fragment>
+        <ComponentGroup Id="CG_LIBARC">
+            <Component Id="cmpCF2C1C81A04EF17C4B5786B95E30A6B4" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{FFF4D429-DD6E-4636-90B3-D599922BB36C}">
+                <File Id="fil26E7B2C4192AA206C8CC8DF6D95F73FA" KeyPath="yes" Source="$(var.LIBARCSourceDir)\bin\bsdcpio.exe" />
+            </Component>
+            <Component Id="cmp21C36BAAE62C36E4DCCA25185FDC02C1" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{1198530D-8773-42FF-A76B-4997382E4EA5}">
+                <File Id="fil26F2A52C0C411C43E869C546612DEE22" KeyPath="yes" Source="$(var.LIBARCSourceDir)\bin\bsdtar.exe" />
+            </Component>
+            <Component Id="cmp3DEEB8E7870EDBD9BE7854972D291A2B" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{E48BA5E2-48D0-4403-9586-404B1107EF7E}">
+                <File Id="filB8417476E9A7E0A98E4C9189D4D2B74C" KeyPath="yes" Source="$(var.LIBARCSourceDir)\bin\libarchive2.dll" />
+            </Component>
+            <Component Id="cmpBE9F0CE9412ED3499D4AEC89469D5EB6" Directory="dir0398AB7FA394DB61E8177BC9C6BFC252" Guid="{4EB41F74-D7CA-4214-9875-3AF6644DD4B4}">
+                <File Id="filE963806F47B83A3D34D16A113AF3227C" KeyPath="yes" Source="$(var.LIBARCSourceDir)\contrib\libarchive\2.4.12\libarchive-2.4.12-1-GnuWin32.README" />
+            </Component>
+            <Component Id="cmp32F720632C888A1BD0D1DECBDAFD85E7" Directory="dirCFA1BC9F1264A89F2A5A4059BB2D14FB" Guid="{C46A140B-C1B7-432F-9BE1-299BAF29050E}">
+                <File Id="filA557F93361B16EF3B087894131409BC7" KeyPath="yes" Source="$(var.LIBARCSourceDir)\contrib\libarchive\2.4.12\libarchive-2.4.12-src\COPYING" />
+            </Component>
+            <Component Id="cmpC856D678AA69803B958288F02B15D30E" Directory="dirCFA1BC9F1264A89F2A5A4059BB2D14FB" Guid="{863DAD40-79A2-4599-AB9C-CD643768466E}">
+                <File Id="filB7C9FEC2C872632840F1023F7E03C915" KeyPath="yes" Source="$(var.LIBARCSourceDir)\contrib\libarchive\2.4.12\libarchive-2.4.12-src\INSTALL" />
+            </Component>
+            <Component Id="cmpBF3A5D5C3F8892715459D06E1796578C" Directory="dirCFA1BC9F1264A89F2A5A4059BB2D14FB" Guid="{23B148A7-D411-46E2-A136-BD831FE75F20}">
+                <File Id="fil95A966AD1F37602FA5997B58FF190D3C" KeyPath="yes" Source="$(var.LIBARCSourceDir)\contrib\libarchive\2.4.12\libarchive-2.4.12-src\NEWS" />
+            </Component>
+            <Component Id="cmp4B3D27B42AF5DF97706AE4702DA3ACAF" Directory="dirCFA1BC9F1264A89F2A5A4059BB2D14FB" Guid="{951AF600-DAAD-4E77-9B85-D6D11DC9C7CF}">
+                <File Id="filD62ADE8486CAEDC0F3941A510B3F5801" KeyPath="yes" Source="$(var.LIBARCSourceDir)\contrib\libarchive\2.4.12\libarchive-2.4.12-src\README" />
+            </Component>
+            <Component Id="cmpC592924DC1DC6CE8948F1734A58833B3" Directory="dirCFA1BC9F1264A89F2A5A4059BB2D14FB" Guid="{DC6020B1-5A0E-44BD-A493-DC8FC6D55FD6}">
+                <File Id="fil44EE515C58528DB941F6B57862B9D570" KeyPath="yes" Source="$(var.LIBARCSourceDir)\contrib\libarchive\2.4.12\libarchive-2.4.12-src\version" />
+            </Component>
+            <Component Id="cmp5E4720422B7FB87DE456688EFF881CF9" Directory="dir69FA3BA5809BC967462C4479C9832FB8" Guid="{1F9B5979-773C-427A-A243-8A9282170C4B}">
+                <File Id="fil07C8827FD6CBFD340E676CF96EDEAAEC" KeyPath="yes" Source="$(var.LIBARCSourceDir)\contrib\libarchive\2.4.12\libarchive-2.4.12-src\contrib\README" />
+            </Component>
+            <Component Id="cmp868C65FDA47E1C39329EA92175BF8C8B" Directory="dirA0EBA426720383C574FEAB1CE7DB7FC6" Guid="{5505A359-0191-40AA-958D-97935CA9FCBE}">
+                <File Id="filFB29C82FAD53EDA39408552831A701E7" KeyPath="yes" Source="$(var.LIBARCSourceDir)\contrib\libarchive\2.4.12\libarchive-2.4.12-src\examples\minitar\README" />
+            </Component>
+            <Component Id="cmp4A011639450C3F45619A1858BEC8DA45" Directory="dir9B72E14C826F3159DD117B81F2446A69" Guid="{0C61C46B-9A10-40E3-8D04-941BC32A37D3}">
+                <File Id="filEADC12DB3570264239260ED50329FDC1" KeyPath="yes" Source="$(var.LIBARCSourceDir)\include\archive.h" />
+            </Component>
+            <Component Id="cmp931DD86C2FFE1DBDB0611F51432300F5" Directory="dir9B72E14C826F3159DD117B81F2446A69" Guid="{37D3868F-8E20-4694-973F-0653C8D3C998}">
+                <File Id="filD57EC75EEDEAA69A17951FC003BBE269" KeyPath="yes" Source="$(var.LIBARCSourceDir)\include\archive_entry.h" />
+            </Component>
+            <Component Id="cmpCA4B41B73E6962997CC8E37A9D7191BE" Directory="dir9B72E14C826F3159DD117B81F2446A69" Guid="{0C1F7879-1D4D-48E4-951D-0C08AE184FF5}">
+                <File Id="fil8C267BCCCDE7041AAFCA62DBA6D312E8" KeyPath="yes" Source="$(var.LIBARCSourceDir)\include\libarchive-nonposix.h" />
+            </Component>
+            <Component Id="cmp16FDFE06352E9361FC2F92DB632A12A3" Directory="dirA8C85B29FAA60E5C3196EA15FE9691CD" Guid="{4FF332D1-00DE-49B6-B8A2-83DD3881D47A}">
+                <File Id="fil50A8B786FA81A52C8F73E4332C6EEB33" KeyPath="yes" Source="$(var.LIBARCSourceDir)\lib\libarchive-bcc.lib" />
+            </Component>
+            <Component Id="cmp5665376DC7AA270BF2E66DC30ACADD8A" Directory="dirA8C85B29FAA60E5C3196EA15FE9691CD" Guid="{9C5A0259-93B3-4974-8EAB-6204C8E3160D}">
+                <File Id="fil2CCD30A26ED9F16276665A512E14C03D" KeyPath="yes" Source="$(var.LIBARCSourceDir)\lib\libarchive.dll.a" />
+            </Component>
+            <Component Id="cmp54DCF07370D889E827C6DF803F6C3325" Directory="dirA8C85B29FAA60E5C3196EA15FE9691CD" Guid="{CEC5420A-6418-408C-8D2B-4406C48C57AE}">
+                <File Id="filCDBC6353B8FA41CC5C4DC781D33511D7" KeyPath="yes" Source="$(var.LIBARCSourceDir)\lib\libarchive.la" />
+            </Component>
+            <Component Id="cmp5ED2BCB7D0CA3C09B09E5AEC2A883D1C" Directory="dirA8C85B29FAA60E5C3196EA15FE9691CD" Guid="{D9D05180-DE35-460B-AD3A-1B0A05A4FFFD}">
+                <File Id="fil759D2101A6E4C7ADA6E5EF1AD96CF572" KeyPath="yes" Source="$(var.LIBARCSourceDir)\lib\libarchive.lib" />
+            </Component>
+            <Component Id="cmp75C9A71B2E3E8C3FADA71D20D65D558D" Directory="dirA8C85B29FAA60E5C3196EA15FE9691CD" Guid="{FCDC5FED-1D12-4F12-A95E-C5A4F69879F9}">
+                <File Id="fil65B8391249131588FB87F293C1A5D912" KeyPath="yes" Source="$(var.LIBARCSourceDir)\lib\libarchive2.def" />
+            </Component>
+            <Component Id="cmpD286DDF5A7BB12BFCB63D3212C92794B" Directory="dir408BFD90E3B80A8FAD712D0181A27180" Guid="{CAC45AD5-A4DD-4DC8-9E50-ADCC3619E1C9}">
+                <File Id="fil628030F60B523AC6240737BBA9C24011" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat0p\cpio.h.0p.txt" />
+            </Component>
+            <Component Id="cmpD17B488AE3E50847C3FE7C015CCD5C58" Directory="dir408BFD90E3B80A8FAD712D0181A27180" Guid="{F059D4E4-7899-4F70-B5CA-2AEBCC518ED1}">
+                <File Id="fil61E19516E04DCFC2FB3936B7ED52FFD4" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat0p\tar.h.0p.txt" />
+            </Component>
+            <Component Id="cmpCB7CC4EAD9936A75673AD11DBFA00BEA" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{01843F89-E84B-47DE-91EB-78A9B509DCC6}">
+                <File Id="filC20F91E9EAA3B4A7590F3BB87C95A254" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat1\bsdcpio.1.txt" />
+            </Component>
+            <Component Id="cmpE163D07E60A3D243452EB04911E23DAB" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{79D8C05B-BD50-42D6-82A3-90B2289D2358}">
+                <File Id="filBEF4CA433937925930E84FE7C7E0713B" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat1\bsdtar.1.txt" />
+            </Component>
+            <Component Id="cmp58668B6B34FDBF13FBB135E48E8B65FD" Directory="dir12EE3376FEA98363D14CD9A0FA35A30D" Guid="{79D507D7-4392-41CF-AE54-524AACA53D73}">
+                <File Id="fil412CA550803594D214C1F7FDC839C4C7" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat1p\ar.1p.txt" />
+            </Component>
+            <Component Id="cmp5E53C271BB2BFBB70086634363EE3FEF" Directory="dir12EE3376FEA98363D14CD9A0FA35A30D" Guid="{A8BA454C-CBBA-4961-AF20-E88402D442E2}">
+                <File Id="filB9576419823B9790452F55A94621E93C" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat1p\pax.1p.txt" />
+            </Component>
+            <Component Id="cmp27AC19653617B1165FC6C168D1275099" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{0B01F79B-6684-4E44-BE44-FD11A5E6B4E9}">
+                <File Id="fil550105D7F941B1BAA1E151920F4EF2CD" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat3\archive_entry.3.txt" />
+            </Component>
+            <Component Id="cmpECA28C0FC3285F84701C7615DEC9ED73" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{AE81C80B-8E4C-4ECD-BB0B-6ABC4E39F8AC}">
+                <File Id="filA924AC1C4FC9EFEF0BC03FC8FDF7643E" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat3\archive_read.3.txt" />
+            </Component>
+            <Component Id="cmpD493979D536366C7DACA1BDD74DD11EF" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{5D6CE692-F6CF-4A9A-811F-03231700E6A9}">
+                <File Id="fil4B5290FF269EACB81DE4202697FA8D2E" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat3\archive_util.3.txt" />
+            </Component>
+            <Component Id="cmp5B99EF1E59961E07398E1FAC887B7618" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{59B64502-5C17-4CEF-90EC-8AA44836E7CF}">
+                <File Id="filB920FDC07399A96A0F8CEC4B398BC7EB" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat3\archive_write.3.txt" />
+            </Component>
+            <Component Id="cmp0DD8FAB623EEB9992490C4B527C6B4E4" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{051C27CD-C4A1-45D2-84CF-89C1123F807C}">
+                <File Id="fil0DBA73C1E4CAB853089ABE6E9F43CC62" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat3\archive_write_disk.3.txt" />
+            </Component>
+            <Component Id="cmpE836264228F5147E3C4DF0A9BAACD03D" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{F0E5E402-864A-4149-B18A-E763C763B8AE}">
+                <File Id="fil000CC355EF30F87EA50838FF59CF50FD" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat3\libarchive.3.txt" />
+            </Component>
+            <Component Id="cmp3ABF97908A96D695890673CC7BD42C5C" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{CDF580D5-C5BF-440A-9AE5-5EEE39BF2AB3}">
+                <File Id="fil512D69B0881252EDBB3D2A943E00889D" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat3\libarchive_internals.3.txt" />
+            </Component>
+            <Component Id="cmp59A33600652D948B6A367A8B0BE36B98" Directory="dirCF0E044BBF2AA34DB48DA7C42B0CE554" Guid="{C579BD37-5AEB-4F41-8A26-F7BD2EA9CECC}">
+                <File Id="fil04558AB8C86E62A6AAF34A7DED54CF26" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat5\cpio.5.txt" />
+            </Component>
+            <Component Id="cmpCE036C56EC444A46DEA49DD47B8C6C0C" Directory="dirCF0E044BBF2AA34DB48DA7C42B0CE554" Guid="{36F25810-165D-4F6D-AC79-C4EF356E79D2}">
+                <File Id="fil60F688EFEA29899169808A1A43D69345" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat5\libarchive-formats.5.txt" />
+            </Component>
+            <Component Id="cmp02B5488C398C6CE2B5806107D1BF7CC6" Directory="dirCF0E044BBF2AA34DB48DA7C42B0CE554" Guid="{C11F81D3-8DC6-453F-9FEA-020B23678AD2}">
+                <File Id="filEBD86E1B940FE612FAB85C7EEC23E26E" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat5\mtree.5.txt" />
+            </Component>
+            <Component Id="cmp32B1F6111718842C685756C7A8DBFDB3" Directory="dirCF0E044BBF2AA34DB48DA7C42B0CE554" Guid="{7F5C979E-E5F1-4AC8-8549-A4FC1F4DD121}">
+                <File Id="fil74B5FFA2CD2C973E970C6CD23C4B5963" KeyPath="yes" Source="$(var.LIBARCSourceDir)\man\cat5\tar.5.txt" />
+            </Component>
+            <Component Id="cmp6B44F4F623F79D59D21E507AE53CF45C" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{F38666EE-E86E-4868-B8B5-B13740DEEBA9}">
+                <File Id="fil46E6520D789D42E4E67A0E4C125621CA" KeyPath="yes" Source="$(var.LIBARCSourceDir)\manifest\libarchive-2.4.12-1-bin.mft" />
+            </Component>
+            <Component Id="cmp59255A14BC01DD82C522C58CE9A4B789" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{04FC07ED-2214-4545-8CDC-5B79CBE78AEE}">
+                <File Id="filFB73C89D2F1D3A1F19A2AF783022EA4F" KeyPath="yes" Source="$(var.LIBARCSourceDir)\manifest\libarchive-2.4.12-1-bin.ver" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA8C85B29FAA60E5C3196EA15FE9691CD" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC319B42821B2BD20AE7AD10238025E25" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirCFA1BC9F1264A89F2A5A4059BB2D14FB" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir9B72E14C826F3159DD117B81F2446A69" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir12EE3376FEA98363D14CD9A0FA35A30D" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirCF0E044BBF2AA34DB48DA7C42B0CE554" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir69FA3BA5809BC967462C4479C9832FB8" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir87B2FF1A618F100AA559C4EF19D1CD44" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA0EBA426720383C574FEAB1CE7DB7FC6" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir0398AB7FA394DB61E8177BC9C6BFC252" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD93A8F7CA457F79A2D974C8A21750586" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEA3C2E9C2358194303C828C2020F22DC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir408BFD90E3B80A8FAD712D0181A27180" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir27AA34B828E511799CC9E32731ED528B">
+            <Directory Id="dir0398AB7FA394DB61E8177BC9C6BFC252" Name="2.4.12" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirCFA1BC9F1264A89F2A5A4059BB2D14FB">
+            <Directory Id="dir070770D91D4F56A794D6BC1095C8957B" Name="examples" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir40754702BA83ED87F12D961C52E167A8">
+            <Directory Id="dir27AA34B828E511799CC9E32731ED528B" Name="libarchive" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE1F53FF223FAD700410ADE18A435E668">
+            <Directory Id="dir408BFD90E3B80A8FAD712D0181A27180" Name="cat0p" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirCFA1BC9F1264A89F2A5A4059BB2D14FB">
+            <Directory Id="dir69FA3BA5809BC967462C4479C9832FB8" Name="contrib" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir070770D91D4F56A794D6BC1095C8957B">
+            <Directory Id="dirA0EBA426720383C574FEAB1CE7DB7FC6" Name="minitar" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE1F53FF223FAD700410ADE18A435E668">
+            <Directory Id="dirC319B42821B2BD20AE7AD10238025E25" Name="cat3" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE1F53FF223FAD700410ADE18A435E668">
+            <Directory Id="dirCF0E044BBF2AA34DB48DA7C42B0CE554" Name="cat5" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir0398AB7FA394DB61E8177BC9C6BFC252">
+            <Directory Id="dirCFA1BC9F1264A89F2A5A4059BB2D14FB" Name="libarchive-2.4.12-src" />
+        </DirectoryRef>
+    </Fragment>
+</Include>

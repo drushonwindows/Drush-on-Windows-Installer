@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+    <Fragment>
+        <ComponentGroup Id="CG_ZLIB">
+            <Component Id="cmp88F2FED7E1EB93CECAE2B396CF40B2FB" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{BDE84135-3277-4AEF-98A6-AA5B1EE27FAF}">
+                <File Id="filA84C30FCA7DE8D5FC2EE1C426E6FC11B" KeyPath="yes" Source="$(var.ZLIBSourceDir)\bin\zlib1.dll" />
+            </Component>
+            <Component Id="cmp22DC0DB6D479876C1E2669156C522F39" Directory="dir45E95A4217679853BCAA3D3A3555AA87" Guid="{D6E81982-C1FF-40A2-AC4D-DD2A6E39D655}">
+                <File Id="fil3023D4C256B1FA16DB3A8038635D538D" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\depends-GnuWin32.lst" />
+            </Component>
+            <Component Id="cmp43E2D7B22387B082C3FD64C70280543F" Directory="dir018119B27D409E40BE0E5AEA71B72694" Guid="{9161BBD6-BEBF-4DD8-B7FB-BF7F30FA7473}">
+                <File Id="fil8D30C5DFBBED8F586FD117F1C3D84AA2" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\ChangeLog" />
+            </Component>
+            <Component Id="cmpA1CB87A8060093715021041D24CEB1C2" Directory="dir018119B27D409E40BE0E5AEA71B72694" Guid="{9264889D-9668-4339-B014-538ED1B0C477}">
+                <File Id="fil997980C6528A02BA9A240305E0368069" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\check.log" />
+            </Component>
+            <Component Id="cmpF79A56AB211DBB2CE48F125C2336DC64" Directory="dir018119B27D409E40BE0E5AEA71B72694" Guid="{BC06D764-096C-43FC-BDF5-41AED9A2BDF7}">
+                <File Id="fil24B31F42BD4B1E67BEA99D15D0A6FB83" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\FAQ" />
+            </Component>
+            <Component Id="cmp41794C70A8A16763D7553603C4C885D9" Directory="dir018119B27D409E40BE0E5AEA71B72694" Guid="{D97E78FC-6022-44D5-B422-67F804A4BE83}">
+                <File Id="fil35C6510B1871A9A64FE7073BCDA4000C" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\INDEX" />
+            </Component>
+            <Component Id="cmpF4A5707A3F2C52BB5D444D5CFDC7A2A7" Directory="dir018119B27D409E40BE0E5AEA71B72694" Guid="{715F9E9D-BB9E-4746-949F-5464E14E2556}">
+                <File Id="fil511E7EF899B8FC0E3CECFFAC2B4AACF0" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\README" />
+            </Component>
+            <Component Id="cmpDDF08B6D5AC111F23CFAB7AA7969C59F" Directory="dir17DB466D07621802AF3F00762F1EB774" Guid="{8DAD0824-DF6B-45C9-80A8-16FC9EC8C238}">
+                <File Id="fil1A4C1A71E1582289B4ABF5806607A7AF" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\as400\readme.txt" />
+            </Component>
+            <Component Id="cmp237A311E2BFB195AFF0F5E23BB004128" Directory="dir18365A37194D84F1B855D3B6366E0034" Guid="{3FE1A2B0-D0D5-4073-B1A8-6C43D3964920}">
+                <File Id="filF1E5395E0915D8FB3789D808E7F77514" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\contrib\ada\readme.txt" />
+            </Component>
+            <Component Id="cmp3C047635CEBBAB368D4F5C2481FD5C60" Directory="dirCBF73BEC37F7097368D7B62D61C7BB45" Guid="{F4561313-9FFD-4439-9333-712B4AF0309D}">
+                <File Id="fil2F0D260891B3BF94232F1FD88000BC75" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\contrib\asm586\README.586" />
+            </Component>
+            <Component Id="cmpA44DAA3CE5EACAECDE571EF9034AFACF" Directory="dir2C502FD527F6DB39BE1C1CFD5F85CF9E" Guid="{24FAA393-0F77-42A5-9479-55A5D6866972}">
+                <File Id="fil707C36B8FBA0B80CA8FAB7DF0C081510" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\contrib\asm686\README.686" />
+            </Component>
+            <Component Id="cmp565C485D169A78EB03D6139D26C6187E" Directory="dir75DF3D3FC0E31FB4EAD680C486138E36" Guid="{7B5CC013-AFDC-42D7-A5A1-D7312DC6E2D2}">
+                <File Id="fil1A9041EFA71EC87300003EB41688626A" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\contrib\blast\README" />
+            </Component>
+            <Component Id="cmp6028593AC4CF77318D07B3B8EEC2DB91" Directory="dirE5971B35DA32EAC73D564004FBA35B31" Guid="{FA803EAF-9649-4A78-9438-F8A409EB843B}">
+                <File Id="filAE5F2F1A22F1C9EB2BDD0B24E386A484" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\contrib\delphi\readme.txt" />
+            </Component>
+            <Component Id="cmp6BC69EAABF15F2A757508E17C72ED405" Directory="dir6CB8299388A612C4B19D20DC58DFA964" Guid="{91836C8F-7A1B-4655-873A-08BF037AE827}">
+                <File Id="filCE9BB37631DFDD2238E712187A504F29" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\contrib\dotzlib\readme.txt" />
+            </Component>
+            <Component Id="cmp300BC3BDA15BA59E1AAD9E270A10C238" Directory="dirA0A256B8AD523C7F0D84A209AE4C97FA" Guid="{036DC0AF-0505-4E5B-AA0B-95B13D514977}">
+                <File Id="filAE18B75B05F4021D88AFF755D2E0775F" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\contrib\infback9\README" />
+            </Component>
+            <Component Id="cmp41131DB2E5BD35BDA602B5F3A4E0BAF9" Directory="dirF9EA66057673970D77BF45A14B4CE5BB" Guid="{FCC0DD59-342C-4D36-BD9C-F2D05B471869}">
+                <File Id="fil37F707095FFB0B637CC5AEB8A3841CE2" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\contrib\iostream3\README" />
+            </Component>
+            <Component Id="cmp07F7BE4880AED17C7C7BEF074ECD767A" Directory="dirF9EA66057673970D77BF45A14B4CE5BB" Guid="{888313BE-3E4F-453E-BA80-6E2EB87C7D00}">
+                <File Id="fil849760C295F1F18F429D7E2C1CCCD9C1" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\contrib\iostream3\TODO" />
+            </Component>
+            <Component Id="cmp324F09CC4B1BAC44FBE2F645A3B6CAB0" Directory="dir40E83CBD4CA3415CB7BF49AFB7960F91" Guid="{E825D683-D5ED-477D-B51F-044653FF8F55}">
+                <File Id="filC0DFD6FF98FFA8E65528DBA23F256B97" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\contrib\masmx64\readme.txt" />
+            </Component>
+            <Component Id="cmp971CB92947DF2101C18FCAD931A24B30" Directory="dirC4121A47F954A0C35C6ED60A42DE35DB" Guid="{BBA875B2-EA24-4AA3-8D4A-8405089A77D3}">
+                <File Id="fil42217A60099E16A41AFFBE3E13777C61" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\contrib\masmx86\readme.txt" />
+            </Component>
+            <Component Id="cmp2041ABBF17B5B3C83FA443EE3A780500" Directory="dir352D6CBE0B9275F49338142594B88597" Guid="{D6E6B9F4-6AD1-4EF8-853D-0A371FB663F9}">
+                <File Id="fil7687E8985165C0DD2CAF8B8FE390E771" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\contrib\pascal\readme.txt" />
+            </Component>
+            <Component Id="cmpD02D90E4A62599B4B1ADB68BC01E9152" Directory="dirCF223ED2E6F6A2AED45F0B1BF15AC9AD" Guid="{042656DC-D08F-41A3-A1B7-82BE3D195747}">
+                <File Id="fil5F4E66411C57D80D5C5E6FF1A9216375" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\contrib\puff\README" />
+            </Component>
+            <Component Id="cmpD44BB250D9E5B40268C9B709B1FFD2CE" Directory="dir9910C45916EAD84D57603A88429AAA42" Guid="{25E56E6F-1F55-4F22-A9FD-DFF1F8C10627}">
+                <File Id="fil450AD889A110E55E55BB178CE5EE2BB1" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\contrib\vstudio\readme.txt" />
+            </Component>
+            <Component Id="cmp251A41B373672A91EB685B01B8CFD961" Directory="dirAEA89A795FC80319D8D756E0C3286C47" Guid="{FC533536-EAC1-420A-98A2-8D29FD862524}">
+                <File Id="fil7989AE0CA9FEB160EF47F12BDA16778C" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\examples\README.examples" />
+            </Component>
+            <Component Id="cmp7BA161143E4C8411E41E2B81B413CC79" Directory="dir20022BA76D0E8E270181ABCD84A69FA5" Guid="{D9EF38A8-FCFF-45C4-A272-5688B8868AB8}">
+                <File Id="filBF68E2245F4C03F361493DA6B296B768" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\old\README" />
+            </Component>
+            <Component Id="cmp57B39C4232D4B4618DFA7D80E0457FEB" Directory="dirE76AEBC1E6B530AF213F4236E555A302" Guid="{AACA088E-FA24-4736-95CE-8BD9B2CAE428}">
+                <File Id="fil00D83237ABFB6AEAE7637EED178A9B37" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\projects\README.projects" />
+            </Component>
+            <Component Id="cmpF5F79C3EA3D33DC764FA30B07B01B889" Directory="dir14EA8CA3AE1358DD8FC7B440DE71F905" Guid="{ECE63CBF-7743-4396-B5B6-3E07E5B82C50}">
+                <File Id="fil06EB515E0DFDCC722A5273B46EBA578F" KeyPath="yes" Source="$(var.ZLIBSourceDir)\contrib\zlib\1.2.3\zlib-1.2.3\projects\visualc6\README.txt" />
+            </Component>
+            <Component Id="cmp71F6EDA74F68C88522B80210D51468DD" Directory="dirC319B42821B2BD20AE7AD10238025E25" Guid="{624DBB1C-A3E8-46C1-82F4-24CA112B8380}">
+                <File Id="fil70F9B10AEB9F71B3DE91D15E72B3D1E0" KeyPath="yes" Source="$(var.ZLIBSourceDir)\man\cat3\zlib.3.txt" />
+            </Component>
+            <Component Id="cmp33AC672B8F4C1643892CC01F2818664E" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{D9746454-15D0-40F1-B4BE-E8DF0A3328CE}">
+                <File Id="fil668D60B9D0BB49EE9C58303F420C49CB" KeyPath="yes" Source="$(var.ZLIBSourceDir)\manifest\zlib-1.2.3-bin.mft" />
+            </Component>
+            <Component Id="cmp629409DDE2DE9A084281F2DC7E75A5A0" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{A8253052-102F-40D7-A2B8-B46A03BE39D9}">
+                <File Id="filFBC3FCFA30FA4D523AC7A549C75AEC1D" KeyPath="yes" Source="$(var.ZLIBSourceDir)\manifest\zlib-1.2.3-bin.ver" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir352D6CBE0B9275F49338142594B88597" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir45E95A4217679853BCAA3D3A3555AA87" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir18365A37194D84F1B855D3B6366E0034" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirAEA89A795FC80319D8D756E0C3286C47" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA0A256B8AD523C7F0D84A209AE4C97FA" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir40E83CBD4CA3415CB7BF49AFB7960F91" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir87B2FF1A618F100AA559C4EF19D1CD44" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirCBF73BEC37F7097368D7B62D61C7BB45" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF9EA66057673970D77BF45A14B4CE5BB" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir018119B27D409E40BE0E5AEA71B72694" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir75DF3D3FC0E31FB4EAD680C486138E36" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE76AEBC1E6B530AF213F4236E555A302" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE5971B35DA32EAC73D564004FBA35B31" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6CB8299388A612C4B19D20DC58DFA964" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC319B42821B2BD20AE7AD10238025E25" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir20022BA76D0E8E270181ABCD84A69FA5" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEA3C2E9C2358194303C828C2020F22DC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC4121A47F954A0C35C6ED60A42DE35DB" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2C502FD527F6DB39BE1C1CFD5F85CF9E" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirCF223ED2E6F6A2AED45F0B1BF15AC9AD" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir9910C45916EAD84D57603A88429AAA42" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir17DB466D07621802AF3F00762F1EB774" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir14EA8CA3AE1358DD8FC7B440DE71F905" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir45E95A4217679853BCAA3D3A3555AA87">
+            <Directory Id="dir018119B27D409E40BE0E5AEA71B72694" Name="zlib-1.2.3" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE76AEBC1E6B530AF213F4236E555A302">
+            <Directory Id="dir14EA8CA3AE1358DD8FC7B440DE71F905" Name="visualc6" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir018119B27D409E40BE0E5AEA71B72694">
+            <Directory Id="dir17DB466D07621802AF3F00762F1EB774" Name="as400" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD9B9D831BC8CF0A616B2F316CDCFCF24">
+            <Directory Id="dir18365A37194D84F1B855D3B6366E0034" Name="ada" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir018119B27D409E40BE0E5AEA71B72694">
+            <Directory Id="dir20022BA76D0E8E270181ABCD84A69FA5" Name="old" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD9B9D831BC8CF0A616B2F316CDCFCF24">
+            <Directory Id="dir2C502FD527F6DB39BE1C1CFD5F85CF9E" Name="asm686" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD9B9D831BC8CF0A616B2F316CDCFCF24">
+            <Directory Id="dir352D6CBE0B9275F49338142594B88597" Name="pascal" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD9B9D831BC8CF0A616B2F316CDCFCF24">
+            <Directory Id="dir40E83CBD4CA3415CB7BF49AFB7960F91" Name="masmx64" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA9450F29DDDECD82A8945F253606F08A">
+            <Directory Id="dir45E95A4217679853BCAA3D3A3555AA87" Name="1.2.3" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD9B9D831BC8CF0A616B2F316CDCFCF24">
+            <Directory Id="dir6CB8299388A612C4B19D20DC58DFA964" Name="dotzlib" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD9B9D831BC8CF0A616B2F316CDCFCF24">
+            <Directory Id="dir75DF3D3FC0E31FB4EAD680C486138E36" Name="blast" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD9B9D831BC8CF0A616B2F316CDCFCF24">
+            <Directory Id="dir9910C45916EAD84D57603A88429AAA42" Name="vstudio" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD9B9D831BC8CF0A616B2F316CDCFCF24">
+            <Directory Id="dirA0A256B8AD523C7F0D84A209AE4C97FA" Name="infback9" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir40754702BA83ED87F12D961C52E167A8">
+            <Directory Id="dirA9450F29DDDECD82A8945F253606F08A" Name="zlib" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir018119B27D409E40BE0E5AEA71B72694">
+            <Directory Id="dirAEA89A795FC80319D8D756E0C3286C47" Name="examples" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD9B9D831BC8CF0A616B2F316CDCFCF24">
+            <Directory Id="dirC4121A47F954A0C35C6ED60A42DE35DB" Name="masmx86" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD9B9D831BC8CF0A616B2F316CDCFCF24">
+            <Directory Id="dirCBF73BEC37F7097368D7B62D61C7BB45" Name="asm586" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD9B9D831BC8CF0A616B2F316CDCFCF24">
+            <Directory Id="dirCF223ED2E6F6A2AED45F0B1BF15AC9AD" Name="puff" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir018119B27D409E40BE0E5AEA71B72694">
+            <Directory Id="dirD9B9D831BC8CF0A616B2F316CDCFCF24" Name="contrib" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD9B9D831BC8CF0A616B2F316CDCFCF24">
+            <Directory Id="dirE5971B35DA32EAC73D564004FBA35B31" Name="delphi" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir018119B27D409E40BE0E5AEA71B72694">
+            <Directory Id="dirE76AEBC1E6B530AF213F4236E555A302" Name="projects" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD9B9D831BC8CF0A616B2F316CDCFCF24">
+            <Directory Id="dirF9EA66057673970D77BF45A14B4CE5BB" Name="iostream3" />
+        </DirectoryRef>
+    </Fragment>
+</Include>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <Feature Id="F_Complete"
+           Title="$(var.ProductName) Setup"
+           Level="1"
+           Display="expand"
+           Absent="disallow"
+           AllowAdvertise="no"
+           ConfigurableDirectory="INSTALLLOCATION" >
+
+    <ComponentRef Id="Comp_License" />
+    <ComponentRef Id="Comp_EnvShortcut" />
+    <ComponentRef Id="Comp_ProgramMenuDir" />
+    <ComponentRef Id="Comp_WinRMConfig" />
+
+    <Feature Id="F_Drush"
+             Title="Drush Required Runtime"
+             Level="10"
+             Absent="disallow"
+             AllowAdvertise="no"
+             ConfigurableDirectory="INSTALLLOCATION"
+             Description="Install Drush files">
+
+      <ComponentGroupRef Id="CG_DRUSH" />
+
+      <Component Id="Comp_DrushPath"
+                 Guid="{590D1BE9-6145-49B8-ACF3-782F7899C0E8}"
+                 Directory="DrushFolder">
+        <CreateFolder/>
+        <Environment Id='UpdateDrushPath' Name='PATH' Action='set' Permanent='no' System='no' Part='last' Value='[DRUSH_PATH]' />
+      </Component>
+    </Feature>
+
+    <Feature Id="F_GnuWin32"
+             Title="GnuWin32 Required Components"
+             Level="10"
+             AllowAdvertise="no"
+             ConfigurableDirectory="INSTALLLOCATION" >
+
+      <ComponentGroupRef Id="CG_BZIP2" />
+      <ComponentGroupRef Id="CG_GZIP" />
+      <ComponentGroupRef Id="CG_LESS" />
+      <ComponentGroupRef Id="CG_LIBARC" />
+      <ComponentGroupRef Id="CG_LIBCON" />
+      <ComponentGroupRef Id="CG_LIBCON2" />
+      <ComponentGroupRef Id="CG_LIBINT" />
+      <ComponentGroupRef Id="CG_LIBINT3" />
+      <ComponentGroupRef Id="CG_OPENSSL" />
+      <ComponentGroupRef Id="CG_PCRE" />
+      <ComponentGroupRef Id="CG_TAR" />
+      <ComponentGroupRef Id="CG_WGET" />
+      <ComponentGroupRef Id="CG_ZLIB" />
+
+      <Component Id="Comp_GnuWin32Path"
+                 Guid="{B8C37A19-FACD-41B2-9781-1FBA9E0B3CF2}"
+                 Directory="INSTALLLOCATION">
+        <CreateFolder />
+        <Environment Id='UpdateGnuWin32Path' Name='PATH' Action='set' Permanent='no' System='no' Part='last' Value='[GNUWIN32_PATH]' />
+      </Component>
+    </Feature>
+
+    <Feature Id="F_Php"
+             Title="Php Required Runtime"
+             Level="10"
+             AllowAdvertise="no"
+             ConfigurableDirectory="INSTALLLOCATION"
+             Description="Install php.exe and related libraries to allow PHP script execution.">
+
+      <ComponentGroupRef Id="CG_PHP" />
+
+      <Component Id="Comp_PhpPath"
+                 Guid="{6D4EE4D4-B388-4D91-9BE9-6863874003D5}"
+                 Directory="INSTALLLOCATION">
+        <CreateFolder/>
+        <Environment Id='UpdatePhpPath' Name='PATH' Action='set' Permanent='no' System='no' Part='last' Value='[PHP_PATH]' />
+      </Component>
+    </Feature>
+
+    <Feature Id="F_CwRsync"
+             Title="cwRsync Optional Components"
+             Level="110"
+             AllowAdvertise="no"
+             ConfigurableDirectory="INSTALLLOCATION"
+             Description="Install cwRsync to add support for ssh and rsync related commands.">
+
+      <ComponentGroupRef Id="CG_CWRSYNC" />
+
+      <Component Id="Comp_CwRsyncPath"
+                 Guid="{4A6A3409-88D2-4F9A-8DA2-BEEF3348348B}"
+                 Directory="INSTALLLOCATION">
+        <CreateFolder/>
+        <Environment Id='UpdateCwRsyncPath' Name='PATH' Action='set' Permanent='no' System='no' Part='last' Value='[CWRSYNC_PATH]' />
+      </Component>
+    </Feature>
+
+    <Feature Id="F_EnvSetup"
+             Title="Register Environment Variables"
+             Level="110"
+             AllowAdvertise="no"
+             ConfigurableDirectory="INSTALLLOCATION"
+             Description="WARNING: This feature registers Drush environment variables to the system/user settings. This may conflict with existing environment settings in use by other applications. INSTALLING THIS FEATURE MAY BREAK OTHER APPLICATIONS.">
+
+      <Component Id="Comp_DrushEnv"
+                 Guid="{0317923E-E1BE-4645-B323-CA46B0A4C62A}"
+                 Directory="DrushFolder">
+        <CreateFolder/>
+        <Environment Id='UpdateDrushEnv' Name='PATH' Action='set' Permanent='no' System='no' Part='last' Value='[DRUSH_PATH]' />
+      </Component>
+
+      <Component Id="Comp_GnuWin32Env"
+                 Guid="{A20B621A-32ED-43F0-B09A-44C5172047E0}"
+                 Directory="INSTALLLOCATION">
+        <CreateFolder />
+        <Environment Id='UpdateGnuWin32Env' Name='PATH' Action='set' Permanent='no' System='no' Part='last' Value='[GNUWIN32_PATH]' />
+      </Component>
+
+      <Component Id="Comp_PhpEnv"
+                 Guid="{9F560663-5E11-4446-AA6F-15D0CDAAC026}"
+                 Directory="INSTALLLOCATION">
+        <CreateFolder/>
+        <Environment Id='UpdatePhpEnv' Name='PATH' Action='set' Permanent='no' System='no' Part='last' Value='[PHP_PATH]' />
+      </Component>
+
+      <Component Id="Comp_CwRsyncEnv"
+                 Guid="{2125A2FD-459B-444D-AA0B-A446B61BD792}"
+                 Directory="INSTALLLOCATION">
+        <CreateFolder/>
+        <Environment Id='UpdateCwRsyncEnv' Name='PATH' Action='set' Permanent='no' System='no' Part='last' Value='[CWRSYNC_PATH]' />
+      </Component>
+    </Feature>
+
+    <Feature Id='F_WinRM'
+             Title="Configure Windows Remote Management"
+             Level="110"
+             AllowAdvertise="no"
+             ConfigurableDirectory="INSTALLLOCATION"
+             Description="Configures automatic start of WinRM service. Optionally enables your to accept incoming WinRM requests (server mode).">
+
+      <Component Id="Comp_WinRM"
+                 Guid="{150310AE-59D6-4CEE-A918-B917E988CFBF}"
+                 Directory="INSTALLLOCATION">
+        <CreateFolder/>
+      </Component>
+
+      <Feature Id='F_WinRMHttp'
+               Title="Accept incoming requests"
+               Level="110"
+               AllowAdvertise="no"
+               ConfigurableDirectory="INSTALLLOCATION"
+               Description="Enables server mode. Adds WinRM listener using HTTP by default. WARNING: Run installer under elevated command prompt or use WinRMConfig.bat for post configuration.">
+        <Component Id="Comp_WinRMHttp"
+                   Guid="{A9625C1E-08B3-4353-B89B-A1368AD4E558}"
+                   Directory="INSTALLLOCATION">
+          <CreateFolder/>
+        </Component>
+      </Feature>
+    </Feature>
+
+    <!-- Note: The following ComponentGroupRef is required to pull in 
+      generated authoring from project references. -->
+    <ComponentGroupRef Id="Product.Generated" />
+  </Feature>
+</Include>

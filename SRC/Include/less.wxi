@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+    <Fragment>
+        <ComponentGroup Id="CG_LESS">
+            <Component Id="cmp185C14554633A69DB498ED99C0DA4854" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{5554C79C-0EB1-433C-B4D0-2415D90B93A3}">
+                <File Id="fil91D83C5BB8DA7D0EA38784C58901A6D7" KeyPath="yes" Source="$(var.LESSSourceDir)\bin\less.exe" />
+            </Component>
+            <Component Id="cmp43A5D67777E464076FB479EF4B384D6D" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{E57DABD1-E75B-4AB2-A28E-3D69D4224671}">
+                <File Id="filA562EE0416636E96C2D617AFC42D1B7C" KeyPath="yes" Source="$(var.LESSSourceDir)\bin\lessecho.exe" />
+            </Component>
+            <Component Id="cmp1DC9022B6F9D986311E8947A7C255645" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{923C95B0-3A05-4EA1-81E4-74E254C5C358}">
+                <File Id="fil449B904612BDC757C06592E860C9A41F" KeyPath="yes" Source="$(var.LESSSourceDir)\bin\lessfile" />
+            </Component>
+            <Component Id="cmpD90F46C6AAD2F575982861C9109ECB09" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{ACAE59FD-8A6B-497E-BBD1-5E0BA97E04DD}">
+                <File Id="fil6BB82CF2187BC253FE5245E6EB6AA818" KeyPath="yes" Source="$(var.LESSSourceDir)\bin\lesskey.exe" />
+            </Component>
+            <Component Id="cmp37B6E42235E7753C60517AD1D28628C2" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{D71649E9-08A0-4B41-97B6-091326F50F83}">
+                <File Id="fil4339A7AD91C2785511D7E9D6572B4638" KeyPath="yes" Source="$(var.LESSSourceDir)\bin\lesspipe" />
+            </Component>
+            <Component Id="cmpA7B8CCB5B9AC1351B243767BDB93A4E4" Directory="dirF9DB7150E6E921014F9305248B1E6E81" Guid="{1C346175-2AB1-47AF-A8A4-CF9133AD2592}">
+                <File Id="filB285F00A840F441AAE25A321C6DA19CA" KeyPath="yes" Source="$(var.LESSSourceDir)\contrib\less\394\less-394-GnuWin32.README" />
+            </Component>
+            <Component Id="cmp9711907B1CC5C521F8EE8189E6F832C5" Directory="dir171B14AB8BEFCB2AE9937799C58AD0D2" Guid="{A7DABB2A-4E13-4EE4-BB4E-5F39ABD8E1EA}">
+                <File Id="filA580CCCEB38050692A994E0E4D318B41" KeyPath="yes" Source="$(var.LESSSourceDir)\contrib\less\394\less-394-src\COPYING" />
+            </Component>
+            <Component Id="cmp3920D70500E1B639DAF8ADDA6731C11A" Directory="dir171B14AB8BEFCB2AE9937799C58AD0D2" Guid="{B07630F5-D31A-4B91-8806-43E6B5C9CB95}">
+                <File Id="filB0D86086B8F68036039DCD534FBBB4B2" KeyPath="yes" Source="$(var.LESSSourceDir)\contrib\less\394\less-394-src\INSTALL" />
+            </Component>
+            <Component Id="cmp82CC7AF8FD1731ABCF0EB0F06E9EB36A" Directory="dir171B14AB8BEFCB2AE9937799C58AD0D2" Guid="{8374CECF-6244-4009-AD04-C539F4738476}">
+                <File Id="fil3C3E808E6C7344290AF75258724BF810" KeyPath="yes" Source="$(var.LESSSourceDir)\contrib\less\394\less-394-src\LICENSE" />
+            </Component>
+            <Component Id="cmp01F0B07937B9E1EA3FD4338EFE3B9CDE" Directory="dir171B14AB8BEFCB2AE9937799C58AD0D2" Guid="{2359F4A8-FA90-43DC-B8C1-C21DE8A1B936}">
+                <File Id="filBC39CF88FA6158EB3ADDE238B8FF1101" KeyPath="yes" Source="$(var.LESSSourceDir)\contrib\less\394\less-394-src\NEWS" />
+            </Component>
+            <Component Id="cmpD9FF8B13275BDD191B14AC81375E6C53" Directory="dir171B14AB8BEFCB2AE9937799C58AD0D2" Guid="{A5248B38-68D6-4144-9785-7551A800861A}">
+                <File Id="fil67C0D5B3DCD8356C997A33B91F99BC94" KeyPath="yes" Source="$(var.LESSSourceDir)\contrib\less\394\less-394-src\README" />
+            </Component>
+            <Component Id="cmp8ACFE5A32F39F24EFD6C48311E147CB6" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{A13A0816-1E93-4F91-9A2E-F98E5BAFF929}">
+                <File Id="fil0A49239F1B1D2841D30A9EBA38386BA6" KeyPath="yes" Source="$(var.LESSSourceDir)\man\cat1\less.1.txt" />
+            </Component>
+            <Component Id="cmp017F66E9DC98BDD3CD3EF73A530CAE39" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{E8E3F7CB-8EC2-4F5D-8E37-CC2BABE3EB16}">
+                <File Id="filC959707852F678B80F8D1EA5DAB0742E" KeyPath="yes" Source="$(var.LESSSourceDir)\man\cat1\lessecho.1.txt" />
+            </Component>
+            <Component Id="cmp3929DB842318AAD9E5C4CF9CB2ED7762" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{423B0D60-CB07-41AA-B282-169CF4BD9879}">
+                <File Id="fil2F97C7CA234FDBEF4EAB47DF96A9A7FA" KeyPath="yes" Source="$(var.LESSSourceDir)\man\cat1\lessfile.1.txt.lnk" />
+            </Component>
+            <Component Id="cmpE7A2473DFE001BDDD529C0E2A1026BFD" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{83CD0D98-830C-48F9-9A2A-8D5189A89D6B}">
+                <File Id="fil489AC06A390C0C8C4B7EE73F5CCAFDEB" KeyPath="yes" Source="$(var.LESSSourceDir)\man\cat1\lesskey.1.txt" />
+            </Component>
+            <Component Id="cmpFAB16F88E11EC7B59A2EB043E3FEABD2" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{7A20D0B7-F29E-4BDA-BE9E-EA79E869F43A}">
+                <File Id="fil2FE32A4749DD1AD652775A9971CB6BB8" KeyPath="yes" Source="$(var.LESSSourceDir)\man\cat1\lesspipe.1.txt" />
+            </Component>
+            <Component Id="cmp3B768A1FB32236481371CFCF7F945AA0" Directory="dir12EE3376FEA98363D14CD9A0FA35A30D" Guid="{D0FE6D0B-D693-4BE3-85A5-C93BACA3E860}">
+                <File Id="fil4F79D1C09F4E7DECCB0D343FA9A343A2" KeyPath="yes" Source="$(var.LESSSourceDir)\man\cat1p\more.1p.txt" />
+            </Component>
+            <Component Id="cmpC16716ECA94CD6C19FDAEEC24ABD3075" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{08C5A576-0BB0-4221-AB85-37DF7F24F1B8}">
+                <File Id="fil62BAAF28317B52AE7AA1F7AA54F8E400" KeyPath="yes" Source="$(var.LESSSourceDir)\manifest\less-394-bin.mft" />
+            </Component>
+            <Component Id="cmpDD20381045015CCB2817CCAD1796A6F5" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{469E5B00-6911-422D-B0B1-E4E031C04A8E}">
+                <File Id="filB7845159565A99A920D2BA89DB0D5A69" KeyPath="yes" Source="$(var.LESSSourceDir)\manifest\less-394-bin.ver" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEA3C2E9C2358194303C828C2020F22DC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir12EE3376FEA98363D14CD9A0FA35A30D" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD93A8F7CA457F79A2D974C8A21750586" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir171B14AB8BEFCB2AE9937799C58AD0D2" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF9DB7150E6E921014F9305248B1E6E81" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir87B2FF1A618F100AA559C4EF19D1CD44" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF9DB7150E6E921014F9305248B1E6E81">
+            <Directory Id="dir171B14AB8BEFCB2AE9937799C58AD0D2" Name="less-394-src" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir40754702BA83ED87F12D961C52E167A8">
+            <Directory Id="dir8A4B394FBB12A2166453570911869333" Name="less" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir8A4B394FBB12A2166453570911869333">
+            <Directory Id="dirF9DB7150E6E921014F9305248B1E6E81" Name="394" />
+        </DirectoryRef>
+    </Fragment>
+</Include>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <CustomAction Id='CA_AddDrushPath' Property='DRUSH_PATH' Value='[DrushFolder]' />
+  <CustomAction Id='CA_DelDrushPath' Property='DRUSH_PATH' Value='[DrushFolder]' />
+  <CustomAction Id='CA_AddGnuWin32Path' Property='GNUWIN32_PATH' Value='[INSTALLLOCATION]GnuWin32\bin' />
+  <CustomAction Id='CA_DelGnuWin32Path' Property='GNUWIN32_PATH' Value='[INSTALLLOCATION]GnuWin32\bin' />
+  <CustomAction Id='CA_AddPhpPath' Property='PHP_PATH' Value='[INSTALLLOCATION]Php' />
+  <CustomAction Id='CA_DelPhpPath' Property='PHP_PATH' Value='[INSTALLLOCATION]Php' />
+  <CustomAction Id='CA_AddCwRsyncPath' Property='CWRSYNC_PATH' Value='[INSTALLLOCATION]cwRsync\bin' />
+  <CustomAction Id='CA_DelCwRsyncPath' Property='CWRSYNC_PATH' Value='[INSTALLLOCATION]cwRsync\bin' />
+
+  <InstallExecuteSequence>
+    <Custom Action='CA_AddDrushPath' After='CostFinalize'>
+      <![CDATA[
+(&F_EnvSetup=3 AND &F_Drush=3)
+OR (&F_EnvSetup=3 AND !F_Drush=3 AND &F_Drush<>2)
+OR (!F_EnvSetup=3 AND &F_EnvSetup<>2 AND &F_Drush=3)
+        ]]>
+    </Custom>
+    <Custom Action='CA_DelDrushPath' After='CostFinalize'>
+      <![CDATA[
+&F_EnvSetup=2 
+OR &F_Drush=2
+        ]]>
+    </Custom>
+
+    <Custom Action='CA_AddGnuWin32Path' After='CostFinalize'>
+      <![CDATA[
+(&F_EnvSetup=3 AND &F_GnuWin32=3)
+OR (&F_EnvSetup=3 AND !F_GnuWin32=3 AND &F_GnuWin32<>2)
+OR (!F_EnvSetup=3 AND &F_EnvSetup<>2 AND &F_GnuWin32=3)
+        ]]>
+    </Custom>
+    <Custom Action='CA_DelGnuWin32Path' After='CostFinalize'>
+      <![CDATA[
+&F_EnvSetup=2 
+OR &F_GnuWin32=2
+        ]]>
+    </Custom>
+
+    <Custom Action='CA_AddPhpPath' After='CostFinalize'>
+      <![CDATA[
+(&F_EnvSetup=3 AND &F_Php=3)
+OR (&F_EnvSetup=3 AND !F_Php=3 AND &F_Php<>2)
+OR (!F_EnvSetup=3 AND &F_EnvSetup<>2 AND &F_Php=3)
+        ]]>
+    </Custom>
+    <Custom Action='CA_DelPhpPath' After='CostFinalize'>
+      <![CDATA[
+&F_EnvSetup=2 
+OR &F_Php=2
+        ]]>
+    </Custom>
+
+    <Custom Action='CA_AddCwRsyncPath' After='CostFinalize'>
+      <![CDATA[
+(&F_EnvSetup=3 AND &F_CwRsync=3)
+OR (&F_EnvSetup=3 AND !F_CwRsync=3 AND &F_CwRsync<>2)
+OR (!F_EnvSetup=3 AND &F_EnvSetup<>2 AND &F_CwRsync=3)
+        ]]>
+    </Custom>
+    <Custom Action='CA_DelCwRsyncPath' After='CostFinalize'>
+      <![CDATA[
+&F_EnvSetup=2 
+OR &F_CwRsync=2
+        ]]>
+    </Custom>
+  </InstallExecuteSequence>
+</Include>

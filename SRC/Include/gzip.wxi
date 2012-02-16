@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+    <Fragment>
+        <ComponentGroup Id="CG_GZIP">
+            <Component Id="cmp10EB96538C4A9D5508E8A440512785C8" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{762C366C-835C-4367-9612-57CE6601534A}">
+                <File Id="filEC131795B37E925ED90BBB8BF8B72023" KeyPath="yes" Source="$(var.GZIPSourceDir)\bin\gunzip" />
+            </Component>
+            <Component Id="cmpF677E9FBB2A10AD251BAA7DC0F54F973" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{8BED23D8-D7AD-4635-B533-DA79FADBD7BF}">
+                <File Id="fil6E76060447AA9600BA1E358CA7AA3919" KeyPath="yes" Source="$(var.GZIPSourceDir)\bin\gzexe" />
+            </Component>
+            <Component Id="cmp2C6137CDE4C2ABD413BAAF5F6CB55887" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{6CC7785C-E068-47D8-92D5-83535A58F74F}">
+                <File Id="fil6FF7DBAD7BB621EFD2A29E264CB69AED" KeyPath="yes" Source="$(var.GZIPSourceDir)\bin\gzip.exe" />
+            </Component>
+            <Component Id="cmpAF6BA7DD01FAE41861E75AE3079C3560" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{FD0FDEF9-0AB1-449C-9B81-FDD6B1E121A8}">
+                <File Id="filE642D8723470EC4B578CD9373CAD6440" KeyPath="yes" Source="$(var.GZIPSourceDir)\bin\uncompress" />
+            </Component>
+            <Component Id="cmp63971FD6C1B1FE350C156314690114D7" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{18BC565D-754E-4D97-A551-111F7CD7A406}">
+                <File Id="fil5920D45EDE557E357AD8CBFB5B0E4672" KeyPath="yes" Source="$(var.GZIPSourceDir)\bin\zcat" />
+            </Component>
+            <Component Id="cmpE75712468B1B925D0B86DB13395A1A5C" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{A258DC5F-6773-4890-BDDE-D574487B82B7}">
+                <File Id="filECE046DFFB70B7E0FA605032DF8D40D1" KeyPath="yes" Source="$(var.GZIPSourceDir)\bin\zcmp" />
+            </Component>
+            <Component Id="cmpDAC2570B57AC9823BC4BE4F020F9D216" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{63653135-F861-4A81-A9A8-6880DFE58294}">
+                <File Id="filE7D0D69F403446B03D9D0D2398710DAA" KeyPath="yes" Source="$(var.GZIPSourceDir)\bin\zdiff" />
+            </Component>
+            <Component Id="cmp25A4DD188AE0C162550E9F2F1A9B5E54" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{B69C346D-3535-4473-86E7-34554057893F}">
+                <File Id="fil024B057C90564E4331935C27D05CBD0D" KeyPath="yes" Source="$(var.GZIPSourceDir)\bin\zegrep" />
+            </Component>
+            <Component Id="cmp8645617C59BE67367D81D634AB3FFE4D" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{B2433B2B-9FD0-4788-A810-5C8192F70F6A}">
+                <File Id="filD947D364EEC57AF3A87BD4E82D5DF9AB" KeyPath="yes" Source="$(var.GZIPSourceDir)\bin\zfgrep" />
+            </Component>
+            <Component Id="cmp8B84759BE9AF646A57C88D9A53DD27E4" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{0EC3E687-7F19-4043-9FF1-DB4E4CC05827}">
+                <File Id="filA23A57DD644994C9728AAEB11330FB8A" KeyPath="yes" Source="$(var.GZIPSourceDir)\bin\zforce" />
+            </Component>
+            <Component Id="cmpE6F22A9D316AB28521F60AE5C412C71C" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{82897AFB-806F-4AEC-A359-9589BA2DBE67}">
+                <File Id="filAC2B846A00D9302357826B7BF2C28EAE" KeyPath="yes" Source="$(var.GZIPSourceDir)\bin\zgrep" />
+            </Component>
+            <Component Id="cmp4115159B4FE981BA09BEAC8E1291DE24" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{95C55700-1101-4D67-A352-6C5E06E96159}">
+                <File Id="fil15396906E8030732220AD4EB70979AC0" KeyPath="yes" Source="$(var.GZIPSourceDir)\bin\zless" />
+            </Component>
+            <Component Id="cmpEACCD0D44E43B7405DC2BFD6400DBCCD" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{C8362662-E81B-4860-835E-D37EDB3D62E1}">
+                <File Id="fil921B4BBCFB724789553D343C370C85DE" KeyPath="yes" Source="$(var.GZIPSourceDir)\bin\zmore" />
+            </Component>
+            <Component Id="cmpE40F61F5EBA8E9357725185774A853E3" Directory="dirEA3C2E9C2358194303C828C2020F22DC" Guid="{7B45EA33-E9D5-4324-8972-4B4DA28E828B}">
+                <File Id="fil44F836C7E587A2A8B6EEC2611D31A03C" KeyPath="yes" Source="$(var.GZIPSourceDir)\bin\znew" />
+            </Component>
+            <Component Id="cmp99AD6BFD1FCF4596265BA2431837A338" Directory="dirEE36D4D0A4CF5362F79AF0556AABE292" Guid="{BA0AC049-C8E0-4790-9770-708528D793DC}">
+                <File Id="filDED69DD1F62E08780924890A6D4881DE" KeyPath="yes" Source="$(var.GZIPSourceDir)\contrib\gzip\1.3.12\gzip-1.3.12-1-GnuWin32.README" />
+            </Component>
+            <Component Id="cmpEEECB7EF084DCBDDC7E62FED61C4B885" Directory="dir7E88258D382D4A8AD745465CC98AD66F" Guid="{E8BCA8FA-10DB-46F0-9BD7-99E489702798}">
+                <File Id="filF1238AA903FAF00ADAC609EB54884D2E" KeyPath="yes" Source="$(var.GZIPSourceDir)\contrib\gzip\1.3.12\gzip-1.3.12\check.log" />
+            </Component>
+            <Component Id="cmpACA10CB67C683082EDCF1735E25C1AF7" Directory="dirE3C5EEAF1717ACA8E405F2C7A9927724" Guid="{9EF5F539-9F0D-4F24-BBAF-234FEB0CE339}">
+                <File Id="fil383651E095B0350BFC96C4DD7F62412A" KeyPath="yes" Source="$(var.GZIPSourceDir)\contrib\gzip\1.3.12\gzip-1.3.12-src\AUTHORS" />
+            </Component>
+            <Component Id="cmpA73ED38EDC1D98B6FE49496948C34D8A" Directory="dirE3C5EEAF1717ACA8E405F2C7A9927724" Guid="{CF743BE0-7C31-45E3-9D9B-068CCF108031}">
+                <File Id="fil4A10D87B602CDD86661A0932E1476F69" KeyPath="yes" Source="$(var.GZIPSourceDir)\contrib\gzip\1.3.12\gzip-1.3.12-src\ChangeLog" />
+            </Component>
+            <Component Id="cmpA176D05501C5116B9183A6EDD549457C" Directory="dirE3C5EEAF1717ACA8E405F2C7A9927724" Guid="{E836D448-614C-4736-8FDE-44A3B77EE81B}">
+                <File Id="filAFA693DE3FFA3A467305B53D7CE29969" KeyPath="yes" Source="$(var.GZIPSourceDir)\contrib\gzip\1.3.12\gzip-1.3.12-src\COPYING" />
+            </Component>
+            <Component Id="cmpC5259F6F871D807B9AC954D3E931FC98" Directory="dirE3C5EEAF1717ACA8E405F2C7A9927724" Guid="{FBA15DAB-F16E-4D0D-9044-0C57DE48D1C2}">
+                <File Id="filD05A661FCA055A5D952CE1ABB2436AFF" KeyPath="yes" Source="$(var.GZIPSourceDir)\contrib\gzip\1.3.12\gzip-1.3.12-src\INSTALL" />
+            </Component>
+            <Component Id="cmp34386F7777115129E3F53642582074EA" Directory="dirE3C5EEAF1717ACA8E405F2C7A9927724" Guid="{7C3F2FD6-4EA6-4ADD-A467-C0A61814F7FC}">
+                <File Id="fil42847A78AFC2192F9C369CDE49C3F3A6" KeyPath="yes" Source="$(var.GZIPSourceDir)\contrib\gzip\1.3.12\gzip-1.3.12-src\NEWS" />
+            </Component>
+            <Component Id="cmpB2DE779B76CF62521113C65D0F0154F6" Directory="dirE3C5EEAF1717ACA8E405F2C7A9927724" Guid="{401AA52F-54A2-492E-B0F5-7B1F10789992}">
+                <File Id="fil9B0F97DAA2B335BE2AE1A4E72EAEF400" KeyPath="yes" Source="$(var.GZIPSourceDir)\contrib\gzip\1.3.12\gzip-1.3.12-src\README" />
+            </Component>
+            <Component Id="cmpA48932E63A5D8F2D412E393919BBB10C" Directory="dirE3C5EEAF1717ACA8E405F2C7A9927724" Guid="{6AB38003-628A-406D-B7F3-A3CEB0B37D8A}">
+                <File Id="filE78F07834CDC8C575B271CC81E589CD0" KeyPath="yes" Source="$(var.GZIPSourceDir)\contrib\gzip\1.3.12\gzip-1.3.12-src\README-alpha" />
+            </Component>
+            <Component Id="cmp77B51427A85DE771B1AAA5AF1B15D409" Directory="dirE3C5EEAF1717ACA8E405F2C7A9927724" Guid="{C809C2B4-3734-433D-A8A8-75DD8DCA8AEB}">
+                <File Id="filBBBEC3EE72A54C612888C77537DDAB62" KeyPath="yes" Source="$(var.GZIPSourceDir)\contrib\gzip\1.3.12\gzip-1.3.12-src\THANKS" />
+            </Component>
+            <Component Id="cmp5156B236A7176D9CAD2FC390867A6745" Directory="dirE3C5EEAF1717ACA8E405F2C7A9927724" Guid="{DA15BD43-A208-43F1-B8A4-8E21FCFA4750}">
+                <File Id="filDE73D2739C4DA6971F2BEA2F8888A6C3" KeyPath="yes" Source="$(var.GZIPSourceDir)\contrib\gzip\1.3.12\gzip-1.3.12-src\TODO" />
+            </Component>
+            <Component Id="cmpDEEEE89990E34667B8CF8A91F49336BA" Directory="dir9A4D467D63118CFF3C396ED1E64B57DA" Guid="{B46B3617-727D-4149-941A-41B15F72F57A}">
+                <File Id="fil28A7C4F3A757F769231B3D86F69453B0" KeyPath="yes" Source="$(var.GZIPSourceDir)\contrib\gzip\1.3.12\gzip-1.3.12-src\primos\readme" />
+            </Component>
+            <Component Id="cmp592012F98BB778EAFA3955831556CEA6" Directory="dir9C37EE2CD5E890A13EDBB677DE49361F" Guid="{BB4CEE5A-8513-4664-AB4F-FC70017A4B95}">
+                <File Id="fil145576B3B6F0823ABF393ADF87FEF788" KeyPath="yes" Source="$(var.GZIPSourceDir)\contrib\gzip\1.3.12\gzip-1.3.12-src\vms\Readme.vms" />
+            </Component>
+            <Component Id="cmp8BFA547D5597768E306F6256F9460E0E" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{38907B81-57E2-4544-90F9-9445CFB7B5AF}">
+                <File Id="fil4815C8CC2DA7C7CF6181C92136CF6354" KeyPath="yes" Source="$(var.GZIPSourceDir)\man\cat1\gunzip.1.txt.lnk" />
+            </Component>
+            <Component Id="cmp2550B7073492B9A0E2D734FB65545440" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{2FD69473-E8C2-4D8E-955F-3589F4815495}">
+                <File Id="fil2449F4C6882BF54E392058E7B1F07BC6" KeyPath="yes" Source="$(var.GZIPSourceDir)\man\cat1\gzexe.1.txt" />
+            </Component>
+            <Component Id="cmpFECDBCFCEB940C6ACF69CAF7B21EB5F3" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{A35285CA-DDB4-4DF9-8ADA-3BD379267B4E}">
+                <File Id="fil9C037695D77460C18028E26A528C1A33" KeyPath="yes" Source="$(var.GZIPSourceDir)\man\cat1\gzip.1.txt" />
+            </Component>
+            <Component Id="cmp22C8C85679E7DE858C8A0C30EF20623D" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{F251EF20-739E-43EB-A89A-CC7CE5C20476}">
+                <File Id="filAC5FAEF117C715DBF8F7C25AB89A2A8E" KeyPath="yes" Source="$(var.GZIPSourceDir)\man\cat1\zcat.1.txt.lnk" />
+            </Component>
+            <Component Id="cmp4E9F2C2F808B3F9976D7E535FC94C938" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{9868DED3-8BE7-42EE-8CCD-D8E409313D64}">
+                <File Id="filBF46935A47458D693FE94E729EFA2404" KeyPath="yes" Source="$(var.GZIPSourceDir)\man\cat1\zcmp.1.txt.lnk" />
+            </Component>
+            <Component Id="cmpAD35D8C6835BFC360320679F85BF659E" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{1917F73F-17BD-4535-A789-2E7AC70BB1C3}">
+                <File Id="fil68DDB239BDA1686FBD3A325385DCF316" KeyPath="yes" Source="$(var.GZIPSourceDir)\man\cat1\zdiff.1.txt" />
+            </Component>
+            <Component Id="cmp3FEDC69D81E623BAE048460EAFCCD59B" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{B97874E9-FB1B-4B28-8557-3436A3DE5312}">
+                <File Id="fil85423B7B1E17259AAADF08D438474B90" KeyPath="yes" Source="$(var.GZIPSourceDir)\man\cat1\zforce.1.txt" />
+            </Component>
+            <Component Id="cmp6964C3070C1DB52AF9BD4E407F9682BB" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{20301FC0-7444-4D2D-84ED-381E8B68DCD8}">
+                <File Id="filC0FBB76CCAE9C0B91718DA47A2184FAB" KeyPath="yes" Source="$(var.GZIPSourceDir)\man\cat1\zgrep.1.txt" />
+            </Component>
+            <Component Id="cmp069052452FF8C526FF7F5621166F36EA" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{ACA5269A-BB89-43F6-8BE9-ED6B74056D71}">
+                <File Id="filA5FE96950F083CA1FEFFFDDE920A9E4D" KeyPath="yes" Source="$(var.GZIPSourceDir)\man\cat1\zless.1.txt" />
+            </Component>
+            <Component Id="cmpF75DB233E3B1A92540642EF28B5ABEBF" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{2130A96B-5352-4A22-80E4-0BF5CF6D3004}">
+                <File Id="fil9E8E2FFB1A61E5EF1758095C03AAB857" KeyPath="yes" Source="$(var.GZIPSourceDir)\man\cat1\zmore.1.txt" />
+            </Component>
+            <Component Id="cmp8A7E992775A934ACFBAD0DC19EF51F1B" Directory="dirD93A8F7CA457F79A2D974C8A21750586" Guid="{FD2F8269-9244-49CD-A902-BFB78329D24C}">
+                <File Id="fil0B9C9A185692628A70D61509548C97C9" KeyPath="yes" Source="$(var.GZIPSourceDir)\man\cat1\znew.1.txt" />
+            </Component>
+            <Component Id="cmp55687CDA0E11F5B2832CCF60768BC592" Directory="dir12EE3376FEA98363D14CD9A0FA35A30D" Guid="{D42D5025-3C82-49D5-9075-E79259ED97C8}">
+                <File Id="fil80DC71C61C6EB830E895744D7DF11AD9" KeyPath="yes" Source="$(var.GZIPSourceDir)\man\cat1p\compress.1p.txt" />
+            </Component>
+            <Component Id="cmp6085E34A4BD077663B1BEE747AAFBDC4" Directory="dir12EE3376FEA98363D14CD9A0FA35A30D" Guid="{643F30F1-CBC5-42C7-B14A-2427581D8BFD}">
+                <File Id="filB3B6C5502CFBEF552D06E5553BC6827A" KeyPath="yes" Source="$(var.GZIPSourceDir)\man\cat1p\uncompress.1p.txt" />
+            </Component>
+            <Component Id="cmp352E7F9E5A9920F0AE339566163C8658" Directory="dir12EE3376FEA98363D14CD9A0FA35A30D" Guid="{00579175-817A-477C-A1A3-C57CD9D3806A}">
+                <File Id="fil8EE1C9C141786DA2201DE37608CBF1AB" KeyPath="yes" Source="$(var.GZIPSourceDir)\man\cat1p\zcat.1p.txt" />
+            </Component>
+            <Component Id="cmp42077AAB113A03C51F6BC02FD208F579" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{1F5B2D8B-7B80-4D0D-9A42-75BFF652DBDE}">
+                <File Id="fil69BD9D56BB1FF76EE13B9665D8B2106C" KeyPath="yes" Source="$(var.GZIPSourceDir)\manifest\gzip-1.3.12-1-bin.mft" />
+            </Component>
+            <Component Id="cmp47393C30D46B4BB6B044D2C3564F87BC" Directory="dir87B2FF1A618F100AA559C4EF19D1CD44" Guid="{59B7CC38-8536-4A44-B8FE-877285EABD3D}">
+                <File Id="filEDABF82F3CAE67BB73574A06E9DC32A1" KeyPath="yes" Source="$(var.GZIPSourceDir)\manifest\gzip-1.3.12-1-bin.ver" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEA3C2E9C2358194303C828C2020F22DC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir87B2FF1A618F100AA559C4EF19D1CD44" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir12EE3376FEA98363D14CD9A0FA35A30D" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir9C37EE2CD5E890A13EDBB677DE49361F" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD93A8F7CA457F79A2D974C8A21750586" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEE36D4D0A4CF5362F79AF0556AABE292" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE3C5EEAF1717ACA8E405F2C7A9927724" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir9A4D467D63118CFF3C396ED1E64B57DA" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir7E88258D382D4A8AD745465CC98AD66F" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE1F53FF223FAD700410ADE18A435E668">
+            <Directory Id="dir12EE3376FEA98363D14CD9A0FA35A30D" Name="cat1p" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir40754702BA83ED87F12D961C52E167A8">
+            <Directory Id="dir2EA73C5CA7BAE15CF0A83E0DFF6864D7" Name="gzip" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEE36D4D0A4CF5362F79AF0556AABE292">
+            <Directory Id="dir7E88258D382D4A8AD745465CC98AD66F" Name="gzip-1.3.12" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE3C5EEAF1717ACA8E405F2C7A9927724">
+            <Directory Id="dir9A4D467D63118CFF3C396ED1E64B57DA" Name="primos" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE3C5EEAF1717ACA8E405F2C7A9927724">
+            <Directory Id="dir9C37EE2CD5E890A13EDBB677DE49361F" Name="vms" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEE36D4D0A4CF5362F79AF0556AABE292">
+            <Directory Id="dirE3C5EEAF1717ACA8E405F2C7A9927724" Name="gzip-1.3.12-src" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2EA73C5CA7BAE15CF0A83E0DFF6864D7">
+            <Directory Id="dirEE36D4D0A4CF5362F79AF0556AABE292" Name="1.3.12" />
+        </DirectoryRef>
+    </Fragment>
+</Include>
