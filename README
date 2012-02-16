@@ -1,0 +1,55 @@
+
+DESCRIPTION
+===========
+
+The Drush Windows Installer  provides a convenient way to install Drush and the 
+components it needs in order to run on Microsoft Windows. 
+Please see the installation guide below for instructions on how to compile 
+the installer.
+
+REQUIREMENTS
+============
+
+* To be able to compile you will need WiX Toolset v3.5. It can be donwloaded 
+  from here: http://wix.codeplex.com/releases/view/60102
+  
+COMPILATION PROCEDURE
+=====================
+
+Here is described the current way the installer is being compiled.
+
+1. Update from git and (important) update the submodule so it downloads latest
+Drush sources.
+
+2. Run heat in the SRC folder to generate drush.wxi
+
+Example:
+set path=%path%;C:\Program Files\Windows Installer XML v3.5\bin
+heat dir ".\Drush" -scom -sreg -srd -dr DrushFolder -gg -cg CG_DRUSH -var var.DrushSourceDir -out drush.wxi 
+
+3. Compare Include\drush.wxi and the new drush.wxi file for newly added 
+and removed files. The changes from drush.wxi should be migrated to 
+Include\drush.wxi
+
+4. Open Settings.wxi and increase the version.
+
+You need to edit the following lines:
+
+<?define ProductCode="XXXXXXXXXXXXXXXXXXXXXXX" ?>
+Generate NEW Product Code in Registry GUID format.
+
+<?define CurrentVersion="VER.DATE" ?>  
+The CurrentVersion format is consisting of version and date: for example
+version 1.0.12 made on date 14 Feb 2012 will have CurrentVersion=1.0.12.20214
+The format of the date part is: 
+[last digit of the year][month with leading zeros][day with leading zeros]
+
+5. Build new Release and Debug versions
+
+6. Smoke Test: test, test, test!
+
+7. Commit all the changes
+
+(Optional)
+If you want to debug the installer you can start it this way:
+msiexec /i DrushSetup.msi /l*vx DrushInstall.log
