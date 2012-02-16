@@ -1,0 +1,3 @@
+[submodule "SRC/Drush"]
+	path = SRC/Drush
+	url = http://git.drupal.org/project/drush.git
