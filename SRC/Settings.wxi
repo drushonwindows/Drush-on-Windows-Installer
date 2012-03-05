@@ -27,10 +27,11 @@
   <!-- 1.0.12 -> {FBE8D9F7-ACE3-4EC3-A4E8-728041561F62} -->
   <!-- 1.0.13 -> {049CE5E6-C2C4-49FA-880A-06DED101CB60} -->
   <!-- 1.0.14 -> {41B5D1B3-75FB-43B4-9998-954761B8BC99} -->
-  <?define ProductCode="{41B5D1B3-75FB-43B4-9998-954761B8BC99}" ?>
+  <!-- 1.0.15 -> {1BE16E9B-2A7B-49C8-9A16-A1D283B35267} -->
+  <?define ProductCode="{1BE16E9B-2A7B-49C8-9A16-A1D283B35267}" ?>
 
   <!-- Change CurrentVersion for every major upgrade. -->
-  <?define CurrentVersion="1.0.14.20302" ?>  
+  <?define CurrentVersion="1.0.15.20305" ?>  
 
   <?define BZIP2SourceDir="$(var.ProjectDir)\GnuWin32\bzip2-1.0.5-bin" ?>
   <?define GZIPSourceDir="$(var.ProjectDir)\GnuWin32\gzip-1.3.12-1-bin" ?>
@@ -45,6 +46,7 @@
   <?define TARSourceDir="$(var.ProjectDir)\GnuWin32\tar-1.13-1-bin" ?>
   <?define WGETSourceDir="$(var.ProjectDir)\GnuWin32\wget-1.11.4-1-bin" ?>
   <?define ZLIBSourceDir="$(var.ProjectDir)\GnuWin32\zlib-1.2.3-bin" ?>
+  <?define COREUTILSSourceDir="$(var.ProjectDir)\GnuWin32\coreutils-5.3.0-bin" ?>
 
   <?define DrushSourceDir="$(var.ProjectDir)\Drush" ?>
 
