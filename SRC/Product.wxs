@@ -115,6 +115,7 @@
 
   </Product>
 
+  <?include $(sys.CURRENTDIR)\Include\coreutils.wxi ?>
   <?include $(sys.CURRENTDIR)\Include\bzip2.wxi ?>
   <?include $(sys.CURRENTDIR)\Include\gzip.wxi ?>
   <?include $(sys.CURRENTDIR)\Include\less.wxi ?>
