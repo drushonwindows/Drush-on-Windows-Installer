@@ -1,0 +1,1546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Include>
+    <Fragment>
+        <DirectoryRef Id="GnuWin32Folder">
+            <Directory Id="dir304FF183046855FB800AADC1B015BC7D" Name="bin" />
+            <Directory Id="dirE6C6113D343192E517D9859A210102E4" Name="contrib" />
+            <Directory Id="dir433687B630A21CFAFBD94E4175A76DD6" Name="man" />
+            <Directory Id="dir5406BA2587449A6CC3AEC958A0279DD0" Name="manifest" />
+            <Directory Id="dir52CBB58F8AA3DE0153AB54DE25EA66A1" Name="share" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="CG_COREUTILS">
+            <Component Id="cmp10427386932362DEC210C295ED82B91B" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{8A146C68-5B01-489A-BE85-752899746864}">
+                <File Id="filC3F1194A60E12F70D83B81250FFEF913" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\basename.exe" />
+            </Component>
+            <Component Id="cmp514AECAA66F90256CDFF2A96C95EBF97" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{3FE01CE5-0745-4298-803D-E3312FEEA52F}">
+                <File Id="fil8D8B6D76AAE93D6813A4CB1DB73DE1A9" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\cat.exe" />
+            </Component>
+            <Component Id="cmp2ECC9E77BC41662F3385BB932BEB0939" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{07CFDBFF-E7F8-4A22-AFBB-38FEC08CBE2D}">
+                <File Id="filDC13C272AFAA6674D45AC028B5D3D226" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\chgrp.exe" />
+            </Component>
+            <Component Id="cmp638D1E8760BED877AA8956288EA71DEE" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{3D982F24-E89F-4C68-BAC0-842B09BF16E0}">
+                <File Id="fil0994212D44944D42D05B68F68A21D85F" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\chmod.exe" />
+            </Component>
+            <Component Id="cmp9650C349A6C65BE7F2829FEAC4253F3A" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{3460C04A-3342-437C-B2A9-960C13F8BF2F}">
+                <File Id="fil82A85F8B7DC76881741A6F25DCA3A61F" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\chown.exe" />
+            </Component>
+            <Component Id="cmpBDB0EDC25F07CB2BE2D8D397F2BF13F3" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{2C8BA806-F161-427B-BC61-7DE962DE0857}">
+                <File Id="fil6174DF5191D7E05FF5CDC9AF1D76D375" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\chroot.exe" />
+            </Component>
+            <Component Id="cmpF10051C03C7E13E2D67D4C5A8243531D" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{4BFC41FF-93D0-4969-8B48-ADC07A1B2F1F}">
+                <File Id="filDF5C8EEF3C78F0F57E3BFC16C49D18B2" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\cksum.exe" />
+            </Component>
+            <Component Id="cmp0657742C24BBB1DB372A7C084510F0B4" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{1A0AFE02-F6BE-4D83-98DF-1A5697733ECB}">
+                <File Id="fil150F9CF42688FA3A20910D56E64456AD" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\comm.exe" />
+            </Component>
+            <Component Id="cmp2E1EDAEABDE7B61AA3B0110D5BDFA531" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{3A91B088-FBB6-479B-9A51-7F2ABC7B4502}">
+                <File Id="fil5FAE083A436971B99D9BBC1ECFEC744F" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\cp.exe" />
+            </Component>
+            <Component Id="cmp8B3CFE44645D974F3FCBEC4E2EEF5E19" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{BB49FCD2-EF31-4E97-9756-461F0ADED133}">
+                <File Id="fil89C9E36B67593E0BDD92A7C8C3962252" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\csplit.exe" />
+            </Component>
+            <Component Id="cmpCAC9ACA2C60564397706212BC029CDD5" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{6B13C7B9-085E-4200-94D2-747AB2044E6B}">
+                <File Id="filBE598D42E136E9264C229638CA77C4C1" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\cut.exe" />
+            </Component>
+            <Component Id="cmp6BC841B9A303FDF7EE24E0D9037F9598" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{0FC0139F-2C5A-43CB-9C5D-5D984C0A505F}">
+                <File Id="fil716AB249280425336C7885D899073D8E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\date.exe" />
+            </Component>
+            <Component Id="cmpC3A2C9D3F8F0AEE30D339EC44137F542" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{80BF1C87-1A9F-49EA-901C-B6E77B95354E}">
+                <File Id="fil144A11FD243298AA20825F5B29F60ADB" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\dd.exe" />
+            </Component>
+            <Component Id="cmp32CB6C594F2FB9FD864E9DA4A451E0C7" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{D9B876B4-2F37-4095-9956-625D0B0D1DD8}">
+                <File Id="fil5C13E6BA619B424BE93F243895BFEBAE" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\df.exe" />
+            </Component>
+            <Component Id="cmpDC980DBDE7E6B05C3740D43CFFEFB4DE" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{8F3B33AD-9FC1-4EE9-883C-EF1E25F7FBF6}">
+                <File Id="filB4FA311DE1589C49B3B03E1A2D10BD56" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\dir.exe" />
+            </Component>
+            <Component Id="cmp155853BE6E351889A0FC299449469934" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{D41C4CDC-D664-4F9F-9EC8-5FE92DBA66FA}">
+                <File Id="fil7D025BA28F2EE78B7E44C64A877FC9C2" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\dircolors.exe" />
+            </Component>
+            <Component Id="cmp990BC9B49A24FC56D8ED44225EFF90F6" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{6FEEAE35-570C-4A39-B431-215C9B39D807}">
+                <File Id="fil4EBDD2C1442C6F6F4CF39AE61E3C65DB" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\dirname.exe" />
+            </Component>
+            <Component Id="cmpF4A04AAD93956DD07954BFE84D728666" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{4A5B79EF-3224-4C8B-BE45-C2789FEE7ADD}">
+                <File Id="fil761C3B864A2358A09C855C81A2675222" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\du.exe" />
+            </Component>
+            <Component Id="cmpF16218AE307CC668DF8DB1FC0F857008" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{216AC179-285E-47F6-A7BC-1906ED46476D}">
+                <File Id="filA03486BA5F20DAB5C68B9D2CCBF164DC" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\echo.exe" />
+            </Component>
+            <Component Id="cmpCEE4A0876019DFA16EFA4F8C9D75DD94" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{AA839466-2ABD-4FEE-A595-2C0A0942BE67}">
+                <File Id="filC7A5036EB4B6EA7F4F6AC7B13D40AE2F" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\env.exe" />
+            </Component>
+            <Component Id="cmpD92230E82AD15871FAF7AA91DDED648E" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{9DE31400-2274-495C-ACA9-84BEF7EAC238}">
+                <File Id="fil13DE4CC7CEC3FFAAF5E4E07D6E9CD513" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\expand.exe" />
+            </Component>
+            <Component Id="cmpD6A150DC3E717B75AC833A5073DA974C" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{131544FE-291C-47A3-8C79-0EC899DB2BEF}">
+                <File Id="fil996651F54E26D9F8D1D3916EBD790C80" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\expr.exe" />
+            </Component>
+            <Component Id="cmp35EB78A90CF2331C56B669AF19C921D0" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{9CD20EA8-FBDA-4968-A5BC-2E179973A75D}">
+                <File Id="filE344AD200BA4A11C2A315318B83A55F4" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\factor.exe" />
+            </Component>
+            <Component Id="cmpDF8EA41CFAE3D1FCA6EF42826CDD52BC" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{479CA259-0DE6-42BF-9087-694FD201D968}">
+                <File Id="fil1CE24752E422E85AE041B8DDC219961D" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\false.exe" />
+            </Component>
+            <Component Id="cmpFD46A3BD846DC9E1B49888977F42F762" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{F731389E-69C7-4E53-A97E-FAB8BB794CAC}">
+                <File Id="fil84514BC92E6FA53247B65E6770C7D589" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\fmt.exe" />
+            </Component>
+            <Component Id="cmpBCC41FB63F13C9E2285D3A89B8BA35A6" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{2C138320-D5F4-4B0F-A577-6EDD350A0112}">
+                <File Id="fil0CEFF94A1237A9E7BBFD0047855DB3D7" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\fold.exe" />
+            </Component>
+            <Component Id="cmpEA3835E7774B72BAA6CADB1B5567854F" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{6FE7AAC0-C454-4ED2-9CF8-1FCD3784B9E5}">
+                <File Id="fil1A98385337DE5517D328BBB8F49C4DEB" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\gdate.exe" />
+            </Component>
+            <Component Id="cmp6AF836684AEB7EBD70D875F53BFA0CF1" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{ECE5DDF1-CA43-4F1B-96F2-5A682E662242}">
+                <File Id="fil92F39F7A087D1358DD9632CF2168F5CF" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\gecho.exe" />
+            </Component>
+            <Component Id="cmp785DB6D39297E5092CC29C0CAA67CBBF" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{3284B286-8C16-4CBD-AE32-6448DB8E9DE9}">
+                <File Id="fil5BD6B87C7CCB16003DA62CB11B1B904B" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\ginstall.exe" />
+            </Component>
+            <Component Id="cmpA01CBF81954A442AC38FFEEB55A750D3" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{474B52F4-0D0B-4864-B28E-C7F1F6215177}">
+                <File Id="fil2110069B2F8578C6D0AB776A1E1359D3" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\gln.exe" />
+            </Component>
+            <Component Id="cmp42906F5DE0C7239B3E52A4F2CD6561CA" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{00DAE3CB-5CF9-47F0-B7F8-C2692D4B80EB}">
+                <File Id="fil77B7BEB8CA0F7D830C606C96C7E581A6" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\gmkdir.exe" />
+            </Component>
+            <Component Id="cmp07BA54D5CAC055CEFC40D7AFEB1D2F40" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{689D9F95-8EA5-446F-822A-AD4D673F0DF7}">
+                <File Id="filA2CDBC7EF7BC1DCF9C7946942FB0804B" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\grmdir.exe" />
+            </Component>
+            <Component Id="cmpF1CFFEB89E23E238FACD731389B6C6AA" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{0EF05626-2479-46EF-845D-01FA33629D90}">
+                <File Id="fil6144B855D8888CE48388A6FC4AF86EF6" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\groups" />
+            </Component>
+            <Component Id="cmp46D541B2D9730999D21E6CDA0917B9B9" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{982824E9-20C1-441F-99EB-89EDE1ECE65B}">
+                <File Id="filCA7F911B75F6D6D9DFA1D5DA2BF5A35A" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\gsort.exe" />
+            </Component>
+            <Component Id="cmp61F4E02D3DD6256AE07B95DD642D88F6" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{AE154E84-B6BF-4C9B-9EC8-1AC40868676B}">
+                <File Id="fil782635B2F634061146C362EC70E1B7A2" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\head.exe" />
+            </Component>
+            <Component Id="cmp5B2C90A83B9C8FA2058D941DD997A07B" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{E05D6E7F-2386-4DBF-A982-BF40F0CF47E9}">
+                <File Id="fil53695196781E94C4195C9BF1ECB48121" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\hostid.exe" />
+            </Component>
+            <Component Id="cmpF9821AE36B9F7AB8F783A54FDA646412" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{64730D77-CE1C-46EC-801B-5F6CD9B66452}">
+                <File Id="fil50955FD1A6BAAE7530441CEC27CCDD0A" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\hostname.exe" />
+            </Component>
+            <Component Id="cmpFE1ECDA5467B95307A43BBF72181D42C" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{4C8C3F41-8596-4BDC-B9AC-1E238C6E31BD}">
+                <File Id="fil9E8815CD3466C554AA8F8BBD58A122AF" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\id.exe" />
+            </Component>
+            <Component Id="cmp06DB863D1739B345C709BAB73BFDDAE2" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{3FC4E654-DFDC-44F5-9C4F-FAAA078B758A}">
+                <File Id="filC7E7611FF37A949918635EEE6D53A531" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\install.exe" />
+            </Component>
+            <Component Id="cmp5A35A71586C75351FA34B53C3A7F7659" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{178E893C-6868-4874-B25A-5B3A2B0C7A57}">
+                <File Id="fil0794A000F74595CF1F05715BE8410C4C" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\join.exe" />
+            </Component>
+            <Component Id="cmpD0E7361377620C2725609CE5EC2DA8A5" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{A69B6B0D-2DB6-4202-8D31-D0EF803651E9}">
+                <File Id="filBBFA05427F155FD0B54F7471DD7DED83" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\kill.exe" />
+            </Component>
+            <Component Id="cmpF45BF12B3F7FED23BD31AC0AF7BB72C8" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{4B09FE0F-78DB-4DCF-AB1A-07ABD3D20372}">
+                <File Id="fil63B48BC593A9EC107B7C29249E4023E9" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\link.exe" />
+            </Component>
+            <Component Id="cmp461AC70F7F5A0414EBDF081E0CA145FF" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{7D105F31-1A20-4717-A34F-B090361B1B57}">
+                <File Id="filFF00059C2CDC616383D42DC4C6038489" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\ln.exe" />
+            </Component>
+            <Component Id="cmpFCE5E04DF981EA72833E7C949999AF66" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{BCEAC004-B1DA-4197-9327-C1D83F58435D}">
+                <File Id="fil216FD0A4F4A4BF795EF0788F68D14ABC" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\logname.exe" />
+            </Component>
+            <Component Id="cmp8E2B7A283DFC0D9800E5691CFFFA691C" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{F608C27F-42A7-4028-B3FD-1BBC6B57DA6F}">
+                <File Id="filF56BE00EEC32A460371DEDE509507FF3" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\ls.exe" />
+            </Component>
+            <Component Id="cmp93F559D2D4D2FD0E3A3B8342934D3524" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{442FD7CE-5AA6-4EF6-9F7A-8505E77B2EB2}">
+                <File Id="filD2B4B1367802C53249AA5DED0862CB63" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\md5sum.exe" />
+            </Component>
+            <Component Id="cmpABADD4F73772EB3E0A89129C0854882B" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{7EADF7BF-024F-4AA1-90FD-B434DA2860AB}">
+                <File Id="fil75F06D75FEF1FD95B6269C734FADC363" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\mkdir.exe" />
+            </Component>
+            <Component Id="cmp61CB416D2C924166F852D10C3F037136" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{4200FEF2-1111-4069-ADC5-167B11A4C826}">
+                <File Id="fil733C0C1988128B4DEFEFF8F6D699A261" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\mkfifo.exe" />
+            </Component>
+            <Component Id="cmpDF8EFA0597D0FABF4751B44EFCEC2812" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{FB176CF9-DA47-4720-9273-D1AD4C91AD6E}">
+                <File Id="fil5F1FC031B9446C988FEA86FEF2F0C33F" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\mknod.exe" />
+            </Component>
+            <Component Id="cmpE2EBB177258A03A942648BB8D0A03659" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{29DE93AC-697D-44F0-BF60-4521413E4392}">
+                <File Id="fil74678321E99E348AF921F69DFF2B3001" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\mv.exe" />
+            </Component>
+            <Component Id="cmp0E0F2980C4C734D9A5F943344B886F23" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{D633D064-7964-4177-8199-7CFFAC51C85F}">
+                <File Id="filA8E2897F3CCB68816C51E7C60662D0C2" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\nice.exe" />
+            </Component>
+            <Component Id="cmp0C6398364A80C85E6A2113990179EDF7" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{2E62A0C2-5196-4AD4-88EE-33A18E0CCEE1}">
+                <File Id="fil9ECB9742759CC9FD7A513AA31563F61E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\nl.exe" />
+            </Component>
+            <Component Id="cmp96912507D5B7EBC8FD13CF6B5418400C" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{A82691C6-E25A-49AB-8AE0-1A886DC49700}">
+                <File Id="fil10A61FB8E2E57CCF377BC2BD167D5106" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\nohup.exe" />
+            </Component>
+            <Component Id="cmp57710AEBABB12B6D526D8009853DAC72" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{923125F2-3082-4483-9C39-04F0003BA6AE}">
+                <File Id="filAED6D85A4DE166DB922B5E4D2DB316DA" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\od.exe" />
+            </Component>
+            <Component Id="cmp28ECC7DB3EAB40D41BCF4E274E575547" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{ABFEB679-CA68-4E08-A36B-0E2214CF9FD8}">
+                <File Id="filC89FBF004650DC8EB15BE7D94DCF5B2D" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\paste.exe" />
+            </Component>
+            <Component Id="cmp7F845A69D6F9F8DCE82E994B78000888" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{F2FE0734-DA2B-404B-987D-5631931C11F4}">
+                <File Id="filC8B0252D0F69CFEDE19F153E6B758A51" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\pathchk.exe" />
+            </Component>
+            <Component Id="cmp57632808DB92BD47E93B96B5E6035CE5" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{54CE7DCC-6974-411F-8F23-795940F188C6}">
+                <File Id="filED364641FB1DC93E10D47B1B2FECD767" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\pinky.exe" />
+            </Component>
+            <Component Id="cmp56750AB80711BD9D185D4832ECCE928C" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{BA7315BB-2BE4-48C8-AFB9-D468697A43BA}">
+                <File Id="fil4685E239A29CCC47D0EF6EF785BA59F6" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\pr.exe" />
+            </Component>
+            <Component Id="cmp8556241AF75E47605B29D96064F2C0E5" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{A40CD32E-F5CF-4FC7-A75D-B5B2446314F1}">
+                <File Id="filC73C28188032C25010468AA4A4943CCD" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\printenv.exe" />
+            </Component>
+            <Component Id="cmp917C8F9265C968035BC57F4B2B5724D5" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{2201D171-9CF6-43BA-9558-F5193756887E}">
+                <File Id="fil8487E1E5E9E6F4011BC67BFA51D72706" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\printf.exe" />
+            </Component>
+            <Component Id="cmp0BB0018EE73845F6BB967C48ECBB75B2" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{A5B88D7B-D41C-40F4-A692-DBBB6E2A2ED2}">
+                <File Id="filBD3976752D7872EF4151B7BBE3CA7A95" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\ptx.exe" />
+            </Component>
+            <Component Id="cmp1ADE0ED239DA3CF4D537F98F448BB787" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{40BB5B72-74A0-449B-8A81-8F54102486F9}">
+                <File Id="fil870DF7E81B59D5404E5581AD9A8DC2D3" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\pwd.exe" />
+            </Component>
+            <Component Id="cmp1D946955AFD5E444B39BE7F30D377956" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{52939431-CD39-44AA-AA1F-22281F488B88}">
+                <File Id="filAD45F3DE61F0C6C7FE0D1EDB845C79C5" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\readlink.exe" />
+            </Component>
+            <Component Id="cmpBCC6D53998F6CB6A20DE4942EDBC404E" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{8FFB18B1-E076-4346-B6E0-FB2ECEA0C8B7}">
+                <File Id="filED0322CC60181987EEBBF29E4B586E89" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\rm.exe" />
+            </Component>
+            <Component Id="cmp812B5185B6E366BA00D795980433CA8B" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{DCE54BAA-0FE8-44F2-A1BE-378510FD2801}">
+                <File Id="fil6B35BD9EBA08F51C9C84C52857D98DD3" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\rmdir.exe" />
+            </Component>
+            <Component Id="cmpEADA6C36B4FB9512CD0AE57B727DC0C4" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{10F1E177-45F2-4C63-8C3E-781E6693EF22}">
+                <File Id="fil65191945B9ACBBF8D08F2D133BBF9C5C" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\seq.exe" />
+            </Component>
+            <Component Id="cmpD0C45E30ACE705F724D57C5844B10525" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{D9B2515F-1873-4639-9803-004B38A57C4F}">
+                <File Id="fil5C721D5C1F20139584697DA8CA0D4F9D" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\setuidgid.exe" />
+            </Component>
+            <Component Id="cmp176DDE189A22851AE03F5094E8D3B3AC" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{2EBA3CBA-A19F-4458-81E9-A1093FFC941E}">
+                <File Id="fil4A6C37BFF90182139A387540DF3F3EE3" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\sha1sum.exe" />
+            </Component>
+            <Component Id="cmp5A4B94CE4D03A1F4B81C95D208A2A81E" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{0A514690-2E13-4801-8933-A9FE812DE996}">
+                <File Id="filFD4D6CAD867EC429C2C18509410B45C5" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\shred.exe" />
+            </Component>
+            <Component Id="cmp3565B982BE16A08B105A4C58D7DCA93C" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{135E1435-079A-447B-8637-C7DBF9D02C22}">
+                <File Id="fil147C4D998EAE9167A0DF0391FDF32025" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\sleep.exe" />
+            </Component>
+            <Component Id="cmpEF58525D6E937DD2DC978D1FBCF78496" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{54CD6253-044D-49FE-AFB6-B7A4AC5666F6}">
+                <File Id="fil9AA8D1FDA64022BA8B004F1A737AE1D9" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\sort.exe" />
+            </Component>
+            <Component Id="cmp5BEDFB5488DEADB4E68E556B913CB667" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{A0B0803E-0B8F-470F-8A35-34EB953F6869}">
+                <File Id="fil87E4697AFD61BA75ADFF4E8BF8F92592" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\split.exe" />
+            </Component>
+            <Component Id="cmpE57B9BBFCF36D4F458751CE49099DC8D" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{2E88F926-BAA6-424A-985A-966201ED29C7}">
+                <File Id="fil8D2CB202BF95F6F4638D281771F02CFB" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\stat.exe" />
+            </Component>
+            <Component Id="cmp09BFFF3227849A32073BF306A3BD1477" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{5ECBBC88-268A-4F58-B3B3-981FC8EE4F9C}">
+                <File Id="fil64B84FEE769A51389C3AB20F55E322B0" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\stty.exe" />
+            </Component>
+            <Component Id="cmp8BE45FE90DB697589299B190638A015F" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{278E25B3-2607-4E06-8D78-E270B6C89BC4}">
+                <File Id="filB1F8B562557F2E0BD1944829985F0BC6" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\su.exe" />
+            </Component>
+            <Component Id="cmpABBCC71CB670C1ED32AE3C4861ACFA7C" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{3AD41A61-968F-4596-8699-9815571E847A}">
+                <File Id="fil811670080AB2856F3639476FE0AB57C7" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\sum.exe" />
+            </Component>
+            <Component Id="cmpBE3354324C1595BC5D3647AE61DDA46C" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{08CD7BA5-B727-4917-8894-70F8E77F32D2}">
+                <File Id="filDD869B82E07943BD129E1FF04D8BB0DD" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\sync.exe" />
+            </Component>
+            <Component Id="cmp7C96AA3C600C52DB3CF900FF436C1A94" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{B5C4666B-C2C0-4DDD-A368-11C091C657CD}">
+                <File Id="fil83AA40EFB3A6D5E9EF5C033E6D9DC71C" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\tac.exe" />
+            </Component>
+            <Component Id="cmp4CD64F16EFB3D8787203A27497E2B27D" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{2E5EEABD-3354-4ED4-86C3-9E49E171DA63}">
+                <File Id="fil021FD0693FD0BEFAF1DF2D51DD86ECD6" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\tail.exe" />
+            </Component>
+            <Component Id="cmp4A2300F3AAC4FF9EA8579CD23073116C" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{3332FC35-9A8A-4888-9319-5E4A453DDBF8}">
+                <File Id="filC38CE525E3A53D9A51E16B3B461D5701" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\tee.exe" />
+            </Component>
+            <Component Id="cmpC133B10582043F0EB1CF0DB1C74D4462" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{DE51056F-57AA-4A75-A5D4-3192FCC6C4B0}">
+                <File Id="filA95F82E30EA46C66E67EBE1E1766425F" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\test.exe" />
+            </Component>
+            <Component Id="cmp78976D0EB575C30FFD03566EE9AD87FC" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{AAA2A127-418B-48F9-9778-B773711912FA}">
+                <File Id="filB0E12E0C37F20811C5873C429FDB96C2" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\touch.exe" />
+            </Component>
+            <Component Id="cmpDCB47D19C783A3A90BD36FBB22C969F2" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{1FCDFA6B-0238-4D70-A768-E778E0280799}">
+                <File Id="filC83E3DAD249D34451FD0526D6561F236" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\tr.exe" />
+            </Component>
+            <Component Id="cmpF6D16848D440E6B88F0251A77E4F4796" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{0ABBF509-0362-43F6-BA7E-22793AB45394}">
+                <File Id="filA4A38428EDCF11166C81E79D9E31A15F" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\true.exe" />
+            </Component>
+            <Component Id="cmp3C244E87C0857C0F9070AD9EE4E65572" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{2025B018-A08A-4F24-888D-2B5A7F030B83}">
+                <File Id="fil9D8E3B9F1EA23EE963E8C626473653AF" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\tsort.exe" />
+            </Component>
+            <Component Id="cmp6FC37ABAF9DE9FA3D8A69437E603A1D1" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{6E058E4B-DD69-4845-98AB-CD5AA3DED5CD}">
+                <File Id="filA2D3D3043450738DBADDA935FC54935A" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\tty.exe" />
+            </Component>
+            <Component Id="cmp3FBAB03B7F3174777716A72D24C63DA6" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{07BCA4CE-3783-413F-B046-D7D973C2CE26}">
+                <File Id="fil5F09E8214889777D2078D7EECE1EA816" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\uname.exe" />
+            </Component>
+            <Component Id="cmp4C550F2DCA15AAFF65F436915D2A79D6" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{8292C05F-1F80-475F-8A60-F8F7DA8CFC0C}">
+                <File Id="fil7ABDFD1D6260061E2C7585A2A3F3CFD3" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\unexpand.exe" />
+            </Component>
+            <Component Id="cmp4CDEA51591862F1BD9E4995B0258C2A1" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{96BDA4A0-76F8-408B-BE1F-EAF1B6E2464C}">
+                <File Id="fil64956C2BD56E9DA92C67146F3DDFCAD2" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\uniq.exe" />
+            </Component>
+            <Component Id="cmpCFD9FE460554AE8B9FA0728CB957ADB4" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{42477403-F85F-4F3B-AEE9-BC52CDED15B8}">
+                <File Id="fil6FDC05ACCD68AA35F0A6A39B27F7BF3D" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\unlink.exe" />
+            </Component>
+            <Component Id="cmp0F5041A4638CACA970869EB8A1202571" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{E70FCDB9-5D98-479D-B200-C8754BD69FFA}">
+                <File Id="filA2F85CDFC6D37E88442FA074BF60F9C6" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\uptime.exe" />
+            </Component>
+            <Component Id="cmp3B01F712A1CAECB58C5A3E4BE9D81080" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{C6191AD9-67AA-4B7C-8BE0-C9E0A14F6E16}">
+                <File Id="fil10AD2A95043375F84A8216049BD92069" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\users.exe" />
+            </Component>
+            <Component Id="cmp7B9E2AD229486324DE134F9E1484DB00" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{703F908E-6C31-4F1E-BA6E-33060B0950BB}">
+                <File Id="fil8E8B731289FE2A5B16867C6EE55C696F" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\vdir.exe" />
+            </Component>
+            <Component Id="cmpBF7E4E9F04227BDD7EDB76D95373ADAD" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{144E2A2B-A3D5-4B2B-B743-3E642137C6CA}">
+                <File Id="filE9459D5DF34B36AE3529ABF7A69688CC" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\wc.exe" />
+            </Component>
+            <Component Id="cmp167CFE12A893FA6DCAEBC5B50BED4F35" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{461C43E2-B8D4-4656-8D93-CD462B91B1E3}">
+                <File Id="filB2C04374045EBD6ADFC4159AABF2116F" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\who.exe" />
+            </Component>
+            <Component Id="cmp6653665DD38012F40094D5293D1C74A0" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{431327F3-529C-4F38-BE08-32C23CFD278F}">
+                <File Id="fil7C7E86C9F6E29831FFCF003F627D24ED" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\whoami.exe" />
+            </Component>
+            <Component Id="cmpC224096A90C4D4898DF6EA289D024B29" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{7B2E02DE-E3F3-4937-AE5F-FECFEF780663}">
+                <File Id="filE3B1B11421B14C266B5BA403E01C3D5C" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\yes.exe" />
+            </Component>
+            <Component Id="cmp47A1FA396E9A6770E166726B5F198901" Directory="dir304FF183046855FB800AADC1B015BC7D" Guid="{EB3F9FF0-47E3-42CD-A632-476035374020}">
+                <File Id="fil572F2EEDD21CA4AC8D4F9BE8CF29AF36" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\bin\[.exe" />
+            </Component>
+            <Component Id="cmpA8EB117A2F9FDD6A3785CBEE6F6D667E" Directory="dirBB5D08AC29F108B98872D373835C48A0" Guid="{CC260ABF-0321-48D5-98C6-370457466325}">
+                <File Id="fil8CC08673F28CD236CFFAFEA2B87E1A26" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-GnuWin32.README" />
+            </Component>
+            <Component Id="cmpCDCDA3A1AF580D624B4DA022DC9A3276" Directory="dirBB5D08AC29F108B98872D373835C48A0" Guid="{C794E995-E749-4D49-928D-828C96F652C3}">
+                <File Id="fil3C9BF48DDD7EF9B3B92DD8A2013C9604" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\depends-GnuWin32.lst" />
+            </Component>
+            <Component Id="cmpA3E53CB8859E3CB8BD826E1EEB5B88CE" Directory="dir6B300BE863B6285CB6E0C11DCD4C9772" Guid="{70B1AB65-0E45-444D-9867-813D5338D672}">
+                <File Id="fil38A1B992D5C861466416414AEB56C448" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0\check.log" />
+            </Component>
+            <Component Id="cmp30B6ABE1103A8600614D1E384680B451" Directory="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1" Guid="{E0584B52-7E1C-45F7-85C4-BF8E90B60BB1}">
+                <File Id="filDCD83A92E42F8E78F52A02A7CDE3581E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\ABOUT-NLS" />
+            </Component>
+            <Component Id="cmpDB73B5B8EBFF52D0F8CB22D880A89326" Directory="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1" Guid="{945FF3F8-E888-4A17-9225-7D731115C1C6}">
+                <File Id="filCB60C99BF77D90A960DFFCF828507E93" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\AUTHORS" />
+            </Component>
+            <Component Id="cmpC81D85E21CEC6B9C1EF3BEE62129E294" Directory="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1" Guid="{5F7C57E5-57A9-427A-9CAF-F5FC9CDE0F4E}">
+                <File Id="filAE0B87F5B2D54C908A04A10D1A70757D" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\ChangeLog" />
+            </Component>
+            <Component Id="cmp1EB3DBF95C985FBDF421FAE2DB817067" Directory="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1" Guid="{C32B8A10-0B43-4CC4-8EBF-880DEEE7031D}">
+                <File Id="filC1F2B840A3E00A8D1665C252A795FCB1" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\COPYING" />
+            </Component>
+            <Component Id="cmpB462E84806D0C6EA0D885A4B4F9DEA2F" Directory="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1" Guid="{C3F0664A-B915-4997-BCC4-CC4D55D991CE}">
+                <File Id="fil11D43E4BA266D6C5E30D5E924AA3845B" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\INSTALL" />
+            </Component>
+            <Component Id="cmpAB334385EBD37DA68E7CC7B79C3A24AA" Directory="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1" Guid="{C932A62E-CD71-40F7-B1E1-F2C38EAA7063}">
+                <File Id="filD7F572E6CBDD604F4CFF4F71E8120B3A" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\NEWS" />
+            </Component>
+            <Component Id="cmp2A0CBD212EBF2DF1165D99F2FADD1186" Directory="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1" Guid="{19580B9A-D0AA-47DD-B7F6-7DC915673E29}">
+                <File Id="filA7372525F8B1331856B9F3128E1DB43E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\README" />
+            </Component>
+            <Component Id="cmp4DC878CB2A2C85829D72600B3139124D" Directory="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1" Guid="{532BCF94-90BE-420A-BA91-19C5CCE512C7}">
+                <File Id="fil131F1915ADA309A4B0B6E6CDC48A24F0" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\THANKS" />
+            </Component>
+            <Component Id="cmp5CC9F2DCE2C6D0CA535AADBDA8B6292C" Directory="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1" Guid="{7070451D-827B-4CEA-A65D-1964D0667642}">
+                <File Id="fil92D936C6E1F54D4A8081F26C7C91FF4B" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\TODO" />
+            </Component>
+            <Component Id="cmpD155DF0EFAF446F2A31A2CD2A12EE6A3" Directory="dir32F621D70030C8C346245E9B15CEE385" Guid="{70AAFE3F-9882-40EC-98EB-E017629FA471}">
+                <File Id="fil272BAD43390F478B2CD591F3B00831B5" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\config\ChangeLog" />
+            </Component>
+            <Component Id="cmp416672BEC15FBC0618ACC838167A3E3F" Directory="dir56F36FB95EA35423741F245FF82FF378" Guid="{5874D693-8E04-4C80-8406-6C9FBF604AA8}">
+                <File Id="fil2D2FBBBE80D9C494CC4560B62594C3E8" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\doc\ChangeLog" />
+            </Component>
+            <Component Id="cmp0259503883F9453C245B8F81D533B4A4" Directory="dir56F36FB95EA35423741F245FF82FF378" Guid="{36DB4465-674A-4225-A740-1AFD04EBB130}">
+                <File Id="fil292CF0210072089A91CC435095DF4FE0" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\doc\coreutils.info" />
+            </Component>
+            <Component Id="cmp27D6624D86E65138CBEC5BDD6587753F" Directory="dirA83D3B1CF809E411EA091967B562D226" Guid="{1237D8D7-09A7-4B0E-A37A-57E8AF5D7F3A}">
+                <File Id="filCCDCB715E64BCE5DB325AEBDE7665F02" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\lib\ChangeLog" />
+            </Component>
+            <Component Id="cmpC4E4D387A5429ABFC12263CC7337C291" Directory="dirA83D3B1CF809E411EA091967B562D226" Guid="{95C8D01E-16BA-4298-ACBB-B0A9AA8E9E6D}">
+                <File Id="fil566F4C3D4256CAD4DFEF6215F99E7D32" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\lib\README" />
+            </Component>
+            <Component Id="cmp8A1091BC514EF8BDBC063330C4E62956" Directory="dirA83D3B1CF809E411EA091967B562D226" Guid="{BEE22E65-D52E-40AC-98E0-4FD8202A0A1F}">
+                <File Id="filA142832114154B177F284998C77D7B2A" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\lib\TODO" />
+            </Component>
+            <Component Id="cmpCEBDB6A7328613B435A1C964BA83FF4E" Directory="dir56027103A2E0A0813B7620E7E2CBD51D" Guid="{CFCE49BB-1988-44A7-9C7E-7E12F878E759}">
+                <File Id="fil0E2DECF26B61281E549F560EAA799F76" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\m4\ChangeLog" />
+            </Component>
+            <Component Id="cmp630AC7D9560749BD6620C9410324BF35" Directory="dirB76E4B481895C1F37341027505ADB6E1" Guid="{98E31F90-7725-4BEC-BE82-9EF38AE2FDCB}">
+                <File Id="fil1EA02D268F5E6C2F4D79193C25F1FF10" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\old\fileutils\ChangeLog" />
+            </Component>
+            <Component Id="cmp578D67E6292319AB95605D058A524AF7" Directory="dirB76E4B481895C1F37341027505ADB6E1" Guid="{5D184181-3554-402A-B798-FF8F0C8AE97F}">
+                <File Id="fil37F4D0BD0CB2FD64B2254ECE5B6FDA6A" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\old\fileutils\NEWS" />
+            </Component>
+            <Component Id="cmpCF8A643F6B3FACE2FD8B5AFB57D9284D" Directory="dir6CF43C2D4183D57E0BA96363515323E0" Guid="{E5E89362-F68D-452F-9C01-21AA4689F1F2}">
+                <File Id="fil2A9B7266A4E4674FA25BF517673DD0D9" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\old\sh-utils\ChangeLog" />
+            </Component>
+            <Component Id="cmp5744A1D796E57EF5BBA66A82F29F4EEF" Directory="dir6CF43C2D4183D57E0BA96363515323E0" Guid="{BC43E2A9-0409-4B00-9EB1-281F9CFAB604}">
+                <File Id="filD72FB0F472307ABB7DD048971D963F21" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\old\sh-utils\NEWS" />
+            </Component>
+            <Component Id="cmp3AC56FA36CF44208D465726FF91B1E11" Directory="dir097E05B31A718B08D99AABF145109905" Guid="{E29DF63D-F047-494D-B0F0-9ACF8CF8A412}">
+                <File Id="fil2A84BFC00A335E9D30EFC6CC17B80ABA" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\old\textutils\ChangeLog" />
+            </Component>
+            <Component Id="cmp43445DED98838ACA6DE82116E1F21A2D" Directory="dir097E05B31A718B08D99AABF145109905" Guid="{82B1E281-6D5D-459D-9056-67F1A4AD1B0D}">
+                <File Id="fil975B0CFCBE5E39EFCA244E0F7D38A324" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\old\textutils\NEWS" />
+            </Component>
+            <Component Id="cmpB8AB150E4010FE73A978EE53C3963589" Directory="dirB4E01CBF6C0D30A5BFFAF6524AD02062" Guid="{26A6D106-22F0-4346-B48C-800CAFD04A45}">
+                <File Id="fil12493F839AD756222023A8D44C43F11E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\po\ChangeLog" />
+            </Component>
+            <Component Id="cmp4B701EB65C47DD744DEFAA1E7B4CF7B5" Directory="dirAEFBA6AC181AC2BD7E7F1A8CA0840F94" Guid="{2FA3E6A5-2564-4610-B166-ECCD75617D18}">
+                <File Id="fil55A633B7EC54C8272C0ACF7E89BFE701" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\tests\README" />
+            </Component>
+            <Component Id="cmp0490C20CEF5363AE352A1D2805341A35" Directory="dir2D5AEE06F8B051986CCFFFB4B2E3294D" Guid="{6330C041-A7BD-4F3C-BC81-53B3D411AE2D}">
+                <File Id="fil76943BB96083404E177AFF2DAB152514" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\tests\join\TODO" />
+            </Component>
+            <Component Id="cmpAB3D95170F8B23AF1BFE70F496EEFC01" Directory="dir14C6A3CA817851907F1E08D2906649F3" Guid="{B1397173-E0D9-4753-894E-BE478FB50EAB}">
+                <File Id="filACBC9240FD41DF48CC55A57B7AB633E0" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\contrib\coreutils\5.3.0\coreutils-5.3.0-src\tests\tr\TODO" />
+            </Component>
+            <Component Id="cmp6E719B7AF14CEC015FFFD4269D39D01B" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{7F21C9D1-8348-4BCC-9C46-4C4AA1FFEA3F}">
+                <File Id="fil42A62EEA6D8E87EB2AF2C62A071D8A07" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\basename.1.txt" />
+            </Component>
+            <Component Id="cmpB02ABD3E1D5442D3EC8714F59DDE8A9E" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{AA00A271-D8E7-452F-81CD-F9DFB973CB9D}">
+                <File Id="fil35F026A3695D07A8D47332AE15678D61" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\cat.1.txt" />
+            </Component>
+            <Component Id="cmpFF58953FBDF68DC9CCD62D5DB4CCC943" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{73CDE5A8-98B0-4981-9B4C-20B2FA2B05AC}">
+                <File Id="fil4A18EF4D2B39D1A5F7E9E29C3E0B6CF6" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\chgrp.1.txt" />
+            </Component>
+            <Component Id="cmp72D39EC062CF3D2B822C60F82AE32DB0" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{222CA65B-79BC-4986-AA50-F1746388BDA5}">
+                <File Id="filD88AFEC5C836A523A81E4719FAEDA971" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\chmod.1.txt" />
+            </Component>
+            <Component Id="cmp38C8F8C091C4A0B8ECEAE0A17EA4EF90" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{5AC8ED67-2895-49BE-8BA6-DC50002CCE44}">
+                <File Id="filEE8BE83341AEDFD20D4D6209A957B93E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\chown.1.txt" />
+            </Component>
+            <Component Id="cmpBE848E343A884DEE2B4AA7031DE386A9" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{72679006-8585-4936-B92F-FFE3110F3795}">
+                <File Id="fil43A955BA5DB7583D2BEDA2C632D6EA69" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\chroot.1.txt" />
+            </Component>
+            <Component Id="cmp4F096E72277522D25BBD40AE84D0EA25" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{24FA86D4-B7F7-40FF-83B8-710E47372DEA}">
+                <File Id="fil199582C65CB15027024A55F6BA390857" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\cksum.1.txt" />
+            </Component>
+            <Component Id="cmp2E77A3D22519F6A59588B1A3DCF6F666" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{F88E980A-8C1B-4739-83F5-04FF7E703C64}">
+                <File Id="fil9D0EA1EF5117136C543F156ECFD8E05A" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\comm.1.txt" />
+            </Component>
+            <Component Id="cmp6F432979DFF54F0386DD6776784631FE" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{01794885-07F8-4F0E-8EDC-073A4BE2F4F1}">
+                <File Id="filA97C5571E51B8D8D2DDECED3FC00C123" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\cp.1.txt" />
+            </Component>
+            <Component Id="cmp85688EF6F22E931B270660B2946380B6" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{FCCC06C0-E100-414F-AE98-F9CE062B6AB9}">
+                <File Id="fil7E60A4B950A89D613F29CC3D631A64CE" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\csplit.1.txt" />
+            </Component>
+            <Component Id="cmp085C3571F77A32BEAF4FA108F795978A" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{AC963890-04C5-4ABA-8848-4C3D932CCAC6}">
+                <File Id="filF654EF42F2790174DF234BB67B29A645" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\cut.1.txt" />
+            </Component>
+            <Component Id="cmp002B482AEC3B4131CF4305EBD5E03495" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{617DB707-6EA8-4686-9701-7E85539A0C49}">
+                <File Id="fil7512C4B8721864672FE2274CD18542D3" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\date.1.txt" />
+            </Component>
+            <Component Id="cmpA0DFA1599755242F67341D36EC54B2E5" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{F650F3EB-968F-4FAF-8CF4-23B8C71AA469}">
+                <File Id="fil44029102061ECA15F34BAD10448C1805" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\dd.1.txt" />
+            </Component>
+            <Component Id="cmpFE346AA62AF3693F9F1D372CED424312" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{8A43574F-A2DC-4959-93DD-B6B9745A26DE}">
+                <File Id="fil9ED531827E23B9B86FED976D0EDB39BD" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\df.1.txt" />
+            </Component>
+            <Component Id="cmp39DC2ED358506FACDE838CF78401CD6B" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{59FFE7B2-C5A4-43C1-BEEE-B4E04AB26420}">
+                <File Id="fil30A208D80836BABA8682E1ADBFF9FA1F" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\dir.1.txt" />
+            </Component>
+            <Component Id="cmpD4DD422B5BC425830F9674DAEF48BF39" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{34FA155E-C9BA-4CC8-BB09-C3CD2AAC5BF5}">
+                <File Id="filC158B53D14FC8B930C681E1D4633A04E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\dircolors.1.txt" />
+            </Component>
+            <Component Id="cmpBD35EB5F8A116C29845688CAC8F2E064" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{320DBB8C-2427-4FF3-9E62-E173EB53E45E}">
+                <File Id="filB9DF86DCE50C6DD251965F6C975BFD11" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\dirname.1.txt" />
+            </Component>
+            <Component Id="cmp33610F49B96FA114EA998D6FE3B032D6" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{468265AF-F0F2-4AC7-8072-A2970E4EEAF9}">
+                <File Id="fil340792876962B6AD8D8E6822FD2FAC53" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\du.1.txt" />
+            </Component>
+            <Component Id="cmpA9633C23A4A62E625F92B587ADB177AB" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{A4131E75-3C0A-40EB-9368-27BF68C092FD}">
+                <File Id="filC8BD9FC1918FC54CB760CA174EA22DAF" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\echo.1.txt" />
+            </Component>
+            <Component Id="cmp15030534DADA381F1ACB13FE8357D6A8" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{CDB57A38-3910-4B31-BA22-CF3BC49DD1A2}">
+                <File Id="fil532A1B645CF90D236C3319ED57E91EB7" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\env.1.txt" />
+            </Component>
+            <Component Id="cmp1FD7BAF8713D7CC1D0F5F54A656AA55C" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{ACB0D472-8FA2-4571-8AD6-9E708E6BBBD4}">
+                <File Id="fil71F0E6F4D667FD88BD8A7B3AD571489E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\expand.1.txt" />
+            </Component>
+            <Component Id="cmp7D762651FDEA050EC1B6858A9DF2CD4E" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{1B8C7B5F-8811-41EB-B5BB-C7841FE1E8A8}">
+                <File Id="fil5AF696593C1BFEC330CAF834A64A823B" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\expr.1.txt" />
+            </Component>
+            <Component Id="cmp8AACBD5DCF006778C2B0E6FA7D9A20A6" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{13D98733-A3AF-4C34-BF0A-F23F596D848E}">
+                <File Id="fil7A227F154DE2F580016B2C5836E5BF24" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\factor.1.txt" />
+            </Component>
+            <Component Id="cmp0AA9363DFD3977D626515B0C58252A18" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{134ED366-84A7-4381-BD60-3470ACAD5342}">
+                <File Id="fil4B90262E42DF168B0D3CC5FFD5A382D2" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\false.1.txt" />
+            </Component>
+            <Component Id="cmp8713EE8BEF0E6D5FCDC3C605A88B14B8" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{CAC09D71-44C0-45C7-8282-729EBAAEC372}">
+                <File Id="fil40EE9BBE5F878F8C5F5DE5A48B17AA33" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\fmt.1.txt" />
+            </Component>
+            <Component Id="cmp7870C7D3BB417BB40DF4D47B1F6FD380" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{DF00F50C-8A64-4F45-A46D-D85E04B964E6}">
+                <File Id="filD7DA43B82590DA45CECE4D049204F0AC" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\fold.1.txt" />
+            </Component>
+            <Component Id="cmp17DEEDEAAD203D1E17E7557EBB8994F2" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{B66F52C4-09ED-4005-B12D-677418F99F5A}">
+                <File Id="filFADABAFCB5D0B0E780965D17B6ACD3CA" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\groups.1.txt" />
+            </Component>
+            <Component Id="cmpAF6D78646A5328403A82A3E46060E506" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{CE698304-C2E6-4725-A2DC-13E892A536FB}">
+                <File Id="filD9EB23BABF4F90201F42E94A94C75FCA" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\head.1.txt" />
+            </Component>
+            <Component Id="cmp1CDB3E11D7D0BD0EEB5D41975AB5D2B7" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{CB27FC3F-2389-494C-9061-5874EBF6C513}">
+                <File Id="fil63B76AEA3E570EA48B3ACD960058BB88" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\hostid.1.txt" />
+            </Component>
+            <Component Id="cmp2A8241FB56E609AB2298F0CF668AA5C4" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{8A2E9EFB-F29F-4B87-B3A5-9BA4EFB8BEC4}">
+                <File Id="filA5FCBFA2AAB3200DB3B7F8C5F5451EDF" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\hostname.1.txt" />
+            </Component>
+            <Component Id="cmp7A4BA51C9E63DCFCD7DFBAC192A10017" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{E447EE99-E65B-42B8-9199-8F84F0E852EE}">
+                <File Id="filAEB9B380043496DD5ACB9E7E1E8C34F9" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\id.1.txt" />
+            </Component>
+            <Component Id="cmp0ACE83E14B4E4DF3F0BD269A3020B12B" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{24B54274-7591-439C-A6E0-20C470B54FF0}">
+                <File Id="fil0C5AD058E14793A7B0A9E011C3FF250C" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\install.1.txt" />
+            </Component>
+            <Component Id="cmp01B5FA9A69164373FC330C84B07DECE3" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{2147274D-93FC-429C-9D1C-7C405974FA2A}">
+                <File Id="filBE08B04C14F7CA6D76CE14E5EBE80169" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\join.1.txt" />
+            </Component>
+            <Component Id="cmp2FF3B959E2654CC1C59582FA169BDF32" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{B9B4568F-5520-4C6D-8D2D-8F8C0E46CA59}">
+                <File Id="fil8C4BC834E779191585B8B10D6CBFBAD1" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\kill.1.txt" />
+            </Component>
+            <Component Id="cmpC3E889D7B8D0B05DD6F5F166D430FEBE" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{93C10C8D-D622-4C6E-B43E-EBD3D99FC640}">
+                <File Id="filA882583204FC347F9C0FC9E3849A2E06" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\link.1.txt" />
+            </Component>
+            <Component Id="cmpD382362A1C01D97D26066D5DF33E6A80" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{F9FBCFF8-4949-4E16-940E-573CEECCF6E8}">
+                <File Id="fil10B4C6D370A1ED2801AC472857D6A846" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\ln.1.txt" />
+            </Component>
+            <Component Id="cmpB24A3A77CB26A0E76491B5D64F24C71A" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{F92E1E09-4F9E-417B-B5B9-4783A5CF067E}">
+                <File Id="fil4B5D4F5B5A768EE1088A00BDB513A2EE" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\logname.1.txt" />
+            </Component>
+            <Component Id="cmp482C911BD654C51F0901DD3049374C96" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{F4E89DD7-3157-4B77-883E-522CD679702D}">
+                <File Id="filFAA1BD435063D2857471680910607295" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\ls.1.txt" />
+            </Component>
+            <Component Id="cmp172DE2132FB6974663DA4E09196E57BE" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{43C30081-33A9-43E9-A2F8-CD4C35815656}">
+                <File Id="fil500C4F0201F6ED1DFE12974AC3AFA36D" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\md5sum.1.txt" />
+            </Component>
+            <Component Id="cmpAAAFB57C28BC729B44A04B6B8F4CF857" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{FFDEBD8E-34D6-4F7A-B54D-BBC5F17C5664}">
+                <File Id="filFA1F7D3079CD794E665D45A0DAA875F1" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\mkdir.1.txt" />
+            </Component>
+            <Component Id="cmpF3BBB3441C90B28C1F5F2A2089023C51" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{017B8338-BFB8-4D18-A34C-C9412DA2DBFB}">
+                <File Id="fil3731D11A8A67709DD416616D00B62271" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\mkfifo.1.txt" />
+            </Component>
+            <Component Id="cmpED19382573EAEC6029A468C7EA504418" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{5FE8E155-F1E9-4AE8-9528-BE3F041B4959}">
+                <File Id="fil0CF1CE8BB199A909D565BE2BCF8BCF7B" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\mknod.1.txt" />
+            </Component>
+            <Component Id="cmp42D2B4D2990F382C0D25EEE04E32B7A1" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{37339B05-947F-4E20-B3F9-CAD621A8D821}">
+                <File Id="filF7E84330D7CB9F6D627044A21A6ECFF2" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\mv.1.txt" />
+            </Component>
+            <Component Id="cmp483F670EFFF1C1E3EBD423A0FB3BF851" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{7DBBF460-5F73-4E21-8AF8-ED487BA44704}">
+                <File Id="filD88A6471BB5F46B95908D989375BC110" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\nice.1.txt" />
+            </Component>
+            <Component Id="cmp7A4F8EDEAC5AC51D4559DD1D41486848" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{4B6BF4AB-65FF-425D-8A44-9C374E51B1CC}">
+                <File Id="filBB2458E56B0083CB0340A95346FFCD1C" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\nl.1.txt" />
+            </Component>
+            <Component Id="cmpA74126D25997C09B81ECCD4CECA8D4D2" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{67D406D2-F62E-4032-B47F-8826FA56C8BE}">
+                <File Id="fil04BC9A6CF5EC37CD3A893E515827499C" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\nohup.1.txt" />
+            </Component>
+            <Component Id="cmp2A058FC4913250F77CBC15597C1C3216" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{66C20521-1040-4449-AFF5-A5C9017C1412}">
+                <File Id="fil8CB5A58DDB7A814E506C3B686C6F6FC7" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\od.1.txt" />
+            </Component>
+            <Component Id="cmp5CF9481AD7B4FD485D2FB2982ACE0799" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{3A21084B-ED6C-4356-81C4-D6DCB728D733}">
+                <File Id="filE05916451747F4452288967A945B6EDA" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\paste.1.txt" />
+            </Component>
+            <Component Id="cmp716B070548575AAF673F21834759223A" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{96592FA2-AF70-4BD1-A017-45AF453868D0}">
+                <File Id="filD2E150424F5A69DCAFB88598DCDE9221" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\pathchk.1.txt" />
+            </Component>
+            <Component Id="cmpE821161B2281F2096430FD2575FC15BC" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{3A5CFEB5-779E-4468-8C7A-ADDA61E7A121}">
+                <File Id="fil8818FC250D1AA2731FDD9B678FB6C604" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\pinky.1.txt" />
+            </Component>
+            <Component Id="cmp026B75DAEB0CE1C4BBF74DF97D91B89E" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{42612CB0-4D2D-4098-A215-125CB6EECE50}">
+                <File Id="fil3201E505B03293691502193E97F2DE75" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\pr.1.txt" />
+            </Component>
+            <Component Id="cmpB8353ABEF6BBC80A3A4E27FEA8074990" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{E57B0622-4D5A-4E6E-9C5E-E63CDF636DE7}">
+                <File Id="filBA6366353BAC915CD0596DDC2DF3A875" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\printenv.1.txt" />
+            </Component>
+            <Component Id="cmpDB355EC86C0822F8D3FCC5A81AA56885" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{68B8C0DB-7BDA-4286-917D-0660DFF2387D}">
+                <File Id="fil6B0A6A637660F26336F5989583A251FA" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\printf.1.txt" />
+            </Component>
+            <Component Id="cmpF6D3746A7953DA0EE99AA57A8258FBFB" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{B2FAB376-C021-485D-BEAF-2FE27BBA8D7B}">
+                <File Id="fil4EADB412C362F1692F2F3F22A5286E8E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\ptx.1.txt" />
+            </Component>
+            <Component Id="cmpDDFD9ABDFA51FAF0B14129C5F6B95070" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{FB457113-193E-4F9D-8F0D-22EC84054B9E}">
+                <File Id="fil887411A6513DC5E89321FA36CF64A32D" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\pwd.1.txt" />
+            </Component>
+            <Component Id="cmp542C16C208AF0050B14AF178AA4452B3" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{DE3826C0-7799-45D9-AEA6-8CA15AABE4EA}">
+                <File Id="fil4E3F272CA4B987F67B6BDB878E97C7EC" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\readlink.1.txt" />
+            </Component>
+            <Component Id="cmp73F1F1EAAA0BFD79E37B0DB9E8C3E6A1" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{A382D0DA-ABB8-42ED-A699-1B263C38CBD2}">
+                <File Id="fil9E80A76EC1AA04C1C2BC25E2A51B257C" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\rm.1.txt" />
+            </Component>
+            <Component Id="cmpC31AA303E0CB3BC75A4861FB5003999E" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{92BF4532-D190-4D28-B89C-D8F473005A5F}">
+                <File Id="fil07F14D2B873DC7FE4DBEBCECE0E7C2EE" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\rmdir.1.txt" />
+            </Component>
+            <Component Id="cmpC29391526E3E837CF1F9AE020BD824D2" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{BE9F0401-62F7-4DA0-945E-2C6543450FBE}">
+                <File Id="fil1067746FF4851927F2B1D789448A5F3F" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\seq.1.txt" />
+            </Component>
+            <Component Id="cmp2FCECA11B82B4119E025AB085D88D2E0" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{268C79E5-4E6D-4524-8DE5-ACBA4887B269}">
+                <File Id="fil043D1C6B6C77E9AC3E44DBBA8A39E6DA" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\sha1sum.1.txt" />
+            </Component>
+            <Component Id="cmp154CFB6DFC5EA7059942640D3930BF93" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{1C04D26F-4378-49C7-89E6-CDD9D0A754C2}">
+                <File Id="fil8F7878AA45D8E82E3CE09E1B3F2794CE" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\shred.1.txt" />
+            </Component>
+            <Component Id="cmp1B7D611705E09B81165C52C72FBDF02A" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{8E3D30BF-D0C3-469C-B16A-505B44FD106C}">
+                <File Id="fil89941E796831E27B83AA1160F4999369" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\sleep.1.txt" />
+            </Component>
+            <Component Id="cmp6E72C2C20B82533114F311D3D418DC27" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{2C9CB0B5-DA43-4763-8502-E845DABC48E0}">
+                <File Id="fil61C9DCFA8F2F9C3786B6B44F308BA0E7" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\sort.1.txt" />
+            </Component>
+            <Component Id="cmp95DAB93D7B2D031210CFC23A1110763D" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{D3AE6879-97A3-451E-82C9-979596030C54}">
+                <File Id="fil6433DB7877CD2939056AE32DBAFBB21E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\split.1.txt" />
+            </Component>
+            <Component Id="cmpF5335E60731C17020D96C9E735A68826" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{65C54466-7707-4DB9-B5F9-6FC1BBA31333}">
+                <File Id="filEBCAAD480B1808B69E1F4B65E468B29A" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\stat.1.txt" />
+            </Component>
+            <Component Id="cmp67AE361DAE782FF29691A8B45E98F3F3" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{9B52DDCF-5D1A-4E8E-AEBD-BE27CFE9943E}">
+                <File Id="fil1858D69367AB40825E823A4626CE6E9E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\stty.1.txt" />
+            </Component>
+            <Component Id="cmp57A4BD750C8EF365DE48AF6833E9F556" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{07666C18-FF96-45DF-999F-96421B19FF71}">
+                <File Id="fil1385A36B5DCFEA5292CFC1E08EF1B99C" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\su.1.txt" />
+            </Component>
+            <Component Id="cmp235153BF2F9E1951F68E167AE111B785" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{260C9A97-4C3A-47DD-85D7-DCEA9490754E}">
+                <File Id="fil9088400D140B462903557CB31D96D977" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\sum.1.txt" />
+            </Component>
+            <Component Id="cmp56BE7135CC14784974A5C86E592E660E" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{98F0333C-1919-410C-9820-4CAE7A05FA6B}">
+                <File Id="fil57E5311E1EF710F6833832E2BA65C240" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\sync.1.txt" />
+            </Component>
+            <Component Id="cmpF291D0F9A53C1EDC01CD921C4A7CC5BE" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{1FA0DF19-958A-4AE0-B635-DE4FDD936BB7}">
+                <File Id="filA3B1D8B540993BC7698C573B65F8BA4D" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\tac.1.txt" />
+            </Component>
+            <Component Id="cmpDDB666FCB08FD239C89E488C71C44F4F" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{31AD509C-D1F8-41D9-982C-E25308DFE698}">
+                <File Id="filDBAE32AD262AF061133B734244A6382B" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\tail.1.txt" />
+            </Component>
+            <Component Id="cmp0B2FB29B1E2DD180617FA03BB7D34F59" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{9757589E-BE89-43A0-8941-3CDD9F4BA85F}">
+                <File Id="fil639A271ABC98D84461294A1258CD2E9C" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\tee.1.txt" />
+            </Component>
+            <Component Id="cmp01570A9581204519688A1B044C6AC4BC" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{58FBF961-A7AE-4001-B5A3-FCC6D9AC76B1}">
+                <File Id="fil685A329E46EC52D1AA22355396A7D526" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\test.1.txt" />
+            </Component>
+            <Component Id="cmp6F374D90A1607A1ACD8D5DBB39B8C219" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{6D3A2B99-05CD-4C02-80F5-C6F3ED0FB713}">
+                <File Id="fil2E78ACEB21A114206A866DF2E322A37E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\touch.1.txt" />
+            </Component>
+            <Component Id="cmp789ABD89FF19B2F3C6E7D76806FA9638" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{E6319598-4DCD-43C0-BCAD-9C38AA4DA458}">
+                <File Id="filF77068498079DAA5FF54F97AE74F0413" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\tr.1.txt" />
+            </Component>
+            <Component Id="cmpDCDB2F0BE814E38E3539328FA7E90AC6" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{24F71E48-400A-478A-A5B1-E3D27063CB83}">
+                <File Id="fil121AE860D7035F32ED516D5121AB955B" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\true.1.txt" />
+            </Component>
+            <Component Id="cmpED9B54B42D0714FA6A2835C9C325BE36" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{C9159180-1530-4A33-BE48-AA2110FE1AE3}">
+                <File Id="fil0D7A183A1CDFB910907BF2570CD474E1" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\tsort.1.txt" />
+            </Component>
+            <Component Id="cmp4183BD401DCB8884C1539DCE32D23C7F" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{B9373623-F570-430F-AEBD-822BF3D9E961}">
+                <File Id="fil09C94550657C8A277B1259B41394581E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\tty.1.txt" />
+            </Component>
+            <Component Id="cmp1A5EB53CB1F066109B27C217CAD9483E" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{75BF0B73-E922-4E5E-975A-42C515D6A588}">
+                <File Id="fil2491E49C11BA7B3DB1E456DDFB764961" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\uname.1.txt" />
+            </Component>
+            <Component Id="cmpB4C8B53CD96B72B67299A1D235484163" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{F67CFDE3-F801-4A62-8BE3-414077F5376D}">
+                <File Id="fil9F86F910DD91F3E8C661321F143CDFDE" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\unexpand.1.txt" />
+            </Component>
+            <Component Id="cmp7F50A440F05321225ED903005E6D377E" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{C4C0A4CE-8254-412D-95C2-33F38E23DD74}">
+                <File Id="filDF90F714F6891ED6564C22FC9515103D" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\uniq.1.txt" />
+            </Component>
+            <Component Id="cmp5B48A8983785623EA20B243A48F4CD69" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{05B590D4-B303-45E4-A6DA-E660ABD2C15C}">
+                <File Id="fil55DAE84424DA72887405232FEEBAA767" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\unlink.1.txt" />
+            </Component>
+            <Component Id="cmp4A47C55CAD5EF35A0D3F3D7C49AB2AB6" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{242B0CC8-700F-4A80-BB5B-9C4D1B2068D0}">
+                <File Id="fil92832403797BBB783CC17AC61F38ECEF" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\uptime.1.txt" />
+            </Component>
+            <Component Id="cmp16B206B9904127392A51B8224DD09D35" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{4967D34C-4201-4C87-944A-C893B8366BA4}">
+                <File Id="filCCD4FB8262F4659F7F0FF94D93176AEF" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\users.1.txt" />
+            </Component>
+            <Component Id="cmp8CC01325A1AEC97EF9024647BBCEFF7B" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{D21C75E4-A00A-497D-AE86-DC2F45BC7B9D}">
+                <File Id="fil27846C4EF8A611D982A0855AF76AD38B" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\vdir.1.txt" />
+            </Component>
+            <Component Id="cmp9E98E6DAB6632B1CBCEA180EC6172E0A" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{334CADAE-9DE0-417F-9768-DAAB75A3110C}">
+                <File Id="fil201E4BCB3BB8D3D77F1A08E2ABE2E45E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\wc.1.txt" />
+            </Component>
+            <Component Id="cmpE521D8C15C6FB034EFBF71025C12B667" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{973441C0-8319-4A08-8C9D-F051342CF664}">
+                <File Id="fil67B45452A390A14D5922300F2B229D62" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\who.1.txt" />
+            </Component>
+            <Component Id="cmpB29E7725A6DF023E78825510A3FE0C41" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{273C59DF-48FA-4E77-94D9-167781076083}">
+                <File Id="fil92F20C9FDCB3C49E15344710175CFBA8" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\whoami.1.txt" />
+            </Component>
+            <Component Id="cmpFB214B18D0DE9CAD8E9CDE76DA56DDDF" Directory="dirD6DA59CE1BB8E98A62F4021769EC506E" Guid="{25B08FBF-8577-4365-9315-063C4A73F046}">
+                <File Id="fil80EAFF233245739FEDE0A90E47846DB9" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1\yes.1.txt" />
+            </Component>
+            <Component Id="cmp212B8B202B954914210FA6DB5ACC65E7" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{588C0D0C-1FA2-43EF-B3D6-810F96C989FE}">
+                <File Id="fil6CF6D9A7EEA6B7D321CC16394386B650" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\basename.1p.txt" />
+            </Component>
+            <Component Id="cmp9826A73C79A3B04C0E90F8B3F6F3B6B3" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{15427D8E-B706-491A-9F67-791992865DCF}">
+                <File Id="filA281CCC5025D4D58BC4CEE342CA7341E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\cat.1p.txt" />
+            </Component>
+            <Component Id="cmp0EF174E5880DDBF85FE76A4F4C2DA808" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{B878F0E9-BFA5-4C8A-959B-8F9C5F70961A}">
+                <File Id="fil0B9C369AE2297C7C57152DD5651461EC" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\chgrp.1p.txt" />
+            </Component>
+            <Component Id="cmp1FDFE97E8A1A63617D935556F1E5C0F7" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{F22FC10A-E710-4524-80BE-CB44ABAAB002}">
+                <File Id="fil2CE70BA8B2FC17384818DFC4C991007C" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\chmod.1p.txt" />
+            </Component>
+            <Component Id="cmp0720C12B6D150043D286C676CDCB78AA" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{A49DFB1A-4680-4C84-9DE6-5956B7A0FD93}">
+                <File Id="fil21CD1AE26A2BF75B244AFBD2BF23FFCD" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\chown.1p.txt" />
+            </Component>
+            <Component Id="cmp7B1F5861CC1F876BD18CD914764B3AAE" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{AD8E12C8-1255-4824-91AE-1C3184B97C52}">
+                <File Id="fil1978E062F5743809EAC9E22EECEB487E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\cksum.1p.txt" />
+            </Component>
+            <Component Id="cmp05B875950A8F83E0D09FA1AD32328920" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{78CCEB41-A2D4-4182-A2A3-43C566FEBF07}">
+                <File Id="filFB9EBE75CB45EE03D97F87001C368DEA" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\comm.1p.txt" />
+            </Component>
+            <Component Id="cmp11355A0193433295F9C569E277931CD0" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{AED56D4D-6363-4873-AB50-D90F10BF47CA}">
+                <File Id="fil2A5E8DCDDCE2D697A84E2ADDC191A4F1" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\cp.1p.txt" />
+            </Component>
+            <Component Id="cmp3D2C8D819837D70E5F4BC938951BA313" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{4BCD82AA-5594-491F-BE6F-C75C2A21630D}">
+                <File Id="fil6BC560BDB2C6991C893CE6F271FFC06F" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\csplit.1p.txt" />
+            </Component>
+            <Component Id="cmpD3DD17C68B3FDD7FB06B601C19CDD1C3" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{7E5F50F3-2091-4DEE-9D9E-D0999056EFB1}">
+                <File Id="filA92699338E9E59AC473C2CE2503C5DDA" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\cut.1p.txt" />
+            </Component>
+            <Component Id="cmp39FD282ED3B13B6EE68E9877D8CEC665" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{9563EA38-6443-4D28-8C04-D995F1DAD8E0}">
+                <File Id="filF6151B1D6B559605655752FE6F59725E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\date.1p.txt" />
+            </Component>
+            <Component Id="cmp8575378F837DF3DF2C3B2363D6DDDDD1" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{723ECFAB-D8A4-4D3D-9231-B86ECFA0F982}">
+                <File Id="fil7D4B01E42ADB92DA1EA4B7E321CDFEFC" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\dd.1p.txt" />
+            </Component>
+            <Component Id="cmp8949E71989F3125B57DFA628F59043D1" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{5F148FDF-8A1F-4575-86F0-F08AD8D1B1F4}">
+                <File Id="fil2B09AA0C24784A12256A22EEB0EBE115" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\df.1p.txt" />
+            </Component>
+            <Component Id="cmp09F0E2119F8CA59CE5B1271E0B9FE390" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{3D03A3E8-2C50-47BA-BAAE-7657B107ECB3}">
+                <File Id="fil458531B0695DB77F8D3D39A449432C59" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\dirname.1p.txt" />
+            </Component>
+            <Component Id="cmp389AEDCDB65DBCE6C8C1842C93C9F620" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{6C909B55-5106-4738-9254-21A9E1B6E24B}">
+                <File Id="fil5F12CB8B82961EDE0E8D1696457FB506" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\du.1p.txt" />
+            </Component>
+            <Component Id="cmp84B98EFD5A198C140EEE3A30B9142DAE" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{35D26978-CC48-4148-A279-D5FE40D71F37}">
+                <File Id="fil22973A82C288C5297A23A5B5BDBB0899" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\echo.1p.txt" />
+            </Component>
+            <Component Id="cmp7BC9884A3AF7B6C4C16770B440E63717" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{EA2CD74E-ED90-462B-BABC-82EF3248AA0C}">
+                <File Id="filE00E77ADCF64838204FA9BCE673BB3ED" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\env.1p.txt" />
+            </Component>
+            <Component Id="cmpE9C2C99ECD7FC97B3354F83843B14306" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{027D45E6-73EB-4E90-9C4D-CFD1098E607A}">
+                <File Id="fil839DD0500A6C3963278467139F1EF364" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\expand.1p.txt" />
+            </Component>
+            <Component Id="cmp8918B945A979D4D340E1B95C81A1D7DB" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{98FF5625-DA41-4DE6-9762-A59603AA0F23}">
+                <File Id="fil3AD03CD5AACDC57D096DDAC8B7A79837" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\expr.1p.txt" />
+            </Component>
+            <Component Id="cmp89F9D0E541F1A1A1ED22328B744DEC33" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{D4C4A231-4657-49C7-9A07-FF33D036DF4A}">
+                <File Id="fil5081CCC6401DC9DB7617960C42126242" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\false.1p.txt" />
+            </Component>
+            <Component Id="cmp77A7313703A7B991723A6D5740E87438" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{3B5CBA8E-9CB8-476D-8DC4-89BB736A7610}">
+                <File Id="fil5505DFF59683CD1277C3D70CDA9D27CA" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\fold.1p.txt" />
+            </Component>
+            <Component Id="cmp837E728418901E1F72468651AF00E2AB" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{9BA1AA18-1139-4DA5-A9AD-E864348AC3FD}">
+                <File Id="fil8AFC761A62E3C7CBD31F753F655815CF" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\head.1p.txt" />
+            </Component>
+            <Component Id="cmpE3B19BEFD63C5E6AC00DEBB369411DC5" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{39FE97D4-B9CF-4850-91F9-2A764E5C6CCE}">
+                <File Id="fil1DA2EDD4A51AC5C58EF21B7B0BD67351" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\id.1p.txt" />
+            </Component>
+            <Component Id="cmp56BA6D08D6ECE145494C656517FB3454" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{E59C12AA-ADF5-4299-B7F0-F79DBA37F132}">
+                <File Id="fil92E551D497426E54B07E6C1DC9030254" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\join.1p.txt" />
+            </Component>
+            <Component Id="cmpC6D07EC68746851785DDF9B757E779E4" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{D40307E7-7A55-4F71-BF64-61616C8CB781}">
+                <File Id="filAC390F448E48A8A357B3306349521922" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\kill.1p.txt" />
+            </Component>
+            <Component Id="cmp46E9B7627DA7E0873440FBC2A80EAF75" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{DFBB74C1-7F5B-4822-B2D0-94FEDF55C62C}">
+                <File Id="filC4FFDBC5009C767760D5342F9B18AB3D" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\link.1p.txt" />
+            </Component>
+            <Component Id="cmp2A1E09209B9A968087C6515BF22B9D46" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{66258E05-FD75-4307-88E5-CBE1A574C9B3}">
+                <File Id="fil1A2B808C97652C33BC8C026F4FEE7AC4" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\ln.1p.txt" />
+            </Component>
+            <Component Id="cmpD4319CD5E889C3F9715D72DBD427A7E6" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{21152D93-62FE-472B-A114-F3392AD8F24E}">
+                <File Id="filCE984DF3B97FE764A780CC199129F7C3" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\logname.1p.txt" />
+            </Component>
+            <Component Id="cmp957D9428E6A999B714045158DAE5FB96" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{521211C7-0091-42B3-B1C4-5082A37E53CF}">
+                <File Id="fil25A15F1D98F81B9620A03AF7A7E247ED" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\ls.1p.txt" />
+            </Component>
+            <Component Id="cmp21883BEECAB2B4C8C1B7922F1BEB906D" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{ECD43003-C1E5-41C1-9EEB-835240DC5473}">
+                <File Id="fil8BCC59E54A8E68DF9F13370CBC2DDCD1" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\mkdir.1p.txt" />
+            </Component>
+            <Component Id="cmp4EA00BA76B6BAAABA42CD523D12EBB90" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{7B5B53DD-51C4-4E15-BB36-FCF1D3E94797}">
+                <File Id="filA8B89164948C2450E455297CEDDC372C" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\mkfifo.1p.txt" />
+            </Component>
+            <Component Id="cmpA702F1259D3470050AA22DD989141BBB" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{8F74C6AB-26BC-4467-8DB1-0F6654D3E0C5}">
+                <File Id="filBC4BEE4430D0E35A2E0DE8DFDF3D9B5C" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\mv.1p.txt" />
+            </Component>
+            <Component Id="cmp78CE5513D948A071DB478B18001F5818" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{8E0D781C-BAFB-4016-B340-B1761AF1494F}">
+                <File Id="fil084D304846A91B71A6C7F7CA0B2C1C77" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\nice.1p.txt" />
+            </Component>
+            <Component Id="cmp992D70F766EE9295DE43D77A6D29DD3A" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{4BEC01A9-559E-47B1-B5C1-2766469A5537}">
+                <File Id="fil2277238BFDBB0BE54A986E2A27A82C55" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\nl.1p.txt" />
+            </Component>
+            <Component Id="cmp90083DB71D3E13A3EE5F08754DBF4E9A" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{65A5B877-2ACB-42A7-A620-88060985E42A}">
+                <File Id="filA56D78AEB965AA4EC43C751627EC44F6" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\nohup.1p.txt" />
+            </Component>
+            <Component Id="cmp787367E1338DE2B6F2A2E7BE8D26679A" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{FDD21553-C462-490A-887A-71C122E3B56E}">
+                <File Id="fil6168A3D3A522C09746E3E0BE48A0BA83" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\od.1p.txt" />
+            </Component>
+            <Component Id="cmp13A58FEB758CE3E35ADE7278B49DF61C" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{389461B0-686C-4D13-A597-6E6102987ED1}">
+                <File Id="fil7CA384A84EF15CADD4B8E98D3E88653E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\paste.1p.txt" />
+            </Component>
+            <Component Id="cmp2C130D7FE8955D2900165AE8C7C72BDE" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{3AF9D77A-6924-48FE-81AB-1103C266F805}">
+                <File Id="fil0FDB4B2D1CC981A46A11790368B863C8" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\pathchk.1p.txt" />
+            </Component>
+            <Component Id="cmpBDBD9516567269E7CBDCD752F40A5C2A" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{03AC3DAA-FE74-4DEC-B7A4-92D2749DC705}">
+                <File Id="fil7B64E718D3ACE1328BF91F650CFBEDB0" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\pr.1p.txt" />
+            </Component>
+            <Component Id="cmpEB7F75E29D706E0916183EFAC12FEB05" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{3BB01539-1BBC-467E-85EB-971052B46AC0}">
+                <File Id="fil349ACF1B32965FD0B3A3D9FDEAEC9F25" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\printf.1p.txt" />
+            </Component>
+            <Component Id="cmp6CB70D5EC1DFBF7490766A15759B15C5" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{30C24414-ED52-4DCC-B253-E29D9C84EA6C}">
+                <File Id="fil6DC96E1F604AB36E496AFAB9BFCFD7DA" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\pwd.1p.txt" />
+            </Component>
+            <Component Id="cmp401092114FDFCBD28D971492682C41FA" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{50DEBDF3-655A-409F-A458-9512AB3E4439}">
+                <File Id="fil059AECE9D620A7CB4DD0AAE1C8885BA1" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\rm.1p.txt" />
+            </Component>
+            <Component Id="cmp7C54052DEC408BF48D1251E59F9C575D" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{F0E4C3A0-9A08-4F2D-925A-D840591C03BB}">
+                <File Id="filC0FF6365DC63FD85DEABD612BE333E8F" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\rmdir.1p.txt" />
+            </Component>
+            <Component Id="cmp98293AE751FF72D1232FC837CC12D0E1" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{48F1BEB2-A812-450C-9F91-E33A10A3C368}">
+                <File Id="fil931FFE3FBE67C5BAA28E182D39D354F6" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\sleep.1p.txt" />
+            </Component>
+            <Component Id="cmpF25DEA4D688018BE1AF5F320EE5A88AB" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{199E2EDC-EDFB-471A-BD22-1A9FDAC1C2FB}">
+                <File Id="fil2869B48518E578D35F1E304661FADFE6" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\sort.1p.txt" />
+            </Component>
+            <Component Id="cmp4B06BD389C5577C4B9F837E2E7B42E13" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{1E3898CE-047D-4395-A3F0-B049172759B0}">
+                <File Id="filA2DEC8FDD62D35A158B2B76D7048698A" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\split.1p.txt" />
+            </Component>
+            <Component Id="cmpDD975C986BA40131B95B1C248D3E1E64" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{2007566B-7CF4-44DD-A0A1-0EF81BFE18E8}">
+                <File Id="filC17D34B9ABA7A3A6205772B3EE2B3253" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\stty.1p.txt" />
+            </Component>
+            <Component Id="cmpFD7389F658692B2F7B6A49935668B451" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{FA23D3AD-2CB9-40C7-8D43-2AF281576924}">
+                <File Id="filEA3A6DAA55B8DE12DEC492C482C453BE" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\tail.1p.txt" />
+            </Component>
+            <Component Id="cmpB86A9FA9C5AD81FB8C16D92A6664EF81" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{E95C3DAF-251C-4567-B70D-41BE0A71A3A3}">
+                <File Id="fil2FFD16DEF224AEFC6F4E8AF8D7F8996E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\tee.1p.txt" />
+            </Component>
+            <Component Id="cmpA972456D4AA8F41F70FBF32D5912B364" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{42D177D8-A9F1-4C47-BFF1-5BC460A0340D}">
+                <File Id="fil754C6400B728D0781D09B63BB975B5BF" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\test.1p.txt" />
+            </Component>
+            <Component Id="cmp210D924E8092B4AE62BD08CDDBFC45D2" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{D60CAC26-4182-4834-81B1-27F6FD6A2FB0}">
+                <File Id="filAE1DF383CA8506E46D37B19B5F40A91F" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\touch.1p.txt" />
+            </Component>
+            <Component Id="cmp48FEC13F7E8E9949E4CDCD27D1D70233" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{C808F8D2-9526-43AA-BDC9-1C55F9655277}">
+                <File Id="fil5B387B9843A1457360123CC8C613AAFD" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\tr.1p.txt" />
+            </Component>
+            <Component Id="cmp76E6004E986F90B7CD64D607BF58F097" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{5071BDCA-15E1-4B99-AE82-258F79F6FB88}">
+                <File Id="fil1590C94C44A7F9976D6794B2D1D76CB6" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\true.1p.txt" />
+            </Component>
+            <Component Id="cmp30379C405A633F6E3C7EC59535AF262D" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{E4D463AC-973B-4973-B688-B0C8DC06850B}">
+                <File Id="fil1647F74187D2B139DE3B9736FE882164" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\tsort.1p.txt" />
+            </Component>
+            <Component Id="cmp7CEE06B4FAB917D7A771F2F1B7C96EDB" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{284C220E-37E5-43DB-BA39-1CFFDB9450BA}">
+                <File Id="filF7EF66CAEB14C2FCFFA65D02B471E165" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\tty.1p.txt" />
+            </Component>
+            <Component Id="cmpD4AB0A81336A3D78E2635E6246140B0A" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{4CE764A8-FE73-4613-92AF-7D96573FEEC3}">
+                <File Id="filAD1195270748E323CAC1A31711D85E94" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\uname.1p.txt" />
+            </Component>
+            <Component Id="cmpAD13B47288B347EC9819A3B1688CE98F" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{BFDC41E8-E2A2-41A2-A6A3-C47305CCAB6F}">
+                <File Id="fil359A3DED7C01B97DE59B7967F4608272" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\unexpand.1p.txt" />
+            </Component>
+            <Component Id="cmp4792F60FEFC7BF72E3197888E9EA73F2" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{E7D18AE2-826C-4108-9BD3-51BD18E1418B}">
+                <File Id="filD1F7BC0872C8F2C21B566DE3FC982FCC" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\uniq.1p.txt" />
+            </Component>
+            <Component Id="cmp6A7FCE581547BE4DFF16566062D3EBDD" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{BCF33003-8123-44DE-9ECA-9B880984D088}">
+                <File Id="fil075EBF451FC3C46A1B2253296BF77B53" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\unlink.1p.txt" />
+            </Component>
+            <Component Id="cmp82AD20D9ADCC28EB65A4226375EE72A4" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{F521AC1E-9723-4149-9053-6EE986D55D1C}">
+                <File Id="fil961D4E590219CECF270B38BEFD3A3E0A" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\wc.1p.txt" />
+            </Component>
+            <Component Id="cmpDF2646261A60B26265505DAE54E3A510" Directory="dirEB0F173E804DEAFCCBF40B3C75D09E15" Guid="{8B37F252-683D-4099-8BF2-22A000B3F090}">
+                <File Id="fil8BE2A78F7A9FCD1344EFE225859C0423" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\man\cat1p\who.1p.txt" />
+            </Component>
+            <Component Id="cmpEF1A52BDF8F6FDFC6838D734AD7B5341" Directory="dir5406BA2587449A6CC3AEC958A0279DD0" Guid="{ABFB9B80-7462-4361-97CD-E44DAD62B4B2}">
+                <File Id="filFA9D55AD948796DDE4AC8039893DBA39" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\manifest\coreutils-5.3.0-bin.mft" />
+            </Component>
+            <Component Id="cmpF984F30D1B76CD40C2C8AAD08AFD5050" Directory="dir5406BA2587449A6CC3AEC958A0279DD0" Guid="{275ECD87-59FD-43AF-8D0A-1496CACD00A4}">
+                <File Id="filCC7BEA6BF7F5342D0BBD5515EFE07D8D" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\manifest\coreutils-5.3.0-bin.ver" />
+            </Component>
+            <Component Id="cmpD4823C79E0E7818384A8AAEBD15A1B08" Directory="dir3BFB659DE17E58490205FA955690BCAF" Guid="{975A98E7-5FC8-4017-8A53-D2D2E95058AD}">
+                <File Id="fil546E8B25E4D8405E0587DBF530D532E4" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\af\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp1D3509646D00C16E944844BD54773E11" Directory="dirEB023CA18514C873A17F2C7EF6D4A438" Guid="{866437D8-B6FE-40E3-83B0-E3FF919B9DFC}">
+                <File Id="fil869CEA8F682B92A4F6CEC86616786A87" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\be\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmpCD698735DFB9AA4B60B1CBE11F457AD4" Directory="dir5A60FB965B10AF7A5128C85C100F8BE2" Guid="{58F94BCA-7BCB-495E-A41D-C62692131185}">
+                <File Id="filDE38472CD819E268334B786E65B02C96" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\bg\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmpAA1D74287FEC742C32A5A1E67A5C8DB0" Directory="dirD73C109BA12609541886E2209F171506" Guid="{63912DCC-631F-4C32-B381-E481FE1B2265}">
+                <File Id="filAE591AFF94D593C85C0AF6A15B579EDC" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\ca\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp109B74C23F9302C34E5516E2288E0232" Directory="dir79D2D9EB9E8D758BC432A33149819A9F" Guid="{C1489BE4-BD44-4EBC-A46E-57BB18632BA7}">
+                <File Id="fil0283EEA185BACADB481B4705816366D1" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\cs\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmpB0C6011DEBB7E0E30076153A8732C531" Directory="dir5A62BD47A138EEF5009E64345794DCBA" Guid="{87BE1422-27C5-404B-83D2-5F4D869632E0}">
+                <File Id="fil8E7CF13B8ACB4FD0B4A3554679128228" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\da\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp07B8252709B4C81C940B81F599DF9589" Directory="dir55B5B47440622475BED9B2E03535EA20" Guid="{135C8E4B-BE4D-49D1-80AD-E7FE41F9BCD7}">
+                <File Id="fil7A3E6730D0257B23A842B2AB3DBC9246" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\de\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp6959B4FEB323FD543758DC678355604A" Directory="dirFFC8C522EA3537068F949E52A7CF82EA" Guid="{25DCDF04-FBCB-462E-BCF1-F8810EAF48CD}">
+                <File Id="fil750953255169DDA365E9EECBDAD661E6" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\el\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp15D4B72E636F457E2BBF546FB25529ED" Directory="dir45C518EC8634885C127D584B2AEDC84A" Guid="{A9520283-B8FD-40EB-B5DB-E67380E0F59B}">
+                <File Id="filB0D81AD8B44CA5B0A4A3AF99492F5BB5" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\es\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmpF6126504988BF7ACC0BC51B4D51A76EC" Directory="dirE78A5181E2E63DA2B20DC5230D2AB7F2" Guid="{40C2BFB9-2544-4FA6-AE8A-7DAF83AE4762}">
+                <File Id="fil5C2BBA869B066C9E57023A209E33C636" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\et\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp0FC0DA7622C5C7526C6C368A3204ACA5" Directory="dirD7E6DE6D317F612140D0CD74F480F53A" Guid="{D77BACF1-C127-4133-B3B1-8665EFBC90F2}">
+                <File Id="fil3964B0FD0555BD4F5A500C436AD852ED" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\eu\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp7CB4B3CAAA7AF0900E39F0FB280EA874" Directory="dir472A7BA725BC838B1D7BB686329C499E" Guid="{E455BA01-5FA1-4C8F-915D-30EE37772E10}">
+                <File Id="fil574E8DCC118A18AB776A81D080BB4270" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\fi\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmpD41A264C6D111DE8D0B0FFD1DCC9B38B" Directory="dir67FE59830B38255E0480C6F364B99CC2" Guid="{D0700B3E-FAA8-411C-9414-3DC3EFC8B7B9}">
+                <File Id="fil912EB89E9E0B90F662EA8AAE3A1E88C5" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\fr\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp5557D60AD07E22CB3DE34EEFC7A0FCC1" Directory="dir77C5F30008D6DA40B11FB83729A92F9F" Guid="{B40D4695-A3BF-4B3C-9704-5F3011B8534C}">
+                <File Id="filF2C9921A4AB9C5E4D08C9FE7F645B08A" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\ga\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp836BD40711167B5BAD31C1F6CBC50AD4" Directory="dir0123692A277834810B2692509ABB3291" Guid="{BD033ED5-0771-4F76-9046-850FD9C5AD7E}">
+                <File Id="fil92A9E36D354571682229375E0729546F" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\gl\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmpCD54A3D42294D5B0301AA86D60315CFE" Directory="dir5DB0A95CD6B071E35B1531C341FFE33B" Guid="{E21DFDD2-2549-4812-B730-547743421A26}">
+                <File Id="filD957316D78EDFDB5534D7B329BDC5590" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\hu\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp1597C3EE0E7D070E7AF01048975DC70C" Directory="dirCB560D756BD67027927DC9E5087E6B41" Guid="{D509B39A-31AD-4F10-BFF6-69FF0816A5FA}">
+                <File Id="filA700C30C7B43A44891D6D567F0D7E6F9" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\it\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp46EC9C7B5363B8AD7C0E506CC9410144" Directory="dirC0B742DB9909CFAB27E9A3EC6C025D40" Guid="{1A3CFC6F-8705-4FFF-8BA9-4DBAC12F3E6E}">
+                <File Id="fil2F4FFF60354CEE5463690930247276A0" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\ja\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmpCCD458EB10B487F31075130AB9225FC4" Directory="dir045D8FEDFEC2F95D7416A44A2403B55C" Guid="{6ECEA66F-68C5-4D6B-8E1B-493C520ECFDF}">
+                <File Id="fil260CB03F97A2F645C4B6D96B5903E2AA" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\ko\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp30CA33819218F21AD4802FD78E9E92A8" Directory="dirDE643C7E6572C0BA7D0090DB5A6A0886" Guid="{9AB62DF2-6745-4F7A-8CEB-DDD52316A3AD}">
+                <File Id="fil303EE9C269F3CDCFD9DFAB94C6ED0963" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\lg\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmpEB4DBC9389510D76BBE448252DA23F5B" Directory="dir06FA8BCBD78A044900AEE4F1C8679D11" Guid="{334E21E7-354E-4B31-922F-87EEF95A7D73}">
+                <File Id="fil93388EE1593C7238611CD5B47C6AAFEA" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\ms\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmpB1AD544BC3FF9B7519EEB3964D9FBA2B" Directory="dir1935CA6EBC736F92264AE443927429B9" Guid="{02FB89C8-DE42-4A90-8515-A0E452F0B991}">
+                <File Id="fil51EBC88D8B68B929D724ED082A82F93E" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\nb\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp05C09C538A172D1780B28E922255CFAD" Directory="dir29764C232D61B93CFFDD700B558779A4" Guid="{E9344656-4BB5-43F2-AA41-0AD70E5A481E}">
+                <File Id="filA23DB04F1A63396C3C7DC18DA79C7757" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\nl\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmpE63C1EC2376E66C3D258C5DC8D4E0BC4" Directory="dir3E723817EB018182B7E2CD60B08DA491" Guid="{FCE68312-A818-4B65-9A1B-8261CF8EB769}">
+                <File Id="fil61B41D0E9BFC24D34FD5E9E5173145AC" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\no\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp193FD4E6EE5BE4D55E634CB9D3612FED" Directory="dirAA12862C4E5BC3DA5C9101F1B6FA91D2" Guid="{EBAB1A2A-D1D8-46AB-8012-95AD41AD8A4C}">
+                <File Id="filEE6CB599F92538C63B0ED23A897AEEED" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\pl\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp981A7315F7DA416F569570AFA3751DD3" Directory="dirBABF80055FA2D052FF94E56D4E3AC98B" Guid="{89F345B2-B1F1-44A4-A522-75A4160B8072}">
+                <File Id="fil9A38355D41592C054EB3E4363058D3FA" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\pt\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmpC647F3D1D357B9401284BBA03899EFB0" Directory="dirE5C2D3F247114E78E91B322921B63C3D" Guid="{C76588B4-ED47-43E4-AE2C-A049BC1061F0}">
+                <File Id="filACACE2949C3803355C3F36DC167BBC32" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\pt_BR\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp5A443A0A1F89F8E9168DB5EEE1B30063" Directory="dir227A91721AFA485C3A6D05DA3A6E7FC7" Guid="{5DF1722B-B48A-4BDA-BABA-DD5D4E00970C}">
+                <File Id="fil5F4B6728A02FB9384DB027BD4E6BD968" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\ru\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmpF93BAF0B7A64F89143E46F4ABD6C95A5" Directory="dir88D07F468CB9D8A88D165642E0D6C197" Guid="{25A4A65A-6F47-4AB4-8994-48B8D0A76AEF}">
+                <File Id="fil49E3489AA8AEC867821DC311DE5A61ED" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\sk\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmpDBA14D35050670C230E75905132DCC5A" Directory="dir5EE94D95FEEA1D17D00499ED7EA03586" Guid="{FBC6055E-4647-4E0A-993F-A7CB4EADA294}">
+                <File Id="filAB13B6FE8877AEFC9BE506A598B857AC" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\sl\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmpC87F2F37ED24B951B9879ADB93A2A1A8" Directory="dir0312CF9883BC9A4B39F5691CBC7E4A34" Guid="{81BCE714-016F-490C-9178-17E01F77A763}">
+                <File Id="filD0240E67902877C79D3C4A4382CF1454" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\sv\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp3AE852E8283BAF9D6F73C0CD5BFAE32A" Directory="dirC52386454CC2911169327205D43ADEB5" Guid="{1B0B039E-D414-4A0C-8C17-0179A3BE21C4}">
+                <File Id="fil516AA3BC311B30419242B05C8C328A4B" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\tr\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmp98B24F1F59AAFBF820AF6D130EE754CD" Directory="dir30EC5DA0E53504D1B860EF89BAE7CADC" Guid="{A6524CF5-12FE-49D7-B89C-B8FE6E626808}">
+                <File Id="fil7EE4C012D172EFE05B8459FE8695FBA3" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\zh_CN\LC_MESSAGES\coreutils.mo" />
+            </Component>
+            <Component Id="cmpD7D04F8DFE5C9976CC1998413B989E4D" Directory="dir079EE50FAF09E003438D2CE17A238F9E" Guid="{734A2D38-B3DD-4063-A6F2-38387457887E}">
+                <File Id="filDB6BF28EDBF7E85662E2B960CC83CF7A" KeyPath="yes" Source="$(var.COREUTILSSourceDir)\share\locale\zh_TW\LC_MESSAGES\coreutils.mo" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir2D5AEE06F8B051986CCFFFB4B2E3294D" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir29764C232D61B93CFFDD700B558779A4" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir55B5B47440622475BED9B2E03535EA20" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD7E6DE6D317F612140D0CD74F480F53A" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir304FF183046855FB800AADC1B015BC7D" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir79D2D9EB9E8D758BC432A33149819A9F" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirCB560D756BD67027927DC9E5087E6B41" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir45C518EC8634885C127D584B2AEDC84A" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirAA12862C4E5BC3DA5C9101F1B6FA91D2" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEB023CA18514C873A17F2C7EF6D4A438" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirEB0F173E804DEAFCCBF40B3C75D09E15" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA83D3B1CF809E411EA091967B562D226" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirDE643C7E6572C0BA7D0090DB5A6A0886" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir097E05B31A718B08D99AABF145109905" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC52386454CC2911169327205D43ADEB5" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir56F36FB95EA35423741F245FF82FF378" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC0B742DB9909CFAB27E9A3EC6C025D40" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirAEFBA6AC181AC2BD7E7F1A8CA0840F94" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir77C5F30008D6DA40B11FB83729A92F9F" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir227A91721AFA485C3A6D05DA3A6E7FC7" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirB76E4B481895C1F37341027505ADB6E1" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirFFC8C522EA3537068F949E52A7CF82EA" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD6DA59CE1BB8E98A62F4021769EC506E" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir472A7BA725BC838B1D7BB686329C499E" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir0123692A277834810B2692509ABB3291" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBABF80055FA2D052FF94E56D4E3AC98B" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir30EC5DA0E53504D1B860EF89BAE7CADC" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6B300BE863B6285CB6E0C11DCD4C9772" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBB5D08AC29F108B98872D373835C48A0" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD73C109BA12609541886E2209F171506" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir14C6A3CA817851907F1E08D2906649F3" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir5A62BD47A138EEF5009E64345794DCBA" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir1935CA6EBC736F92264AE443927429B9" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirB4E01CBF6C0D30A5BFFAF6524AD02062" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE5C2D3F247114E78E91B322921B63C3D" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir0312CF9883BC9A4B39F5691CBC7E4A34" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir045D8FEDFEC2F95D7416A44A2403B55C" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir5DB0A95CD6B071E35B1531C341FFE33B" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir5A60FB965B10AF7A5128C85C100F8BE2" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir56027103A2E0A0813B7620E7E2CBD51D" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6CF43C2D4183D57E0BA96363515323E0" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir32F621D70030C8C346245E9B15CEE385" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir67FE59830B38255E0480C6F364B99CC2" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir3BFB659DE17E58490205FA955690BCAF" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir079EE50FAF09E003438D2CE17A238F9E" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir5EE94D95FEEA1D17D00499ED7EA03586" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir3E723817EB018182B7E2CD60B08DA491" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir06FA8BCBD78A044900AEE4F1C8679D11" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir5406BA2587449A6CC3AEC958A0279DD0" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE78A5181E2E63DA2B20DC5230D2AB7F2" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir88D07F468CB9D8A88D165642E0D6C197" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC4C6D5C58923585FB958608957630188">
+            <Directory Id="dir0123692A277834810B2692509ABB3291" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir51B906A695E8CD6D098C42C75F0996A8">
+            <Directory Id="dir0312CF9883BC9A4B39F5691CBC7E4A34" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir039FEEF238718F4892D7CDD64DEC6097" Name="ga" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir9DC3879716AC0BC843769010BD9E4100">
+            <Directory Id="dir045D8FEDFEC2F95D7416A44A2403B55C" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir21BDF2AF26BF6B05C0078C47AA1869C2">
+            <Directory Id="dir06FA8BCBD78A044900AEE4F1C8679D11" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA38164673FA6BF630330421D9B80D5A0">
+            <Directory Id="dir079EE50FAF09E003438D2CE17A238F9E" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD1B324477AAFC4627C6EFE73F473EF90">
+            <Directory Id="dir097E05B31A718B08D99AABF145109905" Name="textutils" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir09C23F15CA9FDB8246EA39C55E788E99" Name="sk" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir0D1ABE6DF1D204FE73850C4D8CE35E38" Name="lg" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirAEFBA6AC181AC2BD7E7F1A8CA0840F94">
+            <Directory Id="dir14C6A3CA817851907F1E08D2906649F3" Name="tr" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir1F18AEF0169BBBB5CB0A08812D5B0C84">
+            <Directory Id="dir1935CA6EBC736F92264AE443927429B9" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir1AFD70AE16B14AEA53FFAD2CEC44C5DE" Name="hu" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir1F18AEF0169BBBB5CB0A08812D5B0C84" Name="nb" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir21BDF2AF26BF6B05C0078C47AA1869C2" Name="ms" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF9116AEDA5DD503FEA79D5B19E04C5FC">
+            <Directory Id="dir227A91721AFA485C3A6D05DA3A6E7FC7" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir22E06BCCF55FB43844BBC404CBF07DA6" Name="it" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir3A59A8D6774118F737A6ED63AD898468">
+            <Directory Id="dir29764C232D61B93CFFDD700B558779A4" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirAEFBA6AC181AC2BD7E7F1A8CA0840F94">
+            <Directory Id="dir2D5AEE06F8B051986CCFFFB4B2E3294D" Name="join" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE6C6113D343192E517D9859A210102E4">
+            <Directory Id="dir304CF77C726494BD68157D53757EFB7C" Name="coreutils" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir86058380A7EB8695BE11247692CEE1ED">
+            <Directory Id="dir30EC5DA0E53504D1B860EF89BAE7CADC" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1">
+            <Directory Id="dir32F621D70030C8C346245E9B15CEE385" Name="config" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir345BF674B15A47B4FA5B246AAF8ADDFA" Name="ca" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir3A59A8D6774118F737A6ED63AD898468" Name="nl" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir3A8AB48768BDC1248864E248F76A04C7" Name="eu" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6F7E952798C415D37B4C4ED01AE58014">
+            <Directory Id="dir3BFB659DE17E58490205FA955690BCAF" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC244E87D9B2D1B67194E1D4FD3D829FA">
+            <Directory Id="dir3E723817EB018182B7E2CD60B08DA491" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC394DBD0D91D84FF3F2734EED079A593">
+            <Directory Id="dir45C518EC8634885C127D584B2AEDC84A" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir73324D1FBED4DB3540661D73BBC89D5F">
+            <Directory Id="dir472A7BA725BC838B1D7BB686329C499E" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir51B906A695E8CD6D098C42C75F0996A8" Name="sv" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir975B78AF0D743754919EF25186F1B549">
+            <Directory Id="dir55B5B47440622475BED9B2E03535EA20" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1">
+            <Directory Id="dir56027103A2E0A0813B7620E7E2CBD51D" Name="m4" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1">
+            <Directory Id="dir56F36FB95EA35423741F245FF82FF378" Name="doc" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir58292A358C0CD24393837E365360E564" Name="et" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6A798F89FBAE90143AA5AF06B0E81C41">
+            <Directory Id="dir5A60FB965B10AF7A5128C85C100F8BE2" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE42BCEC4793C1FE98F7FB189128B83A8">
+            <Directory Id="dir5A62BD47A138EEF5009E64345794DCBA" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir5CFEB99005A0CBDD13E54D60568E8773" Name="fr" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir1AFD70AE16B14AEA53FFAD2CEC44C5DE">
+            <Directory Id="dir5DB0A95CD6B071E35B1531C341FFE33B" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirB6430082F653B09248D493620EEFF192">
+            <Directory Id="dir5EE94D95FEEA1D17D00499ED7EA03586" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir5CFEB99005A0CBDD13E54D60568E8773">
+            <Directory Id="dir67FE59830B38255E0480C6F364B99CC2" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir6A798F89FBAE90143AA5AF06B0E81C41" Name="bg" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBB5D08AC29F108B98872D373835C48A0">
+            <Directory Id="dir6B300BE863B6285CB6E0C11DCD4C9772" Name="coreutils-5.3.0" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD1B324477AAFC4627C6EFE73F473EF90">
+            <Directory Id="dir6CF43C2D4183D57E0BA96363515323E0" Name="sh-utils" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir6D8784F56BFB5AF042C4DFA5278F5A03" Name="cs" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir6DD6831C51602D1638854FF95D7C5B59" Name="pt_BR" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir6F7E952798C415D37B4C4ED01AE58014" Name="af" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir73324D1FBED4DB3540661D73BBC89D5F" Name="fi" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir039FEEF238718F4892D7CDD64DEC6097">
+            <Directory Id="dir77C5F30008D6DA40B11FB83729A92F9F" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6D8784F56BFB5AF042C4DFA5278F5A03">
+            <Directory Id="dir79D2D9EB9E8D758BC432A33149819A9F" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir7B0DD66CEC1D1E5AE38401529C096899" Name="pl" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir86058380A7EB8695BE11247692CEE1ED" Name="zh_CN" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir09C23F15CA9FDB8246EA39C55E788E99">
+            <Directory Id="dir88D07F468CB9D8A88D165642E0D6C197" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir9263B158B21876C43E2AE1D7F6E8380D" Name="ja" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir975B78AF0D743754919EF25186F1B549" Name="de" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dir9DC3879716AC0BC843769010BD9E4100" Name="ko" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dirA38164673FA6BF630330421D9B80D5A0" Name="zh_TW" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dirA7C07FDC2F69FDE9DE9CBF34E8B7A9C4" Name="be" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1">
+            <Directory Id="dirA83D3B1CF809E411EA091967B562D226" Name="lib" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir7B0DD66CEC1D1E5AE38401529C096899">
+            <Directory Id="dirAA12862C4E5BC3DA5C9101F1B6FA91D2" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1">
+            <Directory Id="dirAEFBA6AC181AC2BD7E7F1A8CA0840F94" Name="tests" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1">
+            <Directory Id="dirB4E01CBF6C0D30A5BFFAF6524AD02062" Name="po" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dirB6430082F653B09248D493620EEFF192" Name="sl" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD1B324477AAFC4627C6EFE73F473EF90">
+            <Directory Id="dirB76E4B481895C1F37341027505ADB6E1" Name="fileutils" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD5F44AB7EC8259D4D01CE720C7572F16">
+            <Directory Id="dirBABF80055FA2D052FF94E56D4E3AC98B" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir304CF77C726494BD68157D53757EFB7C">
+            <Directory Id="dirBB5D08AC29F108B98872D373835C48A0" Name="5.3.0" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir9263B158B21876C43E2AE1D7F6E8380D">
+            <Directory Id="dirC0B742DB9909CFAB27E9A3EC6C025D40" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dirC244E87D9B2D1B67194E1D4FD3D829FA" Name="no" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dirC2CC17FF105417AB81FFDDDD4D1D21EC" Name="tr" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dirC394DBD0D91D84FF3F2734EED079A593" Name="es" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dirC4C6D5C58923585FB958608957630188" Name="gl" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC2CC17FF105417AB81FFDDDD4D1D21EC">
+            <Directory Id="dirC52386454CC2911169327205D43ADEB5" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBB5D08AC29F108B98872D373835C48A0">
+            <Directory Id="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1" Name="coreutils-5.3.0-src" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir22E06BCCF55FB43844BBC404CBF07DA6">
+            <Directory Id="dirCB560D756BD67027927DC9E5087E6B41" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirC9EE5F8ED66A0B4193BC1CEAA56DC2C1">
+            <Directory Id="dirD1B324477AAFC4627C6EFE73F473EF90" Name="old" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dirD4399B3FF50D77815C69A9394F2D09CB" Name="el" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dirD5F44AB7EC8259D4D01CE720C7572F16" Name="pt" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir433687B630A21CFAFBD94E4175A76DD6">
+            <Directory Id="dirD6DA59CE1BB8E98A62F4021769EC506E" Name="cat1" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir345BF674B15A47B4FA5B246AAF8ADDFA">
+            <Directory Id="dirD73C109BA12609541886E2209F171506" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir3A8AB48768BDC1248864E248F76A04C7">
+            <Directory Id="dirD7E6DE6D317F612140D0CD74F480F53A" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir0D1ABE6DF1D204FE73850C4D8CE35E38">
+            <Directory Id="dirDE643C7E6572C0BA7D0090DB5A6A0886" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dirE42BCEC4793C1FE98F7FB189128B83A8" Name="da" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir6DD6831C51602D1638854FF95D7C5B59">
+            <Directory Id="dirE5C2D3F247114E78E91B322921B63C3D" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir58292A358C0CD24393837E365360E564">
+            <Directory Id="dirE78A5181E2E63DA2B20DC5230D2AB7F2" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA7C07FDC2F69FDE9DE9CBF34E8B7A9C4">
+            <Directory Id="dirEB023CA18514C873A17F2C7EF6D4A438" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir433687B630A21CFAFBD94E4175A76DD6">
+            <Directory Id="dirEB0F173E804DEAFCCBF40B3C75D09E15" Name="cat1p" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir52CBB58F8AA3DE0153AB54DE25EA66A1">
+            <Directory Id="dirF24AA06C384227604CFA4F72B12552EF" Name="locale" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF24AA06C384227604CFA4F72B12552EF">
+            <Directory Id="dirF9116AEDA5DD503FEA79D5B19E04C5FC" Name="ru" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirD4399B3FF50D77815C69A9394F2D09CB">
+            <Directory Id="dirFFC8C522EA3537068F949E52A7CF82EA" Name="LC_MESSAGES" />
+        </DirectoryRef>
+    </Fragment>
+</Include>
