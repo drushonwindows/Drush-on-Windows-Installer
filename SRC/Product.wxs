@@ -4,11 +4,11 @@
   <?include $(sys.CURRENTDIR)\Settings.wxi ?>
   
   <Product Id="$(var.ProductCode)" Language="1033" 
-           Name="$(var.ProductName)" Manufacturer="$(var.Manufacturer)" 
+           Name="$(var.ProductName)" Manufacturer="$(var.Manufacturer)"
            Version="$(var.CurrentVersion)" UpgradeCode="$(var.UpgradeCode)">
 
     <Package Id="*" Keywords="$(var.ProductName)" 
-             Description="$(var.ProductName) Installer by $(var.Manufacturer)" 
+             Description="$(var.ProductName) Installer"
              InstallerVersion="200" Compressed="yes" 
              InstallPrivileges="elevated" />
 
@@ -52,34 +52,30 @@
 
     <Directory Id="TARGETDIR" Name="SourceDir">
       <Directory Id="ProgramFilesFolder">
-        <Directory Id="CompanyFolder" Name="$(var.Manufacturer)">
-          <Directory Id="INSTALLLOCATION" Name="$(var.ProductName)">
-            <Component Id="Comp_License" Guid="{7ABE2C87-6154-4C1A-9C78-62A2B6FB8E6E}">
-              <File Id="File_License" Name="license.txt" Source="license.txt" KeyPath="yes" />
-            </Component> 
-            <Component Id="Comp_EnvShortcut" Guid="{C9B5EC4C-3C3B-4225-854C-750440B2314E}">
-              <File Id="FL_DrushEnv" KeyPath="yes" Source="DrushEnv.bat" />
-            </Component>
-            <Component Id="Comp_WinRMConfig" Guid="{ADF87A7A-7E2A-41AC-88D6-DEA1B8B7E946}">
-              <File Id="FL_WinRMConfig" KeyPath="yes" Source="WinRMConfig.bat" />
-            </Component>
-            <Directory Id="GnuWin32Folder" Name="GnuWin32" />
-            <Directory Id="PhpFolder" Name="Php" />
-            <Directory Id="CwRsyncFolder" Name="cwRsync" />
-          </Directory>
+        <Directory Id="INSTALLLOCATION" Name="$(var.ProductName)">
+          <Component Id="Comp_License" Guid="{7ABE2C87-6154-4C1A-9C78-62A2B6FB8E6E}">
+            <File Id="File_License" Name="license.txt" Source="license.txt" KeyPath="yes" />
+          </Component>
+          <Component Id="Comp_EnvShortcut" Guid="{C9B5EC4C-3C3B-4225-854C-750440B2314E}">
+            <File Id="FL_DrushEnv" KeyPath="yes" Source="DrushEnv.bat" />
+          </Component>
+          <Component Id="Comp_WinRMConfig" Guid="{ADF87A7A-7E2A-41AC-88D6-DEA1B8B7E946}">
+            <File Id="FL_WinRMConfig" KeyPath="yes" Source="WinRMConfig.bat" />
+          </Component>
+          <Directory Id="GnuWin32Folder" Name="GnuWin32" />
+          <Directory Id="PhpFolder" Name="Php" />
+          <Directory Id="CwRsyncFolder" Name="cwRsync" />
         </Directory>
       </Directory>
       <Directory Id="CommonAppDataFolder">
-        <Directory Id="AppCompanyFolder" Name="$(var.Manufacturer)">
-          <Directory Id="DrushFolder" Name="Drush" />
-        </Directory>
+        <Directory Id="DrushFolder" Name="Drush" />
       </Directory>
 
       <Directory Id="ProgramMenuFolder" Name="Programs">
         <Directory Id="ProgramMenuDir" Name="$(var.ProductName)">
           <Component Id="Comp_ProgramMenuDir" Guid="{66C429C9-477D-4C48-8B64-0A480F7AB472}">
             <RemoveFolder Id='ProgramMenuDir' On='uninstall' />
-            <RegistryValue Root='HKCU' Key='Software\$(var.Manufacturer)\$(var.ProductName)' Type='string' Value='' KeyPath='yes' />
+            <RegistryValue Root='HKCU' Key='Software\$(var.ProductName)' Type='string' Value='' KeyPath='yes' />
             <Shortcut Id='startmenuDrushWin' 
               Directory='ProgramMenuDir' 
               Name='$(var.ProductName) Command Prompt'

@@ -2,7 +2,7 @@
 <Include>
   <!-- Change very carefully since many folders and keys depend on product name. -->
   <?define ProductName="Drush" ?>
-  <?define Manufacturer="Propeople" ?>
+  <?define Manufacturer="drupal.org" ?>
   <!-- UpgradeCode is looked for when performing any upgrade
   to check if any version of the product has been ever installed.
   It should NOT be changed. -->
@@ -28,10 +28,12 @@
   <!-- 1.0.13 -> {049CE5E6-C2C4-49FA-880A-06DED101CB60} -->
   <!-- 1.0.14 -> {41B5D1B3-75FB-43B4-9998-954761B8BC99} -->
   <!-- 1.0.15 -> {1BE16E9B-2A7B-49C8-9A16-A1D283B35267} -->
-  <?define ProductCode="{1BE16E9B-2A7B-49C8-9A16-A1D283B35267}" ?>
+  <!-- 1.0.16 -> {C249B911-B86E-4458-9FA3-83B6AAB2485C} -->
+  <!-- 1.0.17 -> {84C5B44F-9714-4356-A645-ACE52A2EA86A} -->
+  <?define ProductCode="{84C5B44F-9714-4356-A645-ACE52A2EA86A}" ?>
 
   <!-- Change CurrentVersion for every major upgrade. -->
-  <?define CurrentVersion="1.0.15.20305" ?>  
+  <?define CurrentVersion="1.0.17.20417" ?>
 
   <?define BZIP2SourceDir="$(var.ProjectDir)\GnuWin32\bzip2-1.0.5-bin" ?>
   <?define GZIPSourceDir="$(var.ProjectDir)\GnuWin32\gzip-1.3.12-1-bin" ?>
