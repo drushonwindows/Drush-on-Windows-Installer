@@ -30,10 +30,12 @@
   <!-- 1.0.15 -> {1BE16E9B-2A7B-49C8-9A16-A1D283B35267} -->
   <!-- 1.0.16 -> {C249B911-B86E-4458-9FA3-83B6AAB2485C} -->
   <!-- 1.0.17 -> {84C5B44F-9714-4356-A645-ACE52A2EA86A} -->
-  <?define ProductCode="{84C5B44F-9714-4356-A645-ACE52A2EA86A}" ?>
+  <!-- 1.0.18 -> {BBF34BCC-114B-4C17-889F-463C65714C33} -->
+  
+  <?define ProductCode="{BBF34BCC-114B-4C17-889F-463C65714C33}" ?>
 
   <!-- Change CurrentVersion for every major upgrade. -->
-  <?define CurrentVersion="1.0.17.20417" ?>
+  <?define CurrentVersion="1.0.18.20605" ?>
 
   <?define BZIP2SourceDir="$(var.ProjectDir)\GnuWin32\bzip2-1.0.5-bin" ?>
   <?define GZIPSourceDir="$(var.ProjectDir)\GnuWin32\gzip-1.3.12-1-bin" ?>
